@@ -1,0 +1,23 @@
+//keep all hacks and note for it in this file
+//sass buttons are imported from forms by foundation, if we are useing foundation forms then leave it
+
+//note for iphone zoom problem maybe
+//-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+// but at the moment we are using this one
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select, textarea, input,
+  select:focus, textarea:focus, input:focus {
+    font-size: 16px;
+  }
+}
+
+
+// android default browser font issue will be fixed like this:
+// .ua-os-name-android.ua-browser-name-safari  .namefclass {
+ //   white-space: pre;
+ //   word-break: break-word;
+//}
+
+
+//use of valuse - rem for fonts, px for margins/paddings
+

@@ -1,0 +1,63 @@
+//import fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300); // ne ovako o keshiranju videti
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); // must be put in head for ar version so we can erase + early
+
+//create font variable
+$font-droid:        Droid Arabic Kufi, serif;
+$font-roboto:      Roboto, sans-serif;
+
+//use font
+  //english default
+:lang(en) {
+    font-family: $font-roboto;
+     -webkit-font-smoothing: antialiased;
+    line-height:1.6;
+
+}
+
+  //arabic default
+:lang(ar) {
+    font-family: $font-droid;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.9;
+}
+
+//global typo for screens
+@media #{$small-only} {
+  html {
+    font-size:14px;   //this means p is 14px, based on it we make further calculations
+  }
+}  
+@media #{$medium-up} {
+  html {
+    font-size:16px;   //this means p is 16px, based on it we make further calculations
+  }
+}  
+
+//global values color
+a {
+  color:$pink; 
+  text-decoration:none;
+}
+p {
+  color:$dark-gray;
+}
+h1,h2 {
+  color:$dark-gray;
+}
+
+//global values font-size, margin
+h1 {
+  font-size: rem-calc(20);
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size:rem-calc(24);
+  margin: 1rem 0 2rem;
+}
+
+p {
+  font-size: rem-calc(16);
+  margin: 1rem 0;
+}

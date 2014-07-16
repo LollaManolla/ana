@@ -1,0 +1,21 @@
+@mixin btn {
+  @include button;
+  font-size: inherit;
+  background-color: $light-green;
+  color: $white;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  border-radius: 4px; 
+  -webkit-background-clip: padding-box; //Prevent background color leak outs
+  -moz-background-clip:    padding; 
+  background-clip:         padding-box;
+  &:hover {
+    background-color: $dark-green;
+  }
+}
+
+//just example on how to use this
+.btn-test {
+  @include btn;
+}
