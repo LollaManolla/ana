@@ -2245,7 +2245,7 @@ label.error {
   }
 
   /* line 247, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hide-for-small-only, .hide-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
+  .hide-for-small-only, .hide-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .topbar__wayyana, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
     display: none !important;
   }
 
@@ -2300,7 +2300,7 @@ label.error {
   }
 
   /* line 247, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
+  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .topbar__wayyana, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
     display: none !important;
   }
 
@@ -2350,7 +2350,7 @@ label.error {
 /* large displays */
 @media only screen and (min-width: 62.501em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
+  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .l-header .header__desk-content, .topbar__wayyana, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
   }
 
@@ -2378,34 +2378,34 @@ label.error {
   }
 
   /* line 259, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.show-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.show-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up {
+  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.show-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.topbar__wayyana, table.show-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up {
     display: table;
   }
 
   /* line 262, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.show-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.show-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up {
+  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.show-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.topbar__wayyana, thead.show-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up {
     display: table-header-group !important;
   }
 
   /* line 265, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.show-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.show-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up {
+  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.show-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.topbar__wayyana, tbody.show-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up {
     display: table-row-group !important;
   }
 
   /* line 268, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.show-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.show-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up {
+  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.show-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.topbar__wayyana, tr.show-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up {
     display: table-row !important;
   }
 
   /* line 271, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.show-for-large-only, td.show-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, td.show-for-large-up, .l-header td.header__desk-content, th.show-for-large, td.show-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up {
+  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.show-for-large-only, td.show-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, th.topbar__wayyana, td.show-for-large-up, .l-header td.header__desk-content, td.topbar__wayyana, th.show-for-large, td.show-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up {
     display: table-cell !important;
   }
 }
 /* xlarge displays */
 @media only screen and (min-width: 90.063em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .l-header .header__desk-content, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
+  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .l-header .header__desk-content, .topbar__wayyana, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
   }
 
@@ -2433,34 +2433,34 @@ label.error {
   }
 
   /* line 259, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.hide-for-large, table.hide-for-large-down, table.show-for-xlarge-only, table.show-for-xlarge-up, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up {
+  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.topbar__wayyana, table.hide-for-large, table.hide-for-large-down, table.show-for-xlarge-only, table.show-for-xlarge-up, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up {
     display: table;
   }
 
   /* line 262, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.hide-for-large, thead.hide-for-large-down, thead.show-for-xlarge-only, thead.show-for-xlarge-up, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up {
+  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.topbar__wayyana, thead.hide-for-large, thead.hide-for-large-down, thead.show-for-xlarge-only, thead.show-for-xlarge-up, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up {
     display: table-header-group !important;
   }
 
   /* line 265, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.hide-for-large, tbody.hide-for-large-down, tbody.show-for-xlarge-only, tbody.show-for-xlarge-up, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up {
+  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.topbar__wayyana, tbody.hide-for-large, tbody.hide-for-large-down, tbody.show-for-xlarge-only, tbody.show-for-xlarge-up, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up {
     display: table-row-group !important;
   }
 
   /* line 268, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.hide-for-large, tr.hide-for-large-down, tr.show-for-xlarge-only, tr.show-for-xlarge-up, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up {
+  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.topbar__wayyana, tr.hide-for-large, tr.hide-for-large-down, tr.show-for-xlarge-only, tr.show-for-xlarge-up, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up {
     display: table-row !important;
   }
 
   /* line 271, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, td.show-for-large-up, .l-header td.header__desk-content, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.show-for-xlarge-only, td.show-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up {
+  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, th.topbar__wayyana, td.show-for-large-up, .l-header td.header__desk-content, td.topbar__wayyana, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.show-for-xlarge-only, td.show-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up {
     display: table-cell !important;
   }
 }
 /* xxlarge displays */
 @media only screen and (min-width: 120.063em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .l-header .header__desk-content, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
+  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .l-header .header__desk-content, .topbar__wayyana, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
     display: inherit !important;
   }
 
@@ -2488,27 +2488,27 @@ label.error {
   }
 
   /* line 259, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.hide-for-large, table.hide-for-large-down, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.show-for-xxlarge-only, table.show-for-xxlarge-up {
+  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, .l-header table.header__desk-content, table.topbar__wayyana, table.hide-for-large, table.hide-for-large-down, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.show-for-xxlarge-only, table.show-for-xxlarge-up {
     display: table;
   }
 
   /* line 262, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.hide-for-large, thead.hide-for-large-down, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.show-for-xxlarge-only, thead.show-for-xxlarge-up {
+  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, .l-header thead.header__desk-content, thead.topbar__wayyana, thead.hide-for-large, thead.hide-for-large-down, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.show-for-xxlarge-only, thead.show-for-xxlarge-up {
     display: table-header-group !important;
   }
 
   /* line 265, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.hide-for-large, tbody.hide-for-large-down, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.show-for-xxlarge-only, tbody.show-for-xxlarge-up {
+  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, .l-header tbody.header__desk-content, tbody.topbar__wayyana, tbody.hide-for-large, tbody.hide-for-large-down, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.show-for-xxlarge-only, tbody.show-for-xxlarge-up {
     display: table-row-group !important;
   }
 
   /* line 268, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.hide-for-large, tr.hide-for-large-down, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.show-for-xxlarge-only, tr.show-for-xxlarge-up {
+  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, .l-header tr.header__desk-content, tr.topbar__wayyana, tr.hide-for-large, tr.hide-for-large-down, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.show-for-xxlarge-only, tr.show-for-xxlarge-up {
     display: table-row !important;
   }
 
   /* line 271, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, td.show-for-large-up, .l-header td.header__desk-content, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.show-for-xxlarge-only, td.show-for-xxlarge-only, th.show-for-xxlarge-up, td.show-for-xxlarge-up {
+  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, .l-header th.header__desk-content, th.topbar__wayyana, td.show-for-large-up, .l-header td.header__desk-content, td.topbar__wayyana, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.show-for-xxlarge-only, td.show-for-xxlarge-only, th.show-for-xxlarge-up, td.show-for-xxlarge-up {
     display: table-cell !important;
   }
 }
@@ -3016,6 +3016,25 @@ p {
   clear: both;
 }
 
+/* line 1, ../scss/layout/_l-content.scss */
+.l-content {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 181, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.l-content:before, .l-content:after {
+  content: " ";
+  display: table;
+}
+/* line 182, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.l-content:after {
+  clear: both;
+}
+
 /* line 1, ../scss/layout/_l-footer.scss */
 .l-footer {
   background-color: #ededed;
@@ -3071,7 +3090,7 @@ p {
   clear: both;
 }
 
-/* line 8, ../scss/components/_wayyana-topbar.scss */
+/* line 9, ../scss/components/_wayyana-topbar.scss */
 .wayyana {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -3081,35 +3100,24 @@ p {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-@media only screen and (max-width: 30em) {
-  /* line 8, ../scss/components/_wayyana-topbar.scss */
-  .wayyana {
-    line-height: 39px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-  }
-}
-/* line 19, ../scss/components/_wayyana-topbar.scss */
+/* line 14, ../scss/components/_wayyana-topbar.scss */
 .wayyana a {
+  /*@media only screen and (max-width: 30em) {
+    line-height: 40px;
+  }*/
   color: #666;
   font-size: 0.875rem;
   vertical-align: middle;
   line-height: 45px;
 }
-@media only screen and (max-width: 30em) {
-  /* line 19, ../scss/components/_wayyana-topbar.scss */
-  .wayyana a {
-    line-height: 40px;
-  }
-}
-/* line 28, ../scss/components/_wayyana-topbar.scss */
+/* line 23, ../scss/components/_wayyana-topbar.scss */
 .wayyana .wayyana__logo {
   padding-right: 50px;
   float: right;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* line 35, ../scss/components/_wayyana-topbar.scss */
+/* line 30, ../scss/components/_wayyana-topbar.scss */
 .wayyana .wayyana__link--register:after {
   content: "|";
   display: inline-block;
@@ -3232,105 +3240,99 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 74, small/*.png */
-  .small-sprite, .wayyana__logo, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
-    background: url('../assets/images/small-s99a516c14b.png') no-repeat;
+  /* line 66, small/*.png */
+  .small-sprite, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
+    background: url('../assets/images/small-s248cf72f48.png') no-repeat;
   }
 
-  /* line 22, ../scss/sprites/_sprites.scss */
-  .wayyana__logo {
-    background-position: 0 -219px;
-    background-position: 60px 0;
-  }
-
-  /* line 32, ../scss/sprites/_sprites.scss */
+  /* line 24, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .menu a {
     background-position: 0 -146px;
   }
-  /* line 35, ../scss/sprites/_sprites.scss */
+  /* line 27, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .user a {
     background-position: 0 0;
   }
-  /* line 38, ../scss/sprites/_sprites.scss */
+  /* line 30, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .search a {
     background-position: 0 -73px;
   }
-  /* line 41, ../scss/sprites/_sprites.scss */
+  /* line 33, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .logo a {
-    background-position: 0 -288px;
+    background-position: 0 -219px;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 74, medium/*.png */
-  .medium-sprite, .wayyana__logo, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
-    background: url('../assets/images/medium-s34b9ab42eb.png') no-repeat;
+  /* line 66, medium/*.png */
+  .medium-sprite, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
+    background: url('../assets/images/medium-se353ebadf4.png') no-repeat;
   }
 
-  /* line 53, ../scss/sprites/_sprites.scss */
-  .wayyana__logo {
-    background-position: 0 0;
-    background-position: 60px 0;
-  }
-
-  /* line 61, ../scss/sprites/_sprites.scss */
+  /* line 47, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .menu a {
-    background-position: 0 -310px;
+    background-position: 0 -235px;
   }
-  /* line 64, ../scss/sprites/_sprites.scss */
+  /* line 50, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .user a {
-    background-position: 0 -146px;
+    background-position: 0 -71px;
   }
-  /* line 67, ../scss/sprites/_sprites.scss */
+  /* line 53, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .search a {
-    background-position: 0 -228px;
+    background-position: 0 -153px;
   }
-  /* line 70, ../scss/sprites/_sprites.scss */
+  /* line 56, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .logo a {
-    background-position: 0 -75px;
+    background-position: 0 0;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 114, large/*.png */
-  .large-sprite, .header__desk-content .header-logo, .header__desk-content .header-search__button, .header__desk-content .header-social__fb, .header__desk-content .header-social__tube, .header__desk-content .header-social__tweet, .header__desk-content .header-social__gplus, .header__desk-content .header-social__pinit, .header__desk-content .header-social__instg, .header__desk-content nav a.home {
-    background: url('../assets/images/large-s44ddc47460.png') no-repeat;
+  /* line 122, large/*.png */
+  .large-sprite, .wayyana__logo, .header__desk-content .header-logo, .header__desk-content .header-search__button, .header__desk-content .header-social__fb, .header__desk-content .header-social__tube, .header__desk-content .header-social__tweet, .header__desk-content .header-social__gplus, .header__desk-content .header-social__pinit, .header__desk-content .header-social__instg, .header__desk-content nav a.home {
+    background: url('../assets/images/large-s0a76a14857.png') no-repeat;
   }
 
-  /* line 84, ../scss/sprites/_sprites.scss */
+  /* line 69, ../scss/sprites/_sprites.scss */
+  .wayyana__logo {
+    background-position: 0 -481px;
+    background-position: 60px -481px;
+  }
+
+  /* line 78, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-logo {
     background-position: 0 -390px;
     background-position: 154px -390px;
   }
-  /* line 90, ../scss/sprites/_sprites.scss */
+  /* line 84, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-search__button {
-    background-position: 0 -529px;
+    background-position: 0 -604px;
   }
-  /* line 93, ../scss/sprites/_sprites.scss */
+  /* line 87, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__fb {
     background-position: 0 -285px;
   }
-  /* line 96, ../scss/sprites/_sprites.scss */
+  /* line 90, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__tube {
     background-position: 0 -228px;
   }
-  /* line 99, ../scss/sprites/_sprites.scss */
+  /* line 93, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__tweet {
     background-position: 0 -114px;
   }
-  /* line 102, ../scss/sprites/_sprites.scss */
+  /* line 96, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__gplus {
     background-position: 0 0;
   }
-  /* line 105, ../scss/sprites/_sprites.scss */
+  /* line 99, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__pinit {
     background-position: 0 -57px;
   }
-  /* line 109, ../scss/sprites/_sprites.scss */
+  /* line 103, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__instg {
     background-position: 0 -171px;
   }
-  /* line 112, ../scss/sprites/_sprites.scss */
+  /* line 106, ../scss/sprites/_sprites.scss */
   .header__desk-content nav a.home {
     background-position: 0 -342px;
-    background-position: 0 -481px;
+    background-position: 0 -556px;
   }
 }

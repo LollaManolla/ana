@@ -18,14 +18,6 @@ $large-spacing: 30px;
 @media #{$small-only} {
   @import "small/*.png";  
 
-//topbar
-.wayyana__logo {
-  @include small-sprite(logo-wayyana);
-  @include rtl {
-    background-position: 60px 0;
-  }
-}
-
 //header
 .header__mob-content {
   .main-nav {
@@ -49,13 +41,7 @@ $large-spacing: 30px;
 @media #{$medium-up} {
   @import "medium/*.png";  
 
-//topbar
-.wayyana__logo {
-  @include medium-sprite(logo-wayyana);
-  @include rtl {
-    background-position: 60px 0;
-  }
-}
+//header
 .header__mob-content {
   .main-nav {
     .menu a {
@@ -78,6 +64,14 @@ $large-spacing: 30px;
 /////////sprites for large
 @media #{$large-up} {
   @import "large/*.png";  
+
+//topbar
+.wayyana__logo {
+  @include large-sprite(logo-wayyana);
+  @include rtl {
+    background-position: 60px -481px;
+  }
+}
 
 
   .header__desk-content {

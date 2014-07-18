@@ -2,24 +2,19 @@
   background-color:$gray-light;
 }
 .topbar__wayyana{
+  @extend .show-for-large-up;
   @include grid-row();
   @include text-align(right);
 }
 .wayyana {
   @include grid-column(12);
-  @media #{$small-only} {
-    line-height: 39px;
-    padding-top:3px;
-    padding-bottom:3px;
-  }
-
   line-height: 42px;
   padding-top:3px;
   padding-bottom:3px;
   a {
-    @media #{$small-only} {
+    /*@media #{$small-only} {
       line-height: 40px;
-    }
+    }*/
     color: #666;
     font-size: rem-calc(14);
     vertical-align: middle;
