@@ -1,0 +1,90 @@
+//mani nav on mob
+.header__mob-content {
+  ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: block;
+    @include float(left);
+    width: 100%;
+    border-bottom: solid 4px $green-light;
+    @media #{$small-only} {
+      height: 45px;
+    }
+    @media #{$medium-up} {
+      height: 56px;
+    }
+    li {
+      display: block;
+      @include float(left);
+      @include border-right(solid 1px $gray-light);
+      @media #{$medium-up} {
+        padding:3px;
+      }
+      a {
+        text-indent: -9999px;
+        display: block; 
+        @media #{$small-only} {
+          width:43px;
+          height: 41px;
+        }
+        @media #{$medium-up} {
+          width:56px;
+          height: 46px;
+        }
+      }
+    }
+    .logo {
+      @include float(right);
+      a {
+        @media #{$small-only} {
+          width: 140px;
+        }
+        @media #{$medium-up} {
+          width: 180px;
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+}
+
+//mani nav on desk
+.header__desk-content {
+  nav {
+    @include grid-column(12);
+    margin-top: 10px;
+    background-color: $green-light;
+    position: relative;
+    line-height: 40px;
+    vertical-align: middle;
+    a {
+      text-transform: uppercase;
+      display: block;
+      @include float(left);
+      color: $white;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 40px;
+      vertical-align: middle;
+
+    }
+    a.home {
+      text-indent: -9999px;
+      height: 23px;
+      text-indent: -9999px;
+      width: 23px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 9px;
+    }
+    a.last {
+      background-color:$green-dark;
+      position: absolute;
+      @include right(0);
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+  }
+}
+
