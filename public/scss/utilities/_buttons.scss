@@ -1,7 +1,7 @@
 @mixin btn {
   @include button;
   font-size: inherit;
-  background-color: $light-green;
+  background-color: $green-light;
   color: $white;
   text-transform: uppercase;
   -webkit-border-radius: 4px; 
@@ -11,7 +11,7 @@
   -moz-background-clip:    padding; 
   background-clip:         padding-box;
   &:hover {
-    background-color: $dark-green;
+    background-color: $green-dark;
   }
 }
 

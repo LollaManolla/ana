@@ -1,0 +1,12 @@
+.l-footer {
+  background-color: $gray-light;
+  .wrapper {
+    @include grid-row();
+    padding-bottom:25px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

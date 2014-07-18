@@ -1,0 +1,123 @@
+//all sprites are placed here
+
+// set sprites options - for sprite map or sprite : see compass docs
+@import "compass/utilities/sprites";
+$small-layout:vertical;
+$small-repeat: no-repeat; 
+$small-spacing: 30px;
+
+$medium-layout:vertical;
+$medium-repeat: no-repeat; 
+$medium-spacing: 30px;
+
+$large-layout:vertical;
+$large-repeat: no-repeat; 
+$large-spacing: 30px;
+
+////////sprites for small
+@media #{$small-only} {
+  @import "small/*.png";  
+
+//topbar
+.wayyana__logo {
+  @include small-sprite(logo-wayyana);
+  @include rtl {
+    background-position: 60px 0;
+  }
+}
+
+//header
+.header__mob-content {
+  .main-nav {
+    .menu a {
+      @include small-sprite(header-icon-hamburger);
+    }
+    .user a {
+      @include small-sprite(header-icon-user);
+    }
+    .search a{
+      @include small-sprite(header-icon-search);
+    }
+    .logo a {
+      @include small-sprite(logo-ana);
+    }
+  }
+}
+}//small ends
+
+////////sprites for medium up
+@media #{$medium-up} {
+  @import "medium/*.png";  
+
+//topbar
+.wayyana__logo {
+  @include medium-sprite(logo-wayyana);
+  @include rtl {
+    background-position: 60px 0;
+  }
+}
+.header__mob-content {
+  .main-nav {
+    .menu a {
+      @include medium-sprite(header-icon-hamburger);
+    }
+    .user a {
+      @include medium-sprite(header-icon-user);
+    }
+    .search a{
+      @include medium-sprite(header-icon-search);
+    }
+    .logo a {
+      @include medium-sprite(logo-ana);
+    }
+  }
+}
+}//medium ends
+
+
+/////////sprites for large
+@media #{$large-up} {
+  @import "large/*.png";  
+
+
+  .header__desk-content {
+    .header-logo{
+      @include large-sprite(logo-ana);
+      @include rtl {
+        background-position: 154px -390px;
+      }
+    }
+    .header-search__button{
+      @include large-sprite(header-icon-search);
+    }
+    .header-social__fb {
+      @include large-sprite(header-icon-fb); 
+    }
+    .header-social__tube {
+      @include large-sprite(header-icon-yt); 
+    }
+    .header-social__tweet {
+      @include large-sprite(header-icon-tw); 
+    }
+    .header-social__gplus {
+      @include large-sprite(header-icon-gplus); 
+    }
+    .header-social__pinit {
+      @include large-sprite(header-icon-pinit); 
+    }
+
+    .header-social__instg {
+      @include large-sprite(header-icon-instagram); 
+    }
+    nav a.home {
+      @include large-sprite(main-nav-icon-home); 
+      @include rtl {
+        @include large-sprite(main-nav-icon-home-ar); 
+      }
+    }
+  }
+
+
+
+}//large ends
+

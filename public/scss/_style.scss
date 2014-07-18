@@ -48,6 +48,14 @@
 @import "utilities/typo";
 @import "utilities/buttons";
 
+//layout
+@import "layout/l-header";
+@import "layout/l-footer";
+
+//components
+@import "components/wayyana-topbar";
+@import "components/main-nav";
+
 //sprites
 @import "sprites/sprites";
  

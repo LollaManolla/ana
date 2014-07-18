@@ -6,3 +6,5 @@ $(document).foundation();
 // trigger by event
 $('a.reveal-link').trigger('click');
 $('a.close-reveal-modal').trigger('click');
+
+
