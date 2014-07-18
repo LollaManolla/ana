@@ -1,0 +1,24 @@
+ /*.slider {
+    @media #{$small-only} {
+      @include grid-row(nest);
+    }
+        @media #{$medium-up} {
+      @include grid-column(12);
+    }
+            @media #{$large-up} {
+      @include grid-column(6);
+    }
+  }
+
+   .boca {
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+        @media #{$medium-up} {
+       @include grid-column(6);
+    }
+            @media #{$large-up} {
+      @include grid-column(6);
+    }
+  }*/
+
