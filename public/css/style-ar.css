@@ -828,8 +828,8 @@ label.error {
 /* line 226, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .row .row {
   width: auto;
-  margin-right: -0.9375rem;
-  margin-left: -0.9375rem;
+  margin-right: -0.6875rem;
+  margin-left: -0.6875rem;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -862,8 +862,8 @@ label.error {
 /* line 232, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column,
 .columns {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
   width: 100%;
   float: right;
 }
@@ -1051,8 +1051,8 @@ label.error {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.6875rem;
+    padding-right: 0.6875rem;
     float: right;
   }
 
@@ -1392,8 +1392,8 @@ label.error {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.6875rem;
+    padding-right: 0.6875rem;
     float: right;
   }
 
@@ -1901,8 +1901,8 @@ label.error {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.6875rem;
+    padding-right: 0.6875rem;
     float: right;
   }
 
@@ -2930,12 +2930,12 @@ p {
 /* line 18, ../scss/layout/_l-header.scss */
 .header__desk-content {
   margin-top: 35px !important;
-  margin-bottom: 15px !important;
+  margin-bottom: 22px !important;
 }
 /* line 21, ../scss/layout/_l-header.scss */
 .header__desk-content .header-logo {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
   width: 41.66667%;
   float: right;
   text-indent: -9999px;
@@ -2943,8 +2943,8 @@ p {
 }
 /* line 26, ../scss/layout/_l-header.scss */
 .header__desk-content .header-search {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
   width: 25%;
   float: right;
   text-indent: -9999px;
@@ -2976,8 +2976,8 @@ p {
 }
 /* line 53, ../scss/layout/_l-header.scss */
 .header__desk-content .header-social {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
   width: 33.33333%;
   float: left;
   float: right;
@@ -2998,8 +2998,8 @@ p {
 /* line 70, ../scss/layout/_l-header.scss */
 .add__top {
   width: auto;
-  margin-right: -0.9375rem;
-  margin-left: -0.9375rem;
+  margin-right: -0.6875rem;
+  margin-left: -0.6875rem;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -3092,8 +3092,8 @@ p {
 
 /* line 9, ../scss/components/_wayyana-topbar.scss */
 .wayyana {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
   width: 100%;
   float: right;
   line-height: 42px;
@@ -3187,6 +3187,8 @@ p {
   /* line 39, ../scss/components/_main-nav.scss */
   .header__mob-content ul .logo a {
     width: 140px;
+    margin-top: 4px;
+    margin-left: 3px;
   }
 }
 @media only screen and (min-width: 30.001em) {
@@ -3197,19 +3199,31 @@ p {
   }
 }
 
-/* line 54, ../scss/components/_main-nav.scss */
+/* line 56, ../scss/components/_main-nav.scss */
 .header__desk-content nav {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: right;
-  margin-top: 10px;
+  width: auto;
+  margin-right: -0.6875rem;
+  margin-left: -0.6875rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  clear: both;
+  top: 7px;
   background-color: #40d0ad;
   position: relative;
   line-height: 40px;
   vertical-align: middle;
 }
-/* line 61, ../scss/components/_main-nav.scss */
+/* line 181, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.header__desk-content nav:before, .header__desk-content nav:after {
+  content: " ";
+  display: table;
+}
+/* line 182, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.header__desk-content nav:after {
+  clear: both;
+}
+/* line 64, ../scss/components/_main-nav.scss */
 .header__desk-content nav a {
   text-transform: uppercase;
   display: block;
@@ -3220,17 +3234,16 @@ p {
   line-height: 40px;
   vertical-align: middle;
 }
-/* line 72, ../scss/components/_main-nav.scss */
+/* line 75, ../scss/components/_main-nav.scss */
 .header__desk-content nav a.home {
-  text-indent: -9999px;
   height: 23px;
+  margin-right: 17px;
+  margin-top: 9px;
+  padding-right: 0;
   text-indent: -9999px;
   width: 23px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 9px;
 }
-/* line 81, ../scss/components/_main-nav.scss */
+/* line 83, ../scss/components/_main-nav.scss */
 .header__desk-content nav a.last {
   background-color: #1eab89;
   position: absolute;
@@ -3242,30 +3255,30 @@ p {
 @media only screen and (max-width: 30em) {
   /* line 66, small/*.png */
   .small-sprite, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
-    background: url('../assets/images/small-s248cf72f48.png') no-repeat;
+    background: url('../assets/images/small-s11f3e94446.png') no-repeat;
   }
 
   /* line 24, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .menu a {
-    background-position: 0 -146px;
+    background-position: 0 -209px;
   }
   /* line 27, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .user a {
-    background-position: 0 0;
+    background-position: 0 -63px;
   }
   /* line 30, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .search a {
-    background-position: 0 -73px;
+    background-position: 0 -136px;
   }
   /* line 33, ../scss/sprites/_sprites.scss */
   .header__mob-content .main-nav .logo a {
-    background-position: 0 -219px;
+    background-position: 0 0;
   }
 }
 @media only screen and (min-width: 30.001em) {
   /* line 66, medium/*.png */
   .medium-sprite, .header__mob-content .main-nav .menu a, .header__mob-content .main-nav .user a, .header__mob-content .main-nav .search a, .header__mob-content .main-nav .logo a {
-    background: url('../assets/images/medium-se353ebadf4.png') no-repeat;
+    background: url('../assets/images/medium-s5381eeffc9.png') no-repeat;
   }
 
   /* line 47, ../scss/sprites/_sprites.scss */
@@ -3288,52 +3301,52 @@ p {
 @media only screen and (min-width: 62.501em) {
   /* line 122, large/*.png */
   .large-sprite, .wayyana__logo, .header__desk-content .header-logo, .header__desk-content .header-search__button, .header__desk-content .header-social__fb, .header__desk-content .header-social__tube, .header__desk-content .header-social__tweet, .header__desk-content .header-social__gplus, .header__desk-content .header-social__pinit, .header__desk-content .header-social__instg, .header__desk-content nav a.home {
-    background: url('../assets/images/large-s0a76a14857.png') no-repeat;
+    background: url('../assets/images/large-s6da65085f0.png') no-repeat;
   }
 
   /* line 69, ../scss/sprites/_sprites.scss */
   .wayyana__logo {
-    background-position: 0 -481px;
-    background-position: 60px -481px;
+    background-position: 0 -91px;
+    background-position: 60px -91px;
   }
 
   /* line 78, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-logo {
-    background-position: 0 -390px;
-    background-position: 154px -390px;
+    background-position: 0 0;
+    background-position: 154px 0;
   }
   /* line 84, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-search__button {
-    background-position: 0 -604px;
+    background-position: 0 -430px;
   }
   /* line 87, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__fb {
-    background-position: 0 -285px;
+    background-position: 0 -480px;
   }
   /* line 90, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__tube {
-    background-position: 0 -228px;
+    background-position: 0 -202px;
   }
   /* line 93, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__tweet {
-    background-position: 0 -114px;
+    background-position: 0 -316px;
   }
   /* line 96, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__gplus {
-    background-position: 0 0;
+    background-position: 0 -145px;
   }
   /* line 99, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__pinit {
-    background-position: 0 -57px;
+    background-position: 0 -259px;
   }
   /* line 103, ../scss/sprites/_sprites.scss */
   .header__desk-content .header-social__instg {
-    background-position: 0 -171px;
+    background-position: 0 -373px;
   }
   /* line 106, ../scss/sprites/_sprites.scss */
   .header__desk-content nav a.home {
-    background-position: 0 -342px;
-    background-position: 0 -556px;
+    background-position: 0 -585px;
+    background-position: 0 -537px;
   }
 }
  /*.slider {

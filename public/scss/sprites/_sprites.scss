@@ -69,7 +69,7 @@ $large-spacing: 30px;
 .wayyana__logo {
   @include large-sprite(logo-wayyana);
   @include rtl {
-    background-position: 60px -481px;
+    background-position: 60px -91px;
   }
 }
 
@@ -78,7 +78,7 @@ $large-spacing: 30px;
     .header-logo{
       @include large-sprite(logo-ana);
       @include rtl {
-        background-position: 154px -390px;
+        background-position: 154px 0;
       }
     }
     .header-search__button{

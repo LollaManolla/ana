@@ -39,6 +39,8 @@
       a {
         @media #{$small-only} {
           width: 140px;
+          margin-top: 4px;
+          @include margin-right(3px);
         }
         @media #{$medium-up} {
           width: 180px;
@@ -52,8 +54,9 @@
 //mani nav on desk
 .header__desk-content {
   nav {
-    @include grid-column(12);
-    margin-top: 10px;
+    @include grid-row(nest);
+    clear: both;
+    top: 7px;
     background-color: $green-light;
     position: relative;
     line-height: 40px;
@@ -70,13 +73,12 @@
 
     }
     a.home {
-      text-indent: -9999px;
-      height: 23px;
-      text-indent: -9999px;
-      width: 23px;
-      padding-left: 0;
-      padding-right: 0;
-      margin-top: 9px;
+    height: 23px;
+    @include margin-left(17px);
+    margin-top: 9px;
+    padding-right: 0;
+    text-indent: -9999px;
+    width: 23px;
     }
     a.last {
       background-color:$green-dark;
