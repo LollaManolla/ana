@@ -3336,3 +3336,26 @@ p {
     background-position: 0 -556px;
   }
 }
+ /*.slider {
+    @media only screen and (max-width: 30em) {
+      @include grid-row(nest);
+    }
+        @media only screen and (min-width:30.001em) {
+      @include grid-column(12);
+    }
+            @media only screen and (min-width:62.501em) {
+      @include grid-column(6);
+    }
+  }
+
+   .boca {
+    @media only screen and (max-width: 30em) {
+      @include grid-column(12);
+    }
+        @media only screen and (min-width:30.001em) {
+       @include grid-column(6);
+    }
+            @media only screen and (min-width:62.501em) {
+      @include grid-column(6);
+    }
+  }*/
