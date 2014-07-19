@@ -1,24 +1,28 @@
- /*.slider {
-    @media #{$small-only} {
-      @include grid-row(nest);
-    }
-        @media #{$medium-up} {
-      @include grid-column(12);
-    }
-            @media #{$large-up} {
-      @include grid-column(6);
-    }
+//set width of blocks
+.b-tsr__products-top--h,
+.b-tsr__category--h,
+.b-tsr__products-recent--h,
+.b-tsr__articles--h {
+@media #{$small-only} {
+  @include grid-column(12);
+}
+@media #{$medium-up} {
+    @include grid-column(12);
   }
+  @media #{$large-up} {
+    @include grid-column(12);
+  }
+}
 
-   .boca {
-    @media #{$small-only} {
-      @include grid-column(12);
-    }
-        @media #{$medium-up} {
-       @include grid-column(6);
-    }
-            @media #{$large-up} {
-      @include grid-column(6);
-    }
-  }*/ 
+.b-tsr__featured--h {
+@media #{$small-only} {
+  @include grid-column(12);
+}
+@media #{$medium-up} {
+    @include grid-column(12);
+  }
+  @media #{$large-up} {
+    @include grid-column(8);
+  }
+}
 

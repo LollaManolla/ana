@@ -66,19 +66,19 @@
       display: block;
       @include float(left);
       color: $white;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 27px;
+      padding-right: 27px;
       line-height: 40px;
       vertical-align: middle;
-
+      &:hover {
+        background-color: $green-dark;
+      }
     }
     a.home {
-    height: 23px;
-    @include margin-left(17px);
-    margin-top: 9px;
-    padding-right: 0;
+    @include left(19px);
+    position: relative;
     text-indent: -9999px;
-    width: 23px;
+    top: 9px;
     }
     a.last {
       background-color:$green-dark;

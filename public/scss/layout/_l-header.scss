@@ -9,7 +9,7 @@
     }
   }
   .header__desk-content {
-    @include grid-row();
+    @include grid-row(nest-collapse);
     @extend .show-for-large-up;
   } 
 }
@@ -51,16 +51,21 @@
     }
   }
   .header-social {
-    @include grid-column(4, nest-collapse);
+    .header-social__instg {
+      @include margin-right(0 !important);
+    }
+    @include grid-column(4, $collapse:true);
     @include text-align(right);
     margin-top: 18px;
     a {
       display: inline-block;
       width: 27px;
       height: 27px;
+      @include margin-right(10px);
       span {
         display: none;
       }
+
     }
   }
 }

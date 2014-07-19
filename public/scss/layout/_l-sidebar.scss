@@ -1,0 +1,40 @@
+//set width of blocks
+.b-promo__site--sidebar,
+.w-poll--sidebar,
+.b-add__bottom--sidebar {
+@media #{$small-only} {
+  @include grid-column(12);
+}
+@media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(12);
+  }
+}
+
+.w-forum--sidebar {
+  @extend .show-for-medium-up;
+@media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(12);
+  }
+}
+
+
+.b-tsr__featured--sidebar,
+.b-add__top--sidebar {
+@media #{$small-only} {
+  @include grid-column(12);
+}
+@media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(4);
+  }
+}
+
+
