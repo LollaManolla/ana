@@ -8,3 +8,18 @@ $( ".header__mob-content .main-nav__search" ).click(function() {
     // Animation complete.
   });
 });
+
+
+//start owl carousel
+$(document).ready(function() {
+	$(".products-top__list").owlCarousel({
+		items : 3,
+		itemsDesktop: [1199,3],
+		itemsMobile : [479,1],
+		navigation: true,
+		navigationText: ["&nbsp;","&nbsp;"],
+		pagination: false
+
+	});
+});
+

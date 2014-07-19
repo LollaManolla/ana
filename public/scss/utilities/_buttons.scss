@@ -15,7 +15,8 @@
   }
 }
 
-//just example on how to use this
-.btn-test {
+///home buttons
+.featured-sidebar__btn,
+.products-top__btn {
   @include btn;
 }

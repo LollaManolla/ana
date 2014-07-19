@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Ana Jamila : Home</title>
 <link rel="stylesheet" href="public/css/style-en.css" />
+<link rel="stylesheet" href="public/css/owl.carousel.css" />
 <script src="public/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body data-grid-framework="f4" data-grid-color="red" data-grid-opacity="0.3" data-grid-zindex="-9999" data-grid-gutterwidth="20px" data-grid-nbcols="12">
@@ -71,7 +72,7 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
       </form>
     </div>
   </div>
-  <div class="add__top"> <img data-interchange="[public/assets/images/banner-small.jpg, (only screen and (min-width: 1px))], [public/assets/images/banner-large.jpg, (only screen and (min-width: 480px))]"> </div>
+  <div class="add__top"> <img data-interchange="[public/assets/images/interchange/banner-small.jpg, (only screen and (min-width: 1px))], [public/assets/images/interchange/banner-large.jpg, (only screen and (min-width: 480px))]"> </div>
 </header>
 <section class="l-content">
 
@@ -127,44 +128,128 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
           <p class="featured-video__title">Spring Theme</p>
           <p class="featured-video__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
         </div>
-        <div class="featured-teasers">
-          <div><img class="featured-teasers__img--top" src="public/assets/images/example-images/tips.jpg">
-            <p class="featured-teasers__title---top" >Tips text of the printing and typesetting text</p>
-          </div>
-          <div><img class="featured-teasers__img--bottom" src="public/assets/images/example-images/howto.jpg">
-            <p class="featured-teasers__title---bottom"> Dummy text of the printing and typesetting</p>
-          </div>
+        <div class="featured-articles">
+        <ul class="featured-articles__list">
+        <li class="list__item--first">
+        <img class="featured-articles__img--top" src="public/assets/images/example-images/tips.jpg">
+          <p class="featured-articles__category---top" >Tips</p>
+            <p class="featured-articles__title---top" >Tips text of the printing and typesetting text</p>
+            </li>
+        <li class="list__item--last">
+         <img class="featured-articles__img--bottom" src="public/assets/images/example-images/howto.jpg">
+          <p class="featured-articles__category---bottom" >How to...</p>
+            <p class="featured-articles__title---bottom"> Dummy text of the printing and typesetting</p>
+            </li>
+        
+        </ul>
+          
+          
         </div>
       </div>
     </div>
-    <div class="b-tsr__featured--sidebar">
-      <div style="border:solid 1px red"> <img src="public/assets/images/example-images/bottles.jpg">
-        <div>
-          <p>Shiseido   Collection</p>
-          <p>Brand name</p>
-        </div>
-        <div>
-          <p>134 review</p>
-        </div>
-        <a class="btn-test">Write a review</a> </div>
+    <div class="b-tsr__featured-sidebar">
+      <img class="featured-sidebar__img" src="public/assets/images/example-images/bottles.jpg">
+      <div class="featured-sidebar__content">
+      <div class="content-item__first">
+       <p class="featured-sidebar__title">Shiseido   Collection</p>
+          <p class="featured-sidebar__subtitle">Brand name</p>
+          </div>
+          
+          <div class="content-item__last"> <p class="featured-sidebar__counter">134 <span>review</span></p></div>
+      
+      </div>
+        
+       
+        <a class="featured-sidebar__btn">Write a review</a>
     </div>
     <div class="b-add__top--sidebar"><img src="public/assets/images/example-images/mpu.jpg"></div>
   </div>
   <div class="b-content__bottom--h">
-    <div class="row">
-      <div class="small-12 medium-12 large-8 columns" style="background-color:peru;">
-        <div class="row">
-          <div class="b-tsr__products-top--h" style="background-color:#ccc;">rated</div>
+    <div class="wrapper">
+      <div class="content-bottom--left">
+        <div class="wrapper">
+          <div class="b-tsr__products-top--h">
+          <h2 class="products-top__title">Top rated <span>this week</span></h2>
+          
+
+    <div class="products-top__list">
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide1.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide2.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide3.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide1.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide2.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide3.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide1.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide2.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    <div class="item">
+    <img class="item__img" src="public/assets/images/example-images/slide3.jpg" alt="Owl Image" title="">
+    <div><img src="public/assets/images/example-images/w-rates.png"></div>
+    <p class="item__title">Oasis Rhino Repair</p>
+    <p class="item__subtitle">Brand name</p>
+    <p class="item__counter">17 reviews</p>
+    </div>
+    </div>
+
+    
+    <a href="#" title="" class="products-top__btn-holder"><span class="products-top__btn">See more</span></a>
+
+          </div>
           <div class="b-tsr__category--h" style="background-color:#999;">look</div>
           <div class="b-tsr__products-recent--h" style="background-color:#ededed;">recent review</div>
           <div class="b-tsr__articles--h" style="background-color:#555;">most review</div>
         </div>
       </div>
-      <div class="small-12 medium-12 large-4  columns" style="background-color:yellowgreen;">
+      <div class="small-12 medium-12 large-4  columns content-bottom--right" style="background-color:yellowgreen;">
         <div class="row">
-          <div class="b-promo__site--sidebar" style="background-color:#ccc;">baloni</br>
-          <p> Dummy text of the printing and typesetting,  Dummy text of the printing and typesetting,  Dummy text of the printing and typesettingddsf, dfkjlksfj kdjlks. Jkjkjs 
-          dlfsklksflj ldsjf jkljoireh gsdjhglk kjklah hsa'n  fl;jsagjkjgkh l;dsjfkljsgjhkl ;a489  sfgjgfk; akgjf  </p>
+          <div class="b-promo__site--sidebar" style="background-color:#ccc;">baloni </p>
 
           </div>
           <div class="w-forum--sidebar" style="background-color:red;">forum</div>
@@ -318,7 +403,8 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
 <script src="public/bower_components/foundation/js/foundation/foundation.interchange.js"></script> 
 <script>
     $(document).foundation();
-</script> 
-<script src="public/bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+</script>
+<script src="public/js/app.js"></script>
+<script src="public/js/owl.carousel.js"></script>
 </body>
 </html>
