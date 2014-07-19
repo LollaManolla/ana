@@ -9,7 +9,7 @@
     }
   }
   .header__desk-content {
-    @include grid-row(nest-collapse);
+    @include grid-row();
     @extend .show-for-large-up;
   } 
 }
@@ -52,9 +52,9 @@
   }
   .header-social {
     .header-social__instg {
-      @include margin-right(0 !important);
+      @include margin-right(-3px !important);
     }
-    @include grid-column(4, $collapse:true);
+    @include grid-column(4);
     @include text-align(right);
     margin-top: 18px;
     a {

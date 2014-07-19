@@ -35,6 +35,13 @@ $large-spacing: 30px;
     }
   }
 }
+
+//home b-content__top--h
+.featured-video__img--icon {
+  @include small-sprite(icon-play); 
+}
+
+
 }//small ends
 
 ////////sprites for medium up
@@ -58,6 +65,12 @@ $large-spacing: 30px;
     }
   }
 }
+
+//home b-content__top--h
+.featured-video__img--icon  {
+  @include medium-sprite(icon-play); 
+}
+
 }//medium ends
 
 
@@ -73,7 +86,7 @@ $large-spacing: 30px;
   }
 }
 
-
+//header
   .header__desk-content {
     .header-logo{
       @include large-sprite(logo-ana);
@@ -111,6 +124,7 @@ $large-spacing: 30px;
     }
   }
 
+//home b-content__top--h
 
 
 }//large ends

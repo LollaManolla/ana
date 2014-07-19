@@ -7,7 +7,7 @@
   @include text-align(right);
 }
 .wayyana {
-  @include grid-column(12,$collapse:true);
+  @include grid-column(12);
   height: 30px;
   padding-top:2px;
   padding-bottom:0px;

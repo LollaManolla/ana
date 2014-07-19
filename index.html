@@ -7,7 +7,12 @@
 <link rel="stylesheet" href="public/css/style-en.css" />
 <script src="public/bower_components/modernizr/modernizr.js"></script>
 </head>
-<body>
+<body data-grid-framework="f4" data-grid-color="red" data-grid-opacity="0.3" data-grid-zindex="-9999" data-grid-gutterwidth="20px" data-grid-nbcols="12">
+<!--
+Framework codes: b3 (Bootstrap 3 fixed), b3f (Bootstrap 3 fluid), bo (Bootstrap 2 fixed), bf (Bootstrap 2 fluid), f4 (Foundation 4 & 5), f3 (Foundation 3), f2 (Foundation 2).
+Note 1: 'Gutter width' parameter only applies to gutterless grid systems (Bootstrap 3, Foundation 4 & 5).
+Note 2: 'Nb cols' parameter for Bootstrap only.
+-->
 <div class="topbar">
   <div class="topbar__wayyana">
     <div class="wayyana"> 
@@ -20,11 +25,13 @@
 <header class="l-header">
   <div class="header__desk-content"> 
   <a href="#" class="header-logo">Ana Jamila</a>
-    <form class="header-search">
+  <div  class="header-search">
+    <form>
       <a class="header-search__button" href="#">Search</a>
       <button type="submit" value="Search" class="header-search__button" >search</button>
       <input type="text" class="header-search__field" placeholder="search product">
     </form>
+    </div>
     <div class="header-social"> 
     <a href="#" title="" class="header-social__fb"><span>Follow us on Facebook</span></a> 
     <a href="#" title="" class="header-social__tube"><span>Follow us on YouTube</span></a> 
@@ -67,7 +74,8 @@
   <div class="add__top"> <img data-interchange="[public/assets/images/banner-small.jpg, (only screen and (min-width: 1px))], [public/assets/images/banner-large.jpg, (only screen and (min-width: 480px))]"> </div>
 </header>
 <section class="l-content">
-<!--
+
+  <!--
   <div class="row">
     <div class="large-1 columns" style="background-color:#ededed">
       <p style=" background-color: red;">1<span style="text-align:right;float: right;">1</span></p>
@@ -102,24 +110,29 @@
     <div class="large-1 columns" style="background-color:#ededed">
       <p style=" background-color: red;">1<span style="text-align:right;float: right;">1</span></p>
     </div>
-    <div class="large-1 columns" style="background-color:#ededed">
+    <div class="large-1 columns last" style="background-color:#ededed">
       <p style=" background-color: red;">1<span style="text-align:right;float: right;">1</span></p>
     </div>
-  </div>
-  -->
-  <div class="row">
+  </div>-->
+  
+  <div class="b-content__top--h">
     <div class="b-tsr__featured--h">
-      <div class="row collapse">
-        <div class="small-12 medium-8 large-8 columns vide"> <img src="public/assets/images/example-images/video.jpg">
-          <p>Spring Theme</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+      <div class="wrapper">
+        <div class="featured-video">
+
+       <!--featured-video__img-->
+<img class="featured-video__img" data-interchange="[public/assets/images/interchange/video-feature-small.jpg, (small)], [public/assets/images/interchange/video-feature-medium.jpg, (medium], [public/assets/images/interchange/video-feature-large.jpg, (large)],">
+
+        
+          <p class="featured-video__title">Spring Theme</p>
+          <p class="featured-video__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
         </div>
-        <div class="small-12 medium-4 large-4 columns tips">
-          <div><img src="public/assets/images/example-images/tips.jpg">
-            <p>Tips text of the printing and typesetting text</p>
+        <div class="featured-teasers">
+          <div><img class="featured-teasers__img--top" src="public/assets/images/example-images/tips.jpg">
+            <p class="featured-teasers__title---top" >Tips text of the printing and typesetting text</p>
           </div>
-          <div><img src="public/assets/images/example-images/howto.jpg">
-            <p> Dummy text of the printing and typesetting</p>
+          <div><img class="featured-teasers__img--bottom" src="public/assets/images/example-images/howto.jpg">
+            <p class="featured-teasers__title---bottom"> Dummy text of the printing and typesetting</p>
           </div>
         </div>
       </div>
@@ -137,7 +150,7 @@
     </div>
     <div class="b-add__top--sidebar"><img src="public/assets/images/example-images/mpu.jpg"></div>
   </div>
-  <div class="large-12 columns">
+  <div class="b-content__bottom--h">
     <div class="row">
       <div class="small-12 medium-12 large-8 columns" style="background-color:peru;">
         <div class="row">
@@ -149,7 +162,11 @@
       </div>
       <div class="small-12 medium-12 large-4  columns" style="background-color:yellowgreen;">
         <div class="row">
-          <div class="b-promo__site--sidebar" style="background-color:#ccc;">baloni</div>
+          <div class="b-promo__site--sidebar" style="background-color:#ccc;">baloni</br>
+          <p> Dummy text of the printing and typesetting,  Dummy text of the printing and typesetting,  Dummy text of the printing and typesettingddsf, dfkjlksfj kdjlks. Jkjkjs 
+          dlfsklksflj ldsjf jkljoireh gsdjhglk kjklah hsa'n  fl;jsagjkjgkh l;dsjfkljsgjhkl ;a489  sfgjgfk; akgjf  </p>
+
+          </div>
           <div class="w-forum--sidebar" style="background-color:red;">forum</div>
           <div class="w-poll--sidebar" style="background-color:#666;">poll</div>
           <div class="b-add__bottom--sidebar" style="background-color:#999;">cloe2</div>
