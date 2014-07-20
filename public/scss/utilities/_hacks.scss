@@ -1,5 +1,25 @@
 //keep all hacks and note for it in this file
-//sass buttons are imported from forms by foundation, if we are useing foundation forms then leave it
+//sass buttons are imported from forms by foundation, if we are using foundation forms then leave it
+
+
+//sprites position changing
+.header__desk .header-logo {background-position: 9px 0 !important;}
+.header__desk nav a.home {background-position: 0 -756px !important;}
+.header__mob .main-nav .logo a {background-position: 0 5px;}
+
+//sidebar add banner problem so temp fix is this
+.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last {
+  @media #{$small-only} {
+    margin-bottom: 35px;
+  }
+    @media #{$medium-up} {
+    margin-bottom: 35px;
+  }
+    @media #{$large-up} {
+    margin-bottom: 200px;
+  }
+  }
+
 
 //note for iphone zoom problem maybe
 //-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */

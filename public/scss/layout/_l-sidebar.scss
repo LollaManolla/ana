@@ -1,81 +1,63 @@
-//set width of blocks
-.b-promo__site__sidebar,
-.w-poll__sidebar,
-.b-add__bottom--sidebar {
-@media #{$small-only} {
-  @include grid-column(12);
-}
-@media #{$medium-up} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(12);
-  }
-}
-
-.w-forum--sidebar {
-  @extend .show-for-medium-up;
-@media #{$medium-up} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(12);
-  }
-}
-
-
-.b-tsr__featured-sidebar,
-.b-add__top--sidebar {
-@media #{$small-only} {
-  @include grid-column(12);
-}
-@media #{$medium-up} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(4);
-  }
-}
-
-
-//set style for 
-.b-tsr__featured-sidebar {
-  border:solid 1px  $gray-light;
-  text-align: center;
-  .featured-sidebar__content {
-    background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
-
-     position: relative;
-    top: -70px;
-    @include grid-row($behavior: nest)
-  }
-  .featured-sidebar__title {
-    font-size: rem-calc(18);
-    color: $black;
-    margin: 0;
-  }
-  .featured-sidebar__subtitle {
-    font-size: rem-calc(16);
-    color: $gray-dark;
-    margin: 0;
-  }
-  .featured-sidebar__counter {
-    background-color: $pink;
-    color: $white;
-    font-size: rem-calc(30);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-    span {
-      font-size:rem-calc(14);
-      display: block;
-      font-weight: normal;
+ //set main holder
+  .l-sidebar {
+    .wrapper {
+      @include grid-row();
+    }
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(12);
+    }
+    @media #{$large-up} {
+      @include grid-column(4);
     }
   }
-  .content-item__first {
-    @include grid-column(10, $collapse:true);
+
+
+
+ //set block top holders elements 
+ //teaser ft.sidebar
+ .b-teaser__featured--sidebar {
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(6);
+    }
+    @media #{$large-up} {
+      @include grid-column(4);
+    }
+  }//end teaser ft.sidebar
+
+  //add top sidebar
+   .b-add__top--sidebar {
+      @media #{$small-only} {
+        @include grid-column(12);
+      }
+      @media #{$medium-up} {
+        @include grid-column(6);
+      }
+      @media #{$large-up} {
+        @include grid-column(4);
+      }     
+    }//end add top sidebar
+
+
+//set block bottom content holders
+.l-sidebar {
+  .b-add__middle--sidebar,
+  .w-poll,
+  .w-forum,
+  .b-add__bottom--sidebar {
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(6);
+    }
+    @media #{$large-up} {
+      @include grid-column(12, $collapse:true);
+    }
   }
-    .content-item__last{
-    @include grid-column(2, $collapse:true);
-  }
-}
+}//end set block bottom content holders

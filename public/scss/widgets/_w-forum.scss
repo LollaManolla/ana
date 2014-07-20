@@ -1,9 +1,24 @@
-.w-forum--sidebar {
+//set visibility rules
+.w-forum {
+  @extend .show-for-medium-up;
+  .wrapper {
   border:solid 1px $gray-light;
+  padding: 10px;
+  }
+}//end set holders
+
+
+//set style
+.w-forum {
+  margin-bottom:35px;
+  p {
+    margin: 1rem 0 !important;
+  }
   .forum__title {
     font-size: rem-calc(24);
     text-transform: uppercase;
     color: $black;
+    margin-top: 0 !important;
   }
   .forum__content {
     border-bottom: dashed 1px $gray-light;
@@ -11,13 +26,18 @@
   }
   .content__data {
     .data__comments {
-  display: block;
-    @include float(left);
-    height: 28px;
-    margin-right: 10px;
-    text-align: center;
-    width: 33px;
-    color: $white;
+      display: block;
+      @include float(left);
+      @media #{$medium-up} {
+        height: 33px;
+        width: 38px;
+        @include padding-right(5px);
+      }
+      height: 28px;
+      margin-right: 10px;
+      text-align: center;
+      width: 33px;
+      color: $white;
     }
     .data__post-day {
       display: block;

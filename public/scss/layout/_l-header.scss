@@ -1,79 +1,76 @@
 .l-header {
   @include grid-row();
-  .header__mob-content {
-    @extend .hide-for-large-up;
-        @include grid-row(nested);
-    @media #{$medium-up} {
-
-      margin-bottom: 15px !important;
-    }
-  }
-  .header__desk-content {
-    @include grid-row();
-    @extend .show-for-large-up;
-  } 
 }
 
-//header desk style
-.header__desk-content {
-  margin-top: 35px !important;
-  margin-bottom: 22px !important;
+ //desk version
+ //create desk holders
+ .header__desk {
+    @extend .show-for-large-up;
+    @include grid-column(12);
+    .wrapper {
+      @include grid-row($behavior: nest);
+    }
+    .header-logo {
+      @include grid-column(5);
+    }
+    .header-search {
+      @include grid-column(3);
+    }
+    .header-social {
+      @include grid-column(4);
+    }
+} //end desk holders
+
+//style desk header
+ .header__desk {
+  margin-top: 35px;
   .header-logo {
-    @include grid-column(5);
-    text-indent: -9999px;
+    display: inline-block;
     height: 62px;
+    text-indent: -9999px;
   }
   .header-search {
-    @include grid-column(3);
     text-indent: -9999px;
     position: relative;
-    margin:14px 0 0;
-    .header-search__field {
+    margin-top: 15px;
+     .header-search__field {
       -webkit-border-radius: 20px; 
       -moz-border-radius: 20px; 
       border-radius: 20px; 
+      @include left(22px);
       @include text-align(left);
+      height: rem-calc(30);
       position: relative;
       z-index: 1;
-      margin:0;
       color: $gray-medium;
+      width: 86%;
     }
     .header-search__button {
-      @include right(28px);
-    height: 21px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-indent: -99999px;
-    top: 8px;
-    width: 16px;
-    z-index: 2;
+      @include right(34px);
+      height: 21px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      text-indent: -99999px;
+      top: 5px;
+      width: 16px;
+      z-index: 2;
     }
   }
   .header-social {
-    .header-social__instg {
-      @include margin-right(-3px !important);
-    }
-    @include grid-column(4);
     @include text-align(right);
-    margin-top: 18px;
+    margin-top: 17px;
     a {
       display: inline-block;
       width: 27px;
       height: 27px;
-      @include margin-right(10px);
+      @include margin-left(13px);
       span {
         display: none;
       }
-
+    }
+    .header-social__instg {
+      @include margin-right(-3px !important);
     }
   }
-}
-
-
-
-.add__top{
-  @include grid-row(nest);
-  text-align:center;
-  margin-bottom: 14px;
-}
+}//end style desk header

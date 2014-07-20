@@ -1,5 +1,4 @@
 //import fonts
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300); // ne ovako o keshiranju videti
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); // must be put in head for ar version so we can erase + early
 
 //create font variable
@@ -41,6 +40,7 @@ a {
 }
 p {
   color:$gray-dark;
+  margin: 0 !important; //this is test
 }
 h1,h2 {
   color: $black;
