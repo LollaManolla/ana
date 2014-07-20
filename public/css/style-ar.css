@@ -4224,18 +4224,117 @@ p {
   display: block;
 }
 
-/* line 2, ../scss/widgets/_w-forum.scss */
+/* line 301, ../scss/pages/_home.scss */
+.b-tsr__articles--h .articles__title {
+  text-transform: uppercase;
+  border-bottom: solid 3px #40d0ad;
+}
+@media only screen and (max-width: 30em) {
+  /* line 300, ../scss/pages/_home.scss */
+  .b-tsr__articles--h {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 30.001em) {
+  /* line 300, ../scss/pages/_home.scss */
+  .b-tsr__articles--h {
+    font-size: 1.875rem;
+  }
+}
+@media only screen and (min-width: 62.501em) {
+  /* line 300, ../scss/pages/_home.scss */
+  .b-tsr__articles--h {
+    font-size: 1.5rem;
+  }
+}
+/* line 314, ../scss/pages/_home.scss */
+.b-tsr__articles--h span {
+  color: #999999;
+}
+/* line 318, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles {
+  /*@include grid-row();*/
+}
+/* line 321, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__review,
+.b-tsr__articles--h .b-articles .b-articles__product {
+  /*  @media only screen and (max-width: 30em) {
+      @include grid-column(12);
+    }
+    @include grid-column(6);*/
+}
+/* line 330, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__title {
+  font-size: 1.125rem;
+  color: #333333;
+}
+/* line 335, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__img {
+  /* @include grid-column(6,$collapse:true);*/
+}
+/* line 337, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__img img {
+  border: solid 1px #ededed;
+  text-align: center;
+}
+/* line 343, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__body {
+  /* @include grid-column(6);*/
+}
+/* line 346, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__body .product__counter,
+.b-tsr__articles--h .b-articles .b-articles__product .product__body .product__subtitle {
+  font-size: 0.875rem;
+}
+/* line 349, ../scss/pages/_home.scss */
+.b-tsr__articles--h .b-articles .b-articles__product .product__body .product__link {
+  color: #40d0ad;
+  font-size: 0.75rem;
+}
+
+/* line 1, ../scss/media-objects/_media-small.scss */
+.media-small {
+  /* @include grid-row(nest);*/
+}
+/* line 3, ../scss/media-objects/_media-small.scss */
+.media-small p, .media-small a {
+  font-size: 0.875rem;
+}
+
+/* line 7, ../scss/media-objects/_media-small.scss */
+.media-small__img {
+  /* @include grid-column(4);*/
+}
+
+/* line 10, ../scss/media-objects/_media-small.scss */
+.media-small__body {
+  /*@include grid-column(8, $collapse:true);*/
+}
+/* line 12, ../scss/media-objects/_media-small.scss */
+.media-small__body .media-small__title {
+  color: #333333;
+}
+/* line 19, ../scss/media-objects/_media-small.scss */
+.media-small__body .media-small__link {
+  font-size: 0.75rem;
+}
+
+/* line 1, ../scss/widgets/_w-forum.scss */
+.w-forum--sidebar {
+  border: solid 1px #ededed;
+}
+/* line 3, ../scss/widgets/_w-forum.scss */
 .w-forum--sidebar .forum__title {
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #333333;
 }
-/* line 7, ../scss/widgets/_w-forum.scss */
+/* line 8, ../scss/widgets/_w-forum.scss */
 .w-forum--sidebar .forum__content {
   border-bottom: dashed 1px #ededed;
   margin: 1rem 0;
 }
-/* line 12, ../scss/widgets/_w-forum.scss */
+/* line 13, ../scss/widgets/_w-forum.scss */
 .w-forum--sidebar .content__data .data__comments {
   display: block;
   float: right;
@@ -4245,7 +4344,52 @@ p {
   width: 33px;
   color: white;
 }
-/* line 21, ../scss/widgets/_w-forum.scss */
+/* line 22, ../scss/widgets/_w-forum.scss */
 .w-forum--sidebar .content__data .data__post-day {
   display: block;
+}
+
+/* line 1, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar {
+  border: solid 1px #ededed;
+}
+/* line 3, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar .w-poll__img--full {
+  width: auto;
+  margin-right: -0.625rem;
+  margin-left: -0.625rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+/* line 181, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.w-poll__sidebar .w-poll__img--full:before, .w-poll__sidebar .w-poll__img--full:after {
+  content: " ";
+  display: table;
+}
+/* line 182, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.w-poll__sidebar .w-poll__img--full:after {
+  clear: both;
+}
+/* line 6, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar .w-poll__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #333333;
+}
+/* line 11, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar .w-poll__subtitle {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 15, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar .w-poll__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 20, ../scss/widgets/_w-poll.scss */
+.w-poll__sidebar .w-poll__input {
+  position: relative;
+  top: 2px;
 }

@@ -65,6 +65,9 @@
 //pages
 @import "pages/home";
 
+//media object
+@import "media-objects/media-small";
+
 //widgets
 @import "widgets/w-forum";
- 
+ @import "widgets/w-poll";

@@ -1,1 +1,22 @@
+.media-small {
+ /* @include grid-row(nest);*/
+  p, a {
+   font-size: rem-calc(14);
+  }
+}
+.media-small__img { 
+ /* @include grid-column(4);*/
+}
+.media-small__body {
+  /*@include grid-column(8, $collapse:true);*/
+  .media-small__title {
+    color: $black;
 
+  }
+  .media-small__subtitle {
+   
+  }
+.media-small__link {
+  font-size: rem-calc(12);
+}
+}
