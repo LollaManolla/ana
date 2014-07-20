@@ -12,7 +12,7 @@ $( ".header__mob-content .main-nav__search" ).click(function() {
 
 //start owl carousel
 $(document).ready(function() {
-	$(".products-top__list").owlCarousel({
+	$(".b-tsr__products-top--h .products-top__list").owlCarousel({
 		items : 3,
 		itemsDesktop: [1199,3],
 		itemsMobile : [479,1],
@@ -23,3 +23,14 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
+	$(".b-tsr__products-recent--h .products-recent__list").owlCarousel({
+		items : 3,
+		itemsDesktop: [1199,3],
+		itemsMobile : [479,1],
+		navigation: true,
+		navigationText: ["&nbsp;","&nbsp;"],
+		pagination: false
+
+	});
+});

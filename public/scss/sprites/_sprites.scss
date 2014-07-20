@@ -131,18 +131,29 @@ $large-spacing: 30px;
     }
   }
   //home b-content__top--h
-  .featured-articles__category---top {
+  .b-tsr__featured--h .featured-articles__category---top {
     @include large-sprite(text-bgrnd-green); 
   }
-  .featured-articles__category---bottom {
+  .b-tsr__featured--h .featured-articles__category---bottom {
     @include large-sprite(text-bgrnd-yellow); 
   }
  //home products-top__list owl-carousel owl-theme
-  .products-top__list .owl-prev {
+  .b-tsr__products-top--h .products-top__list .owl-prev {
     @include large-sprite(carousel-arrow-left);
   }
-  .products-top__list .owl-next {
+  .b-tsr__products-top--h .products-top__list .owl-next {
     @include large-sprite(carousel-arrow-right);
+  }
+   //home products-bottom__list owl-carousel owl-theme
+  .b-tsr__products-recent--h .products-recent__list .owl-prev {
+    @include large-sprite(carousel-arrow-left);
+  }
+  .b-tsr__products-recent--h .products-recent__list .owl-next {
+    @include large-sprite(carousel-arrow-right);
+  }
+  //widget forum
+  .w-forum--sidebar .data__comments {
+    @include large-sprite(icon-comment-baloon);
   }
 }//large ends
 

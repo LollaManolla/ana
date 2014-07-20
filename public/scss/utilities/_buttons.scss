@@ -17,6 +17,7 @@
 
 ///home buttons
 .featured-sidebar__btn,
-.products-top__btn {
+.products-top__btn,
+.products-recent__btn {
   @include btn;
 }

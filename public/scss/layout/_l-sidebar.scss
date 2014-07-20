@@ -1,6 +1,6 @@
 //set width of blocks
-.b-promo__site--sidebar,
-.w-poll--sidebar,
+.b-promo__site__sidebar,
+.w-poll__sidebar,
 .b-add__bottom--sidebar {
 @media #{$small-only} {
   @include grid-column(12);
