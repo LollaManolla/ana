@@ -1,0 +1,6 @@
+.b-add--bottom{
+  @include grid-column(12, $center:true);
+  text-align:center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

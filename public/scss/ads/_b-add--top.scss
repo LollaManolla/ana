@@ -1,0 +1,11 @@
+.b-add--top{
+  @include grid-column(12, $center:true, $collapse:true);
+  clear: both;
+  text-align:center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  @media #{$small-only} {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

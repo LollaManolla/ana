@@ -1,0 +1,21 @@
+//set holders
+.b-add__top--sidebar {
+  text-align: center;
+  @media #{$small-only} {
+    @include grid-column(12);
+  }
+  @media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(4, $collapse:true);
+  }
+}
+
+//style
+.b-add__top--sidebar {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
