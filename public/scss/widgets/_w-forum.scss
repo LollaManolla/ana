@@ -1,0 +1,25 @@
+.w-forum--sidebar {
+  .forum__title {
+    font-size: rem-calc(24);
+    text-transform: uppercase;
+    color: $black;
+  }
+  .forum__content {
+    border-bottom: dashed 1px $gray-light;
+    margin:1rem 0;
+  }
+  .content__data {
+    .data__comments {
+  display: block;
+    @include float(left);
+    height: 28px;
+    margin-right: 10px;
+    text-align: center;
+    width: 33px;
+    color: $white;
+    }
+    .data__post-day {
+      display: block;
+    }
+  }
+}
