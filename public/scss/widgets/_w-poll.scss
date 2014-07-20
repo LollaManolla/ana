@@ -1,0 +1,24 @@
+.w-poll__sidebar {
+  border:solid 1px $gray-light;
+  .w-poll__img--full {
+    @include grid-row(nest);
+  }
+    .w-poll__title {
+    font-size: rem-calc(24);
+    text-transform: uppercase;
+    color: $black;
+  }
+ .w-poll__subtitle {
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+ .w-poll__fieldset {
+  border:none;
+  padding: 0;
+  margin: 0;
+ }
+ .w-poll__input {
+  position: relative;
+  top:2px;
+ }
+}
