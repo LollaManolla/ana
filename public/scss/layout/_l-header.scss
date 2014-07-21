@@ -1,25 +1,21 @@
+//set grid
 .l-header {
   @include grid-row();
 }
 
-//main nav mobile version
-  //create visibility rules
-   .header__mob {
+
+//mob grid
+.header__mob {
     @extend .hide-for-large-up;
   }
-
-//mobile version
-//create mob holders
 .header__mob {
   @include grid-column(12, $collapse:true);
       .wrapper {
       @include grid-row();
     }
-}//end mob holders
+}
 
-
- //desk version
- //create desk holders
+ //desk grid
  .header__desk {
     @extend .show-for-large-up;
     @include grid-column(12);
@@ -35,7 +31,9 @@
     .header-social {
       @include grid-column(4);
     }
-} //end desk holders
+} 
+
+
 
 //style desk header
  .header__desk {

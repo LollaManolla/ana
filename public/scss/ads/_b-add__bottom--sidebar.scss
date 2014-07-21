@@ -1,5 +1,5 @@
+//set grid
 .b-add__bottom--sidebar {
-  text-align: center;
   @media #{$small-only} {
     @include grid-column(12);
   }
@@ -10,7 +10,6 @@
     @include grid-column(12);
   }
 }
-
 //set style
 .b-add__bottom--sidebar {
   text-align: center;

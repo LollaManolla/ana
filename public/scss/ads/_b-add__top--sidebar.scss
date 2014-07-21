@@ -1,6 +1,5 @@
-//set holders
-.b-add__top--sidebar {
-  text-align: center;
+//set grid
+.b-add__top--sidebar { 
   @media #{$small-only} {
     @include grid-column(12);
   }
@@ -8,12 +7,11 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(4, $collapse:true);
+    @include grid-column(4);
   }
 }
-
-//style
-.b-add__top--sidebar {
+//set style
+.b-add__top--sidebar  { 
   img {
     max-width: 100%;
     height: auto;

@@ -1,15 +1,29 @@
+//set grid
+ .b-teaser__featured--sidebar {
+    .wrapper {
+
+  }
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(6);
+    }
+    @media #{$large-up} {
+      @include grid-column(4);
+    }
+  }
+
+
 //set style
 .b-teaser__featured--sidebar {
-  .wrapper {
-  border:solid 1px  $gray-light;
-  padding:10px;
-  }
+
   margin: 0 0 35px;
   text-align: center;
   .featured-sidebar__list {
     list-style: none;
     margin: 0 0 35px;
-    padding: 0;
+  
     position: relative;
     overflow: hidden;
     >li {

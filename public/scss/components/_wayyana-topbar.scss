@@ -1,17 +1,15 @@
-//create holders
+//set grid
 .topbar__wayyana{
   @include grid-row();
   .wayyana {
     @include grid-column(12);
   }
 }
-
-//create visibility rules
+//set visibility
 .topbar {
   @extend .show-for-large-up;
-  }
-
-  //style top bar wayyana
+}
+//set style
 .topbar {
   background-color:$gray-light;
 }
@@ -30,7 +28,7 @@
     span {
       @include padding-left(33px);
       font-style: italic;
-       font-size: rem-calc(12);
+      font-size: rem-calc(12);
     }
   }
   .wayyana__link--register {
@@ -50,4 +48,4 @@
   .wayyana__link--register {
     font-size: rem-calc(12);
   }
-}//end style top bar wayyana
+}

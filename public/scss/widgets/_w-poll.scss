@@ -1,3 +1,18 @@
+//set grid
+.w-poll {
+    @media #{$small-only} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(6);
+    }
+    @media #{$large-up} {
+      @include grid-column(12, $collapse:true);
+    }
+  }
+
+
+
 //set holders 
 .w-poll {
   .wrapper {

@@ -1,19 +1,23 @@
-//set visibility rule
+//set grid
+.l-footer {
+  .wrapper {
+    @include grid-row();
+  }
+  .footer-category {
+    @include grid-column(3);
+  }
+}
+//set visibility
 .l-footer {
   @extend .show-for-large-up;
 }
-
 //set style
 .l-footer {
   background-color: $gray-light;
   margin-top:50px;
   .wrapper {
     padding-top:50px;
-    @include grid-row();
     padding-bottom:25px;
-  }
-  .footer-category {
-    @include grid-column(3);
   }
   .footer-category__title {
     color:$pink;

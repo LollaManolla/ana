@@ -1,4 +1,19 @@
-//set holders
+//set grid
+.b-product {
+  .wrapper {
+    @include grid-row();
+  }
+  @media #{$small-only} {
+    @include grid-column(12);
+  }
+  @media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(6);
+  }
+}
+
 .b-product {
   .product__img {
     @media #{$small-only} {
@@ -24,7 +39,7 @@
   }
 }
 
-//style block products
+//set style
 .b-product  {
   .product__title {
     font-size: rem-calc(18);

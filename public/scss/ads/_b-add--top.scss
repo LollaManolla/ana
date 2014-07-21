@@ -1,11 +1,23 @@
+  //set grid
+.b-add--top {
+  @include grid-column(12);
+  .wrapper {
+    @include grid-row($behavior: nest);
+  }
+}
+//set style
 .b-add--top{
-  @include grid-column(12, $center:true, $collapse:true);
-  clear: both;
   text-align:center;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+//set media
+.b-add--top {
   @media #{$small-only} {
     margin-bottom: 0;
     margin-top: 0;
+    img {
+      width: 100%;
+    }
   }
 }

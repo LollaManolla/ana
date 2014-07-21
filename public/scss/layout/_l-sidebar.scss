@@ -1,4 +1,4 @@
- //set main holder
+ //set grid
   .l-sidebar {
     .wrapper {
       @include grid-row();
@@ -13,51 +13,3 @@
       @include grid-column(4);
     }
   }
-
-
-
- //set block top holders elements 
- //teaser ft.sidebar
- .b-teaser__featured--sidebar {
-    @media #{$small-only} {
-      @include grid-column(12);
-    }
-    @media #{$medium-up} {
-      @include grid-column(6);
-    }
-    @media #{$large-up} {
-      @include grid-column(4);
-    }
-  }//end teaser ft.sidebar
-
-  //add top sidebar
-   .b-add__top--sidebar {
-      @media #{$small-only} {
-        @include grid-column(12);
-      }
-      @media #{$medium-up} {
-        @include grid-column(6);
-      }
-      @media #{$large-up} {
-        @include grid-column(4);
-      }     
-    }//end add top sidebar
-
-
-//set block bottom content holders
-.l-sidebar {
-  .b-add__middle--sidebar,
-  .w-poll,
-  .w-forum,
-  .b-add__bottom--sidebar {
-    @media #{$small-only} {
-      @include grid-column(12);
-    }
-    @media #{$medium-up} {
-      @include grid-column(6);
-    }
-    @media #{$large-up} {
-      @include grid-column(12, $collapse:true);
-    }
-  }
-}//end set block bottom content holders

@@ -1,4 +1,9 @@
-.b-add--bottom{
+//set grid
+.b-add--bottom {
+  @include grid-column(12, $center:true);
+  }
+  //set style
+.b-add--bottom {
   @include grid-column(12, $center:true);
   text-align:center;
   margin-top: 5px;
