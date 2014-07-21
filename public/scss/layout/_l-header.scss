@@ -2,6 +2,22 @@
   @include grid-row();
 }
 
+//main nav mobile version
+  //create visibility rules
+   .header__mob {
+    @extend .hide-for-large-up;
+  }
+
+//mobile version
+//create mob holders
+.header__mob {
+  @include grid-column(12, $collapse:true);
+      .wrapper {
+      @include grid-row();
+    }
+}//end mob holders
+
+
  //desk version
  //create desk holders
  .header__desk {

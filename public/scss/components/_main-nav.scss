@@ -1,18 +1,3 @@
-//main nav mobile version
-  //create visibility rules
-   .header__mob {
-    @extend .hide-for-large-up;
-  }
-
-//mobile version
-//create mob holders
-.header__mob {
-  @include grid-column(12, $collapse:true);
-      .wrapper {
-      @include grid-row();
-    }
-}//end mob holders
-
 //create mob style
 .header__mob {
   .main-nav {
