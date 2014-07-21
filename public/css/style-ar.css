@@ -3287,8 +3287,8 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles {
+  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     width: 100%;
@@ -3296,8 +3296,8 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles {
+  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     width: 33.33333%;
@@ -3305,8 +3305,8 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles {
+  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     width: 33.33333%;
@@ -3314,36 +3314,36 @@ p {
   }
 }
 
-/* line 19, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-video .featured-video__img {
+/* line 19, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-video .featured-video__img {
   min-width: 100%;
   width: 100%;
   height: auto;
 }
-/* line 24, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-video .featured-video__title {
+/* line 24, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-video .featured-video__title {
   text-transform: uppercase;
   color: #40d0ad;
   font-size: 1.5rem;
 }
-/* line 29, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-video .featured-video__subtitle {
+/* line 29, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-video .featured-video__subtitle {
   color: #333333;
   font-size: 1.375rem;
 }
-/* line 35, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list {
+/* line 35, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 39, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first {
+/* line 39, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first {
   position: relative;
   margin-bottom: 35px;
 }
-/* line 42, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
+/* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
   position: absolute;
   top: 0;
   text-align: center;
@@ -3352,30 +3352,30 @@ p {
   left: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
+  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 98px;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
+  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 120px;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
+  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 108px;
   }
 }
-/* line 59, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__img--top {
+/* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__img--top {
   min-width: 100%;
   height: auto;
 }
-/* line 63, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--first .featured-articles__title---top {
+/* line 63, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__title---top {
   position: absolute;
   bottom: 0;
   background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
@@ -3383,12 +3383,12 @@ p {
   padding: 8px;
   width: 100%;
 }
-/* line 72, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last {
+/* line 72, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
   position: relative;
 }
-/* line 74, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
+/* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
   position: absolute;
   top: 0;
   text-align: center;
@@ -3397,30 +3397,30 @@ p {
   left: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
+  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 96px;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
+  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 120px;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--home.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
+  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 108px;
   }
 }
-/* line 91, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__img--bottom {
+/* line 91, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__img--bottom {
   min-width: 100%;
   height: auto;
 }
-/* line 95, ../scss/blocks/_b-teaser__featured--home.scss */
-.b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last .featured-articles__title---bottom {
+/* line 95, ../scss/blocks/_b-teaser__featured--h.scss */
+.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__title---bottom {
   position: absolute;
   bottom: 0;
   background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
@@ -4317,7 +4317,7 @@ p {
 
 @media only screen and (max-width: 30em) {
   /* line 12, ../scss/pages/_home.scss */
-  .b-top__content--h .b-teaser__featured--home {
+  .b-top__content--h .b-teaser__featured--h {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -4326,7 +4326,7 @@ p {
 }
 @media only screen and (min-width: 30.001em) {
   /* line 12, ../scss/pages/_home.scss */
-  .b-top__content--h .b-teaser__featured--home {
+  .b-top__content--h .b-teaser__featured--h {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -4335,7 +4335,7 @@ p {
 }
 @media only screen and (min-width: 62.501em) {
   /* line 12, ../scss/pages/_home.scss */
-  .b-top__content--h .b-teaser__featured--home {
+  .b-top__content--h .b-teaser__featured--h {
     padding-left: 0;
     padding-right: 0;
     width: 66.66667%;
@@ -4823,19 +4823,19 @@ p {
 
 @media only screen and (max-width: 30em) {
   /* line 11, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last {
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
     margin-bottom: 35px;
   }
 }
 @media only screen and (min-width: 30.001em) {
   /* line 11, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last {
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
     margin-bottom: 35px;
   }
 }
 @media only screen and (min-width: 62.501em) {
   /* line 11, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--home .featured-articles .featured-articles__list .list__item--last {
+  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
     margin-bottom: 200px;
   }
 }

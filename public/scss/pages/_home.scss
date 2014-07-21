@@ -9,7 +9,7 @@
 
 //set block top holders elements 
 .b-top__content--h {
-  .b-teaser__featured--home {
+  .b-teaser__featured--h {
     @media #{$small-only} {
       @include grid-column(12, $collapse:true);
     }
