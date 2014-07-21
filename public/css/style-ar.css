@@ -3312,63 +3312,35 @@ p {
   }
 }
 
-@media only screen and (max-width: 30em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
-  .b-teaser__featured--h .featured-articles {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    width: 100%;
-    float: right;
-  }
-}
-@media only screen and (min-width: 30.001em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
-  .b-teaser__featured--h .featured-articles {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    width: 33.33333%;
-    float: right;
-  }
-}
-@media only screen and (min-width: 62.501em) {
-  /* line 3, ../scss/blocks/_b-teaser__featured--h.scss */
-  .b-teaser__featured--h .featured-articles {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    width: 33.33333%;
-    float: right;
-  }
-}
-
-/* line 19, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 4, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-video .featured-video__img {
   min-width: 100%;
   width: 100%;
   height: auto;
 }
-/* line 24, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 9, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-video .featured-video__title {
   text-transform: uppercase;
   color: #40d0ad;
   font-size: 1.5rem;
 }
-/* line 29, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 14, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-video .featured-video__subtitle {
   color: #333333;
   font-size: 1.375rem;
 }
-/* line 35, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 20, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 39, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 24, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first {
   position: relative;
   margin-bottom: 35px;
 }
-/* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 27, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
   position: absolute;
   top: 0;
@@ -3378,29 +3350,29 @@ p {
   left: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 27, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 98px;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 27, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 120px;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 42, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 27, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__category---top {
     width: 108px;
   }
 }
-/* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 44, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__img--top {
   min-width: 100%;
   height: auto;
 }
-/* line 63, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 48, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--first .featured-articles__title---top {
   position: absolute;
   bottom: 0;
@@ -3409,11 +3381,11 @@ p {
   padding: 8px;
   width: 100%;
 }
-/* line 72, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 57, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
   position: relative;
 }
-/* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
   position: absolute;
   top: 0;
@@ -3423,29 +3395,29 @@ p {
   left: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 96px;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 120px;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 74, ../scss/blocks/_b-teaser__featured--h.scss */
+  /* line 59, ../scss/blocks/_b-teaser__featured--h.scss */
   .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__category---bottom {
     width: 108px;
   }
 }
-/* line 91, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 76, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__img--bottom {
   min-width: 100%;
   height: auto;
 }
-/* line 95, ../scss/blocks/_b-teaser__featured--h.scss */
+/* line 80, ../scss/blocks/_b-teaser__featured--h.scss */
 .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last .featured-articles__title---bottom {
   position: absolute;
   bottom: 0;
@@ -4372,8 +4344,8 @@ p {
 @media only screen and (max-width: 30em) {
   /* line 34, ../scss/pages/_home.scss */
   .b-top__content--h .featured-articles {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
     width: 100%;
     float: right;
   }
