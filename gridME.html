@@ -57,9 +57,9 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
     </nav>
     </div>
   </div>
-  <div class="header__mobD show-for-small-only small-12 columns">
+  <div class="header__mobD hide-for-large-up small-12 columns">
   <div class="wrapper row collapse">
-    <ul class="main-nav">
+    <ul class="main-nav large-12 columns">
       <li class="menu"><a href="#" title="">menu</a></li>
       <li class="user"><a href="#" title="">user</a></li>
       <li class="search"><a href="#" title="">search</a></li>
@@ -69,7 +69,7 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
     </div>
     
   <div class="b-add--topD large-12 columns">
-  <div class="wrapperD row collapse">
+  <div class="wrapperD row">
   <img alt="image title" data-interchange="[public/assets/images/interchange/banner-small.jpg, (only screen and (min-width: 1px))], [public/assets/images/interchange/banner-large.jpg, (only screen and (min-width: 480px))]"> 
   </div>
   </div>
@@ -81,46 +81,48 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
 <section class="l-contentD row">
 
 <div class="UKRAS top-holder nema column iroww" style="background-color:pink;">
-<div class="row">
-<div class="VIDEO HOLDER small-12 medium-12 large-8     columns" style="background-color:#CCC;">
-<div class="row">
-<div class="ILI OVDE VIDEO small-12 medium-8 large-8 columns">
-<img data-interchange="[public/assets/images/interchange/video-feature-small.jpg, (small)], [public/assets/images/interchange/video-feature-medium.jpg, (medium], [public/assets/images/interchange/video-feature-large.jpg, (large)]," alt="image title" class="featured-video__img" data-uuid="interchange-hxvt16po1" src="public/assets/images/interchange/video-feature-large.jpg">
-<p class="">Spring Theme</p>
-<p class="">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+<div class="row ">
+<div class="b__three-articles small-12 medium-12 large-8 columns b-three-articles" style="background-color:#CCC;">
+<div class="row b__three-articles--content">
+<div class="content-block small-12 medium-8 large-8 columns">
+<img data-interchange="[public/assets/images/interchange/video-feature-small.jpg, (small)], [public/assets/images/interchange/video-feature-medium.jpg, (medium], [public/assets/images/interchange/video-feature-large.jpg, (large)]," alt="image title" class="content-block__img" data-uuid="interchange-hxvt16po1" src="public/assets/images/interchange/video-feature-large.jpg">
+<p class="content-block__title">Spring Theme</p>
+<p class="content-block__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
 </div>
-<div class="IPSsmall-12 medium-4 large-4 columns" >
-<ul class="" style="margin:0; padding:0; list-style:none; font-size:11px;">
-              <li class=""> 
-              <span class="" >Tips</span> 
-              <img class="" src="public/assets/images/example-images/tips.jpg" alt="image title">
-                <p class="" >Tips text of the printing and typesetting text</p>
+<div class="content-list small-12 medium-4 large-4 columns" >
+<ul class="content-list__items">
+              <li class="list__item--top"> 
+              <span class="list__item--top-label">Tips</span> 
+              <img class="list__item--top-img" src="public/assets/images/example-images/tips.jpg" alt="image title">
+              <p class="list__item--top-title" >Tips text of the printing and typesetting text</p>
               </li>
-              <li class=""> 
-              <img class="" src="public/assets/images/example-images/howto.jpg" alt="image title">
-                <p class="" >How to...</p>
-                <p class=""> Dummy text of the printing and typesetting</p>
+               <li class="list__item--bottom"> 
+               <p class="list__item--bottom-label">How to...</p> 
+              <img class="list__item--bottom-img" src="public/assets/images/example-images/howto.jpg" alt="image title">           
+                <p class="list__item--bottom-title"> Dummy text of the printing and typesetting</p>
               </li>
             </ul>
 
 </div>
 </div>
 </div>
-<div class="BOCICE small-12 medium-6  large-4   columns " style="background-color:#999; height:450px;">
-<ul class="">
-            <li class=""><img class="" src="public/assets/images/example-images/bottles.jpg" alt="image title"></li>
-            <li class="">
-              <p class="">Shiseido   Collection</p>
-              <p class="">Brand name</p>
+<div class="b__trigger small-12 medium-6  large-4   columns " style="background-color:#999; height:482px;">
+<ul class="b__trigger--list">
+            <li class="list__item--img"><img class="" src="public/assets/images/example-images/bottles.jpg" alt="image title"></li>
+            <li class="list__item--content">
+              <p class="list__item--title">Shiseido   Collection</p>
+              <p class="list__item--subtitle">Brand name</p>
             </li>
-            <li class="">134 <span>review</span></li>
+            <li class="list__item--reviewCount">134 <span>review</span></li>
           </ul>
-<a class="">Write a review</a>
+<a class="b__trigger--btn">Write a review</a>
 </div>
 <div>
  
   
-<div class="CLOE small-12 medium-6   large-4   large-push-8  columns" style="background-color:#666;"><img src="public/assets/images/example-images/mpu.jpg" alt="image title"></div>
+<div class="b__mpu1-sidebar small-12 medium-6   large-4   large-push-8  columns" style="background-color:#666;">
+<img src="public/assets/images/example-images/mpu.jpg" alt="image title">
+</div>
 <div class="TOPRATED small-12 medium-12 large-8 large-pull-4  columns" style="background-color:#ededed;">
 <div class="">
             <h2 class="">Top rated <span>this week</span></h2>
@@ -151,23 +153,209 @@ Note 2: 'Nb cols' parameter for Bootstrap only.
 
 <div class="UKRAS small-12 medium-12 large-8  columns" style="background-color:peru;">
 <div class="row">
-<div class="GET THE LOOK small-12 medium-12 large-12  columns" style="background-color:#ccc;">5 getthelook</div>
-<div class="RECENT REVIEWsmall-12 medium-12 large-12 columns " style="background-color:#999;">6 recent review</div>
-<div class="MOST RATEDsmall-12 medium-12 large-12 columns" style="background-color:#ededed;">7 mostrated</div>
+<div class="b__video i small-12 medium-12 large-12  columns" style="background-color:#ccc;">
+
+
+            <h2 class="b__video--section-title">Get <span>the look</span></h2>
+            <div class="b__video__content"> 
+            <img class="b__video__img" src="public/assets/images/example-images/getthelook.jpg" alt="image title">
+              <p class="b__video__title">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            </div>
+        
+          
+
+</div>
+<div class="b__scroll-3thumbs recent-review-products small-12 medium-12 large-12 columns " style="background-color:#999;">
+
+
+            <h2 class="scroll-3thumbs__section-title">Recently reviewed <span>products</span></h2>
+            <div class="scroll-3thumbs__content">
+              <div class="list-item"> 
+              <img class="list-item__img" src="public/assets/images/example-images/slide1.jpg" alt="image title">
+                <div class="w-rating"><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+                <p class="list-item__title">Oasis Rhino Repair</p>
+                <p class="list-item__subtitle">Brand name</p>
+                <p class="list-item__prodCounter">17 reviews</p>
+              </div>
+              <div class="item"> 
+              <img class="item__img" src="public/assets/images/example-images/slide2.jpg" alt="image title">
+                <div><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+                <p class="item__title">Oasis Rhino Repair</p>
+                <p class="item__subtitle">Brand name</p>
+                <p class="item__counter">17 reviews</p>
+              </div>
+              <div class="item"> 
+              <img class="item__img" src="public/assets/images/example-images/slide3.jpg" alt="image title">
+                <div><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+                <p class="item__title">Oasis Rhino Repair</p>
+                <p class="item__subtitle">Brand name</p>
+                <p class="item__counter">17 reviews</p>
+              </div>
+              <div class="item"> 
+              <img class="item__img" src="public/assets/images/example-images/slide2.jpg" alt="image title">
+                <div><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+                <p class="item__title">Oasis Rhino Repair</p>
+                <p class="item__subtitle">Brand name</p>
+                <p class="item__counter">17 reviews</p>
+              </div>
+            </div>
+            <a href="#" title="" class="scroll-3thumbs--bnt"><span class="probaj inlcude na span">See more</span></a> 
+           
+            
+
+
+
+</div>
+<div class="MOST RATEDsmall-12 medium-12 large-12 columns" style="background-color:#ededed;">
+
+<h2 class="NESTO__section-title">Recently reviewed <span>products</span></h2>
+
+<div class="row">
+<div class="media review large-6 columns">
+<div class="media__item">
+<a href="#" title="">
+<img src="public/assets/images/example-images/article-review.jpg" alt="image title">
+</a>
+</div>
+<div class="media__body">
+<a href="#" title="" class="author">freja beha</a>
+<p class="title">Best Handcream I've ever used!</p>
+<p class="subtitle">Best Handcream I've ever used!I have naturallas, and have tried and wasted so much</p>
+<a href="#" class="link" title="">read more</a>
+</div>
+</div>
+
+<div class="media product large-6 columns">
+<p class="heading">Nivea Stress Protect Deodorant Aerosol</p>
+<div class="media__item">
+<a href="#" title="">
+<img src="public/assets/images/example-images/article-product.jpg" alt="image title">
+</a>
+</div>
+<div class="media__body" style="display: block; float: left;padding-left: 5%;width: 70%;">
+<div><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+<a href="#" title="" class="prodCount">17 recent (386 total)</a>
+<p class="titlw">Aerosol is scientifically proven to protect</p>
+<a href="#" title="" class="link">read more</a> 
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="media review large-6 columns">
+<div class="media__item">
+<a href="#" title="">
+<img src="public/assets/images/example-images/article-review.jpg" alt="image title">
+</a>
+</div>
+<div class="media__body">
+<a href="#" title="" class="author">freja beha</a>
+<p class="title">Best Handcream I've ever used!</p>
+<p class="subtitle">Best Handcream I've ever used!I have naturallas, and have tried and wasted so much</p>
+<a href="#" class="link" title="">read more</a>
+</div>
+</div>
+
+<div class="media product large-6 columns">
+<p class="heading">Nivea Stress Protect Deodorant Aerosol</p>
+<div class="media__item">
+<a href="#" title="">
+<img src="public/assets/images/example-images/article-product.jpg" alt="image title">
+</a>
+</div>
+<div class="media__body" style="display: block; float: left;padding-left: 5%;width: 70%;">
+<div><img src="public/assets/images/example-images/w-rates.png" alt="image title"></div>
+<a href="#" title="" class="prodCount">17 recent (386 total)</a>
+<p class="titlw">Aerosol is scientifically proven to protect</p>
+<a href="#" title="" class="link">read more</a> 
+</div>
+</div>
+</div>
+
+</div>
 </div>
 </div>
 
 <div class="UKRAS small-12 medium-12 large-4  columns" style="background-color:yellowgreen;">
 <div class="row">
-<div class="BALONI small-12 medium-6 medium-push-6 large-12  large-reset-order columns " style="background-color:#ccc;">8 baloni</div>
-<div class="FORUM show-for-medium-up medium-pull-6 medium-6   large-reset-order large-12 columns " style="background-color:red;">11 forum</div>
-<div class="POLL small-12 medium-6 medium-push-6 large-12 large-reset-order columns" style="background-color:#666;">9 poll</div>
-<div class="CLOE small-12 medium-6 medium-pull-6 large-12 large-reset-order columns" style="background-color:#999;">10 cloe </div>
+<div class="b_counter small-12 medium-6 medium-push-6 large-12  large-reset-order columns " style="background-color:#ccc;">
+<p>Beauty<span>review</span></p>
+<p>Are you new?</p>
+<p>You can earn rewards too!</p>
+<p class="productCount">2320<span>product</span></p>
+<p class="reviewCount">1250<span>review</span></span>
+<a href="b__counter--btn">Find out more</a>
+</div>
+<div class="w-forum show-for-medium-up medium-pull-6 medium-6   large-reset-order large-12 columns " style="background-color:red;">
+
+
+              <p class="forum__title">Forum</p>
+              <div class="forum__content">
+                <p class="content__title">Popularised in the 1960s with the release of Letraset sheets containing</p>
+                <p class="content__data"> 
+                <span class="data__comments">13</span> 
+                <span class="data__user">by <a href="#" title="" class="data__user--name">user name</a></span> 
+                <span class="data__post-day">5 days ago</span> 
+                </p>
+              </div>
+              <div class="forum__content">
+                <p class="content__title">Popularised in the 1960s with the release of Letraset sheets containing</p>
+                <p class="content__data"> 
+                <span class="data__comments">13</span> 
+                <span class="data__user">by <a href="#" title="" class="data__user--name">user name</a></span> 
+                <span class="data__post-day">5 days ago</span> 
+                </p>
+              </div>
+              <div class="forum__content">
+                <p class="content__title">Popularised in the 1960s with the release of Letraset sheets containing</p>
+                <p class="content__data"> 
+                <span class="data__comments">13</span> 
+                <span class="data__user">by <a href="#" title="" class="data__user--name">user name</a></span> 
+                <span class="data__post-day">5 days ago</span> 
+                </p>
+              </div>
+        
+
+          
+
+</div>
+<div class="w-poll small-12 medium-6 medium-push-6 large-12 large-reset-order columns" style="background-color:#666;">
+
+           <p class="w-poll__title">Poll</p>
+              <div class="w-poll__img--full" > 
+              <img class="w-poll__img" src="public/assets/images/example-images/poll.jpg" alt="image title"> 
+              </div>
+              <p class="w-poll__subtitle">It was popularised in the 1960s with the release of Letraset sheets containing ?</p>
+              <form>
+                <fieldset class="w-poll__fieldset">
+                  <input type="radio" class="w-poll__input">
+                  <label class="w-poll__label">answer one</label>
+                </fieldset>
+                <fieldset class="w-poll__fieldset">
+                  <input type="radio" class="w-poll__input">
+                  <label class="w-poll__label">answer one</label>
+                </fieldset>
+              </form>
+          
+      
+          
+
+</div>
+<div class="b__mpu2-sidebarsmall-12 medium-6 medium-pull-6 large-12 large-reset-order columns" style="background-color:#999;">
+
+<img src="public/assets/images/example-images/mpu.jpg" alt="image title">
+
+
+ </div>
 </div>
 </div>
 
 
-
+<div class="b-add--bottomD large-12 columns">
+  <div class="wrapperD row">
+  <img data-interchange="[public/assets/images/interchange/banner-small.jpg, (only screen and (min-width: 1px))], [public/assets/images/interchange/banner-large.jpg, (only screen and (min-width: 480px))]" alt="image title" data-uuid="interchange-hxwai18k0" src="public/assets/images/interchange/banner-large.jpg"> 
+  </div>
+  </div>
 
 
 </section>
