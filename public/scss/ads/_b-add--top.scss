@@ -1,18 +1,18 @@
   //set grid
-.b-add--top {
-  @include grid-column(12);
-  .wrapper {
-    @include grid-row($behavior: nest);
+.b-ad__top {
+  @include grid-column(12, $collapse:true);
+  .b-add__top-content {
+    @include grid-row();
   }
 }
 //set style
-.b-add--top{
+.b-ad__top{
   text-align:center;
   margin-top: 5px;
   margin-bottom: 15px;
 }
 //set media
-.b-add--top {
+.b-ad__top {
   @media #{$small-only} {
     margin-bottom: 0;
     margin-top: 0;

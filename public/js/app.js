@@ -12,7 +12,7 @@ $( ".header__mob-content .main-nav__search" ).click(function() {
 
 //start owl carousel
 $(document).ready(function() {
-	$(".b-teaser__products-top--h .products-top__list").owlCarousel({
+	$(".b-scroll-3thumbs__list").owlCarousel({
 		items : 3,
 		itemsDesktop: [1199,3],
 		itemsMobile : [479,1],		

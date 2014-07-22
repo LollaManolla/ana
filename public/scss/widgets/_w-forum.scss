@@ -1,27 +1,14 @@
 //set grid
 //set block bottom content holders
   .w-forum{
-    @media #{$small-only} {
-      @include grid-column(12);
-    }
-    @media #{$medium-up} {
-      @include grid-column(6);
-    }
-    @media #{$large-up} {
-      @include grid-column(12, $collapse:true);
-    }
-  }
 
+  }
 
 
 
 //set visibility rules
 .w-forum {
   @extend .show-for-medium-up;
-  .wrapper {
-  border:solid 1px $gray-light;
-  padding: 10px;
-  }
 }//end set holders
 
 

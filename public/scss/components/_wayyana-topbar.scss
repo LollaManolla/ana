@@ -14,6 +14,7 @@
   background-color:$gray-light;
 }
 .topbar__wayyana{
+  @include text-align(right);
   .wayyana {
     height: 30px;
     vertical-align: middle;
@@ -24,7 +25,9 @@
   }
   .wayyana__logo {
     vertical-align: middle;
-    display: inline-block;
+    display: block;
+    @include float(left);
+    margin-top: 2px;
     span {
       @include padding-left(33px);
       font-style: italic;
@@ -32,7 +35,6 @@
     }
   }
   .wayyana__link--register {
-    @include margin-left(81%);
     &:after {
       content: "|";
       margin-top: -6px;

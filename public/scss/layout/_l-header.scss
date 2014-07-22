@@ -5,22 +5,25 @@
 
 
 //mob grid
+//set grid
+.header__mob {
+    @include grid-column(12, $collapse:true);
+    .header__mob-content {
+  @include grid-row($behavior: nest-collapse);
+    }
+  }
+//set visibility
 .header__mob {
     @extend .hide-for-large-up;
-  }
-.header__mob {
-  @include grid-column(12, $collapse:true);
-      .wrapper {
-      @include grid-row();
     }
-}
+
 
  //desk grid
  .header__desk {
     @extend .show-for-large-up;
     @include grid-column(12);
-    .wrapper {
-      @include grid-row($behavior: nest);
+    .header__desk--content {
+      @include grid-row();
     }
     .header-logo {
       @include grid-column(5);
@@ -29,7 +32,7 @@
       @include grid-column(3);
     }
     .header-social {
-      @include grid-column(4);
+      @include grid-column(4, $collapse:true);
     }
 } 
 

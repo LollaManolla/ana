@@ -20,7 +20,7 @@ $large-spacing: 30px;
 
 //header
 .header__mob {
-  .main-nav {
+  .main-nav { 
     .menu a {
       @include small-sprite(header-icon-hamburger);
     }
@@ -37,11 +37,11 @@ $large-spacing: 30px;
 }
 
 //home b-content__top--h
-.featured-articles__category---top {
+.b-three-articles .content-list .list__item--top-label {
     @include small-sprite(text-bgrnd-green); 
 }
 
-.featured-articles__category---bottom {
+.b-three-articles .content-list .list__item--bottom-label {
     @include small-sprite(text-bgrnd-yellow); 
 }
 
@@ -103,11 +103,11 @@ $large-spacing: 30px;
 
 
 //home b-content__top--h
-.featured-articles__category---top {
+.b-three-articles .content-list .list__item--top-label {
     @include medium-sprite(text-bgrnd-green); 
 }
 
-.featured-articles__category---bottom {
+.b-three-articles .content-list .list__item--bottom-label {
     @include medium-sprite(text-bgrnd-yellow); 
 }
   //widget forum
@@ -167,10 +167,10 @@ $large-spacing: 30px;
     }
   }
   //home b-content__top--h
-  .b-tsr__featured--h .featured-articles__category---top {
+.b-three-articles .content-list .list__item--top-label {
     @include large-sprite(text-bgrnd-green); 
   }
-  .b-tsr__featured--h .featured-articles__category---bottom {
+.b-three-articles .content-list .list__item--bottom-label {
     @include large-sprite(text-bgrnd-yellow); 
   }
  //home products-top__list owl-carousel owl-theme
