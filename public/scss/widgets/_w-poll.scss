@@ -5,32 +5,20 @@
   }
   @media #{$large-up} {
     @include grid-column(12);
-    margin-left: 0;
-    margin-right: 0;
-    left: auto;
-    right: auto;
-    @include float(left);
+  }
+  .w-poll__img--full {
+    @include grid-row(nest);
   }
 }
 
-
-
-//set holders 
-.w-poll {
-  .wrapper {
-    padding: 10px;
-    border:solid 1px $gray-light;
-  }
-}//end set holder
-
 //set style
 .w-poll {
+  clear: both;
   margin-bottom:35px;
   p {
     margin: 1rem 0 !important;
   }
   .w-poll__img--full {
-    @include grid-row(nest);
     .w-poll__img {
       max-width: 100%;
       width: 100%;
@@ -43,13 +31,37 @@
     color: $black;
     margin-top: 0 !important;
   }
+  .w-poll__subtitle {
+    color: $black;
+  }
   .w-poll__fieldset {
     border:none;
     padding: 0;
     margin: 0;
   }
+  .w-poll__label {
+    color: $gray-dark;
+  }
   .w-poll__input {
     position: relative;
     top:2px;
+  }
+}
+
+//media
+.w-poll {
+  @media #{$small-up} {
+    .w-poll__subtitle, .w-poll__label {
+      font-size: rem-calc(18);
+    }
+  }
+}
+.w-poll {
+@media #{$large-up} {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    @include float(left);
   }
 }

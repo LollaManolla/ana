@@ -24,6 +24,10 @@
   }
 }
 
+//set visibility
+.b-scroll-3thumbs .scroll-3thumbs__btn {
+  @extend .hidden-for-small-only;
+}
 
 
 
@@ -35,6 +39,7 @@
   text-transform: uppercase;
   border-bottom:solid 3px $green-light;
   font-size: rem-calc(24);
+  margin-bottom: 15px;
   span {
     color:$gray-dark;
   }
@@ -51,7 +56,6 @@
     display: block;
     width: 100%;
     height: auto;
-    border:solid 1px $gray-light;
   }
   .item__title {
     color: $black;
@@ -112,3 +116,11 @@
 
 
 //set media
+@media #{$small-only} {
+  .b-scroll-3thumbs__list .item__title, 
+  .b-scroll-3thumbs__list .item__subtitle,
+  .b-scroll-3thumbs__list .item__reviewCount {
+      font-size: rem-calc(20);
+      line-height: 1.3;
+  }
+}

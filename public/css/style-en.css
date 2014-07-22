@@ -2258,7 +2258,7 @@ label.error {
   }
 
   /* line 254, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hidden-for-small-only, .hidden-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xxlarge-only, .visible-for-xxlarge-up {
+  .hidden-for-small-only, .b-scroll-3thumbs .scroll-3thumbs__btn, .hidden-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xxlarge-only, .visible-for-xxlarge-up {
     position: absolute !important;
     height: 1px;
     width: 1px;
@@ -2304,7 +2304,7 @@ label.error {
   }
 
   /* line 251, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
+  .hidden-for-small-only, .b-scroll-3thumbs .scroll-3thumbs__btn, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
     position: static !important;
     height: auto;
     width: auto;
@@ -2359,7 +2359,7 @@ label.error {
   }
 
   /* line 251, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
+  .hidden-for-small-only, .b-scroll-3thumbs .scroll-3thumbs__btn, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
     position: static !important;
     height: auto;
     width: auto;
@@ -2414,7 +2414,7 @@ label.error {
   }
 
   /* line 251, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
+  .hidden-for-small-only, .b-scroll-3thumbs .scroll-3thumbs__btn, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up {
     position: static !important;
     height: auto;
     width: auto;
@@ -2469,7 +2469,7 @@ label.error {
   }
 
   /* line 251, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .hidden-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xxlarge-only, .visible-for-xxlarge-up {
+  .hidden-for-small-only, .b-scroll-3thumbs .scroll-3thumbs__btn, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .hidden-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xxlarge-only, .visible-for-xxlarge-up {
     position: static !important;
     height: auto;
     width: auto;
@@ -3364,25 +3364,28 @@ p {
   text-transform: uppercase;
   color: #40d0ad;
   font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
-/* line 53, ../scss/blocks/_b-three-articles.scss */
+/* line 55, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-block .content-block__subtitle {
   color: #333333;
   font-size: 1.375rem;
+  line-height: 1.3;
 }
-/* line 59, ../scss/blocks/_b-three-articles.scss */
+/* line 62, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-list .content-list__items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 65, ../scss/blocks/_b-three-articles.scss */
+/* line 68, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-list .list__item--top,
 .b-three-articles .content-list .list__item--bottom {
   position: relative;
   margin-bottom: 35px;
 }
-/* line 70, ../scss/blocks/_b-three-articles.scss */
+/* line 73, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-list .list__item--top-label,
 .b-three-articles .content-list .list__item--bottom-label {
   position: absolute;
@@ -3392,13 +3395,13 @@ p {
   text-transform: uppercase;
   right: 0;
 }
-/* line 79, ../scss/blocks/_b-three-articles.scss */
+/* line 82, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-list .list__item--top-img,
 .b-three-articles .content-list .list__item--bottom-img {
   min-width: 100%;
   height: auto;
 }
-/* line 84, ../scss/blocks/_b-three-articles.scss */
+/* line 87, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles .content-list .list__item--top-title,
 .b-three-articles .content-list .list__item--bottom-title {
   position: absolute;
@@ -3410,7 +3413,21 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 97, ../scss/blocks/_b-three-articles.scss */
+  /* line 100, ../scss/blocks/_b-three-articles.scss */
+  .b-three-articles .content-block {
+    margin-bottom: 35px;
+  }
+
+  /* line 104, ../scss/blocks/_b-three-articles.scss */
+  .b-three-articles .content-list .list__item--top-title,
+  .b-three-articles .content-list .list__item--bottom-title {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    padding: 8px 8px 12px;
+  }
+}
+@media only screen and (max-width: 30em) {
+  /* line 111, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 43px;
@@ -3418,10 +3435,11 @@ p {
     padding-top: 6px;
     right: -1px;
     width: 98px;
+    font-size: 1.125rem;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 97, ../scss/blocks/_b-three-articles.scss */
+  /* line 111, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 40px;
@@ -3431,7 +3449,7 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 97, ../scss/blocks/_b-three-articles.scss */
+  /* line 111, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     width: 108px;
@@ -3527,6 +3545,25 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
+  /* line 69, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--title,
+  .b-trigger .b-trigger__list .list__item--subtitle {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+
+  /* line 73, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--reviewCount {
+    font-size: 2.125rem;
+    line-height: 1;
+    padding: 14px 10px 10px;
+  }
+  /* line 77, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--reviewCount span {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 30em) {
   /* line 2, ../scss/blocks/_b-scroll-3thumbs.scss */
   .b-scroll-3thumbs.top-rated-week {
     padding-left: 0.6875rem;
@@ -3585,58 +3622,58 @@ p {
   }
 }
 
-/* line 31, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 35, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs {
   margin-bottom: 35px;
 }
 
-/* line 34, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 38, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__section-title {
   text-transform: uppercase;
   border-bottom: solid 3px #40d0ad;
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
-/* line 38, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 43, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__section-title span {
   color: #999999;
 }
 
-/* line 42, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 47, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list {
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 45, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 50, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list .item {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
 }
-/* line 50, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 55, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list .item__img {
   display: block;
   width: 100%;
   height: auto;
-  border: solid 1px #ededed;
 }
-/* line 56, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 60, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list .item__title {
   color: #333333;
   margin: 0;
   font-size: 0.9375rem;
 }
-/* line 61, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 65, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list .item__subtitle {
   color: #999999;
   margin: 0;
 }
-/* line 65, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 69, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list .item__reviewCount {
   color: #f64da3;
   margin: 0;
 }
 
-/* line 70, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 74, ../scss/blocks/_b-scroll-3thumbs.scss */
 .scroll-3thumbs__btn {
   display: block;
   float: right;
@@ -3644,13 +3681,13 @@ p {
   border-bottom: solid 1px #ededed;
   margin-top: 35px;
 }
-/* line 76, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 80, ../scss/blocks/_b-scroll-3thumbs.scss */
 .scroll-3thumbs__btn span {
   display: inline-block;
   float: right;
 }
 
-/* line 85, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 89, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-prev,
 .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
   position: absolute;
@@ -3660,7 +3697,7 @@ p {
   top: 18%;
 }
 @media only screen and (max-width: 30em) {
-  /* line 85, ../scss/blocks/_b-scroll-3thumbs.scss */
+  /* line 89, ../scss/blocks/_b-scroll-3thumbs.scss */
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-prev,
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
     border: solid 1px #ededed;
@@ -3669,7 +3706,7 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 85, ../scss/blocks/_b-scroll-3thumbs.scss */
+  /* line 89, ../scss/blocks/_b-scroll-3thumbs.scss */
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-prev,
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
     width: 21px;
@@ -3677,22 +3714,31 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 85, ../scss/blocks/_b-scroll-3thumbs.scss */
+  /* line 89, ../scss/blocks/_b-scroll-3thumbs.scss */
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-prev,
   .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
     width: 17px;
     height: 35px;
   }
 }
-/* line 105, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 109, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-prev {
   left: 0;
 }
-/* line 108, ../scss/blocks/_b-scroll-3thumbs.scss */
+/* line 112, ../scss/blocks/_b-scroll-3thumbs.scss */
 .b-scroll-3thumbs__list.owl-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
   right: 0;
 }
 
+@media only screen and (max-width: 30em) {
+  /* line 122, ../scss/blocks/_b-scroll-3thumbs.scss */
+  .b-scroll-3thumbs__list .item__title,
+  .b-scroll-3thumbs__list .item__subtitle,
+  .b-scroll-3thumbs__list .item__reviewCount {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+}
 /* line 2, ../scss/blocks/_b-video.scss */
 .b-video {
   padding-left: 0.6875rem;
@@ -3710,33 +3756,32 @@ p {
   text-transform: uppercase;
   border-bottom: solid 3px #40d0ad;
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
-/* line 14, ../scss/blocks/_b-video.scss */
+/* line 15, ../scss/blocks/_b-video.scss */
 .b-video .b-video__section-title span {
   color: #999999;
 }
-/* line 18, ../scss/blocks/_b-video.scss */
-.b-video .b-video__content {
-  position: relative;
-}
-/* line 20, ../scss/blocks/_b-video.scss */
-.b-video .b-video__content .b-video__img {
-  /*width: 100%;
-  max-width: 100%;
-  height: auto;*/
-}
-/* line 26, ../scss/blocks/_b-video.scss */
+/* line 19, ../scss/blocks/_b-video.scss */
 .b-video .b-video__title {
-  background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  margin: 0;
   font-size: 1.5rem;
   color: #333333;
+  line-height: 1.3;
+  padding-top: 11px;
 }
 
+@media only screen and (max-width: 30em) {
+  /* line 29, ../scss/blocks/_b-video.scss */
+  .b-video .b-video__section-title {
+    margin-bottom: 5px;
+  }
+
+  /* line 32, ../scss/blocks/_b-video.scss */
+  .b-video .b-video__title {
+    font-size: 1.375rem;
+    line-height: 1.3;
+  }
+}
 /* line 2, ../scss/blocks/_b-review-products.scss */
 .b-review-products {
   padding-left: 0.6875rem;
@@ -3832,41 +3877,43 @@ p {
   text-transform: uppercase;
   border-bottom: solid 3px #40d0ad;
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
-/* line 34, ../scss/blocks/_b-review-products.scss */
+/* line 35, ../scss/blocks/_b-review-products.scss */
 .b-review-products__section-title span {
   color: #999999;
 }
 
-/* line 38, ../scss/blocks/_b-review-products.scss */
+/* line 39, ../scss/blocks/_b-review-products.scss */
 .product-content__title {
   color: #333333;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  padding-top: 3px;
+  padding-bottom: 10px;
 }
 
-/* line 41, ../scss/blocks/_b-review-products.scss */
+/* line 46, ../scss/blocks/_b-review-products.scss */
 .product-content__media {
   float: left;
   display: block;
   max-width: 38%;
-  border: solid 1px #ededed;
 }
 
-/* line 48, ../scss/blocks/_b-review-products.scss */
+/* line 52, ../scss/blocks/_b-review-products.scss */
 .product-content__body .prodCount, .product-content__body .title, .product-content__body a {
   font-size: 0.875rem;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  display: block;
 }
-/* line 51, ../scss/blocks/_b-review-products.scss */
+/* line 58, ../scss/blocks/_b-review-products.scss */
 .product-content__body .link__readmore {
   color: #40d0ad;
 }
 
-/* line 1, ../scss/blocks/_b-counter.scss */
-.b-counter {
-  text-align: center;
-  margin-bottom: 35px;
-}
 @media only screen {
-  /* line 1, ../scss/blocks/_b-counter.scss */
+  /* line 2, ../scss/blocks/_b-counter.scss */
   .b-counter {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
@@ -3875,7 +3922,7 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 1, ../scss/blocks/_b-counter.scss */
+  /* line 2, ../scss/blocks/_b-counter.scss */
   .b-counter {
     position: relative;
     padding-left: 0.6875rem;
@@ -3887,12 +3934,23 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 1, ../scss/blocks/_b-counter.scss */
+  /* line 2, ../scss/blocks/_b-counter.scss */
   .b-counter {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
     width: 100%;
     float: left;
+  }
+}
+
+/* line 15, ../scss/blocks/_b-counter.scss */
+.b-counter {
+  text-align: center;
+  margin-bottom: 35px;
+}
+@media only screen and (min-width: 62.501em) {
+  /* line 15, ../scss/blocks/_b-counter.scss */
+  .b-counter {
     margin-left: 0;
     margin-right: 0;
     left: auto;
@@ -3942,12 +4000,35 @@ p {
 /* line 19, ../scss/media-objects/_media.scss */
 .media .title {
   color: #333333;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  padding-top: 3px;
+  padding-bottom: 10px;
 }
-/* line 25, ../scss/media-objects/_media.scss */
+/* line 29, ../scss/media-objects/_media.scss */
 .media .link__readmore {
   color: #40d0ad;
 }
 
+@media only screen and (max-width: 30em) {
+  /* line 37, ../scss/media-objects/_media.scss */
+  .media .author, .media .subtitle, .media .link__readmore {
+    font-size: 1rem;
+  }
+
+  /* line 42, ../scss/media-objects/_media.scss */
+  .b-review-products__review,
+  .b-review-products__product {
+    margin-bottom: 25px;
+  }
+
+  /* line 47, ../scss/media-objects/_media.scss */
+  .product-content__body .prodCount,
+  .product-content__body .title,
+  .product-content__body a {
+    font-size: 1rem;
+  }
+}
 /* line 2, ../scss/components/_wayyana-topbar.scss */
 .topbar__wayyana {
   width: 100%;
@@ -4203,9 +4284,9 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 162, large/*.png */
+  /* line 170, large/*.png */
   .large-sprite, .wayyana__logo, .header__desk .header-logo, .header__desk .header-search__button, .header__desk .header-social__fb, .header__desk .header-social__tube, .header__desk .header-social__tweet, .header__desk .header-social__gplus, .header__desk .header-social__pinit, .header__desk .header-social__instg, .header__desk nav a.home, .b-three-articles .content-list .list__item--top-label, .b-three-articles .content-list .list__item--bottom-label, .b-scroll-3thumbs__list .owl-prev, .b-scroll-3thumbs__list .owl-next, .w-forum .data__comments {
-    background: url('../assets/images/large-sd97cefd432.png') no-repeat;
+    background: url('../assets/images/large-sf39e110850.png') no-repeat;
   }
 
   /* line 108, ../scss/sprites/_sprites.scss */
@@ -4364,29 +4445,9 @@ p {
     padding-right: 0.6875rem;
     width: 100%;
     float: left;
-    margin-left: 0;
-    margin-right: 0;
-    left: auto;
-    right: auto;
-    float: left;
   }
 }
-
-/* line 20, ../scss/widgets/_w-poll.scss */
-.w-poll .wrapper {
-  padding: 10px;
-  border: solid 1px #ededed;
-}
-
-/* line 27, ../scss/widgets/_w-poll.scss */
-.w-poll {
-  margin-bottom: 35px;
-}
-/* line 29, ../scss/widgets/_w-poll.scss */
-.w-poll p {
-  margin: 1rem 0 !important;
-}
-/* line 32, ../scss/widgets/_w-poll.scss */
+/* line 9, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__img--full {
   width: auto;
   margin-left: -0.6875rem;
@@ -4404,29 +4465,65 @@ p {
 .w-poll .w-poll__img--full:after {
   clear: both;
 }
-/* line 34, ../scss/widgets/_w-poll.scss */
+
+/* line 15, ../scss/widgets/_w-poll.scss */
+.w-poll {
+  clear: both;
+  margin-bottom: 35px;
+}
+/* line 18, ../scss/widgets/_w-poll.scss */
+.w-poll p {
+  margin: 1rem 0 !important;
+}
+/* line 22, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__img--full .w-poll__img {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
-/* line 40, ../scss/widgets/_w-poll.scss */
+/* line 28, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__title {
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #333333;
   margin-top: 0 !important;
 }
-/* line 46, ../scss/widgets/_w-poll.scss */
+/* line 34, ../scss/widgets/_w-poll.scss */
+.w-poll .w-poll__subtitle {
+  color: #333333;
+}
+/* line 37, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__fieldset {
   border: none;
   padding: 0;
   margin: 0;
 }
-/* line 51, ../scss/widgets/_w-poll.scss */
+/* line 42, ../scss/widgets/_w-poll.scss */
+.w-poll .w-poll__label {
+  color: #999999;
+}
+/* line 45, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__input {
   position: relative;
   top: 2px;
+}
+
+@media only screen {
+  /* line 54, ../scss/widgets/_w-poll.scss */
+  .w-poll .w-poll__subtitle, .w-poll .w-poll__label {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (min-width: 62.501em) {
+  /* line 59, ../scss/widgets/_w-poll.scss */
+  .w-poll {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left;
+  }
 }
 
 /* line 2, ../scss/ads/_b-add--top.scss */
@@ -4519,13 +4616,8 @@ p {
   }
 }
 
-/* line 1, ../scss/ads/_b-mpu__sidebar.scss */
-.b-mpu1__sidebar {
-  margin-top: 35px;
-  text-align: center;
-}
 @media only screen and (max-width: 30em) {
-  /* line 1, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 2, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu1__sidebar {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
@@ -4534,7 +4626,7 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 1, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 2, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu1__sidebar {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
@@ -4543,7 +4635,7 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 1, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 2, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu1__sidebar {
     position: relative;
     padding-left: 0.6875rem;
@@ -4555,12 +4647,8 @@ p {
   }
 }
 
-/* line 15, ../scss/ads/_b-mpu__sidebar.scss */
-.b-mpu2__sidebar {
-  text-align: center;
-}
 @media only screen and (max-width: 30em) {
-  /* line 15, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 14, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu2__sidebar {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
@@ -4569,7 +4657,7 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 15, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 14, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu2__sidebar {
     position: relative;
     padding-left: 0.6875rem;
@@ -4581,12 +4669,37 @@ p {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 15, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 14, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu2__sidebar {
     padding-left: 0.6875rem;
     padding-right: 0.6875rem;
     width: 100%;
     float: left;
+  }
+}
+
+/* line 27, ../scss/ads/_b-mpu__sidebar.scss */
+.b-mpu1__sidebar {
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* line 32, ../scss/ads/_b-mpu__sidebar.scss */
+.b-mpu2__sidebar {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 30em) {
+  /* line 38, ../scss/ads/_b-mpu__sidebar.scss */
+  .b-mpu1__sidebar {
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 62.501em) {
+  /* line 44, ../scss/ads/_b-mpu__sidebar.scss */
+  .b-mpu2__sidebar {
     margin-left: 0;
     margin-right: 0;
     left: auto;
@@ -4602,7 +4715,7 @@ p {
 
 /* line 7, ../scss/utilities/_hacks.scss */
 .header__mob .main-nav .logo a {
-  background-position: 0 5px;
+  background-position: 0 8px;
 }
 
 @media only screen and (max-width: 30em) {

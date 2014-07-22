@@ -1,6 +1,5 @@
+//set grid
 .b-mpu1__sidebar {
-  margin-top: 35px;
-  text-align: center;
   @media #{$small-only} {
     @include grid-column(12);
   }
@@ -13,7 +12,6 @@
 }
 
 .b-mpu2__sidebar {
-  text-align: center;
   @media #{$small-only} {
     @include grid-column(12);
   }
@@ -22,6 +20,29 @@
   }
   @media #{$large-up} {
     @include grid-column(12);
+  }
+}
+
+//set style
+.b-mpu1__sidebar {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.b-mpu2__sidebar {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+//set media rule
+.b-mpu1__sidebar {
+  @media #{$small-only} {
+    margin-bottom: 14px;
+  }
+}
+
+.b-mpu2__sidebar {
+  @media #{$large-up} {
     margin-left: 0;
     margin-right: 0;
     left: auto;

@@ -62,3 +62,20 @@
     }
   }
 }
+
+//set media
+  @media #{$small-only} {
+    .b-trigger .b-trigger__list .list__item--title,
+    .b-trigger .b-trigger__list .list__item--subtitle {
+      font-size: rem-calc(20);
+      line-height: 1.3;
+    }
+    .b-trigger .b-trigger__list .list__item--reviewCount {
+      font-size: rem-calc(34);
+      line-height: 1;
+      padding:14px 10px 10px;
+      span {
+        font-size:rem-calc(16);
+      }
+    }
+  }

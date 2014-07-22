@@ -18,11 +18,33 @@
   }
   .title {
     color: $black;
+    font-size: rem-calc(18);
+    line-height: 1.2;
+    padding-top: 3px;
+    padding-bottom:10px;
   }
   .subtitle {
 
   }
   .link__readmore {
     color: $green-light;
+  }
+}
+
+//set media
+@media #{$small-only} { 
+  .media {
+    .author, .subtitle, .link__readmore {
+      font-size: rem-calc(16);
+    }
+  }
+  .b-review-products__review, 
+  .b-review-products__product {
+    margin-bottom: 25px;
+  }
+  .product-content__body .prodCount, 
+  .product-content__body .title, 
+  .product-content__body a {
+          font-size: rem-calc(16);
   }
 }

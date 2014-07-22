@@ -31,22 +31,29 @@
   text-transform: uppercase;
   border-bottom:solid 3px $green-light;
   font-size: rem-calc(24);
+  margin-bottom: 15px;
   span {
     color:$gray-dark;
   }
 }
 .product-content__title {
-  color: $black;
+    color: $black;
+    font-size: rem-calc(18);
+    line-height: 1.2;
+    padding-top: 3px;
+    padding-bottom:10px;
 }
 .product-content__media {
   @include float(left);
   display: block;
   max-width: 38%;
-  border:solid 1px $gray-light;
 }
 .product-content__body {
   .prodCount, .title, a {
     font-size: rem-calc(14);
+       padding-bottom: 3px;
+    padding-top: 3px;
+    display: block;
   }
   .link__readmore {
     color: $green-light;

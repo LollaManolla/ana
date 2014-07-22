@@ -1,6 +1,5 @@
+//set grid
 .b-counter {
-  text-align: center;
-  margin-bottom:35px;
   @media #{$small-up} {
     @include grid-column(12);
   }
@@ -9,6 +8,14 @@
   }
   @media #{$large-up} {
     @include grid-column(12);
+  }
+}
+
+//set style
+.b-counter {
+  text-align: center;
+  margin-bottom:35px;
+  @media #{$large-up} {
     margin-left: 0;
     margin-right: 0;
     left: auto;
