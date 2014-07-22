@@ -1,0 +1,18 @@
+//set grid
+.b-top-home {
+  @include grid-column(12, $collapse:true);
+}
+.b-top-home__content {
+  @include grid-row($behavior: collapse);
+}
+.b-left-col-home{
+   @media #{$small-up} {
+    @include grid-column(12);
+  }
+  @media #{$large-up} {
+     @include grid-column(8);
+}
+}
+.b-left-col-home__content {
+    @include grid-row();
+}

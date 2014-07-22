@@ -1,0 +1,28 @@
+//set holders
+.media {
+  @include grid-row($behavior: nest);
+}
+.media__item { 
+  @include float(left);
+  display: block;
+  max-width: 25%;
+}
+.media__body {
+  @include grid-column(9);
+}
+
+//set style 
+.media {
+  p, a {
+    font-size: rem-calc(14);
+  }
+  .title {
+    color: $black;
+  }
+  .subtitle {
+
+  }
+  .link__readmore {
+    color: $green-light;
+  }
+}
