@@ -43,8 +43,13 @@
     color: $gray-dark;
   }
   .w-poll__input {
-    position: relative;
-    top:2px;
+    margin-bottom: 0;
+  }
+  .w-poll__btn-submit  {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 

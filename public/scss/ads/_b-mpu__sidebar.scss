@@ -27,17 +27,28 @@
 .b-mpu1__sidebar {
   margin-top: 35px;
   text-align: center;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .b-mpu2__sidebar {
     text-align: center;
     margin-bottom: 35px;
+      img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 //set media rule
 .b-mpu1__sidebar {
   @media #{$small-only} {
     margin-bottom: 14px;
+  }
+    @media #{$medium-only} {
+    margin-top: 0;
   }
 }
 

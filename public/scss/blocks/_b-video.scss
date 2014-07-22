@@ -16,13 +16,17 @@
       color:$gray-dark;
     }
   }
-  .b-video__title {
+    .b-video__img {
+      width: 100%;
+    }
+    .b-video__title {
     font-size: rem-calc(24);
     color: $black;
     line-height: 1.3;
      padding-top: 11px;
   }
-}
+} 
+
 
 //set media 
 @media #{$small-only} { 

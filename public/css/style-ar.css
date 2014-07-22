@@ -2820,7 +2820,21 @@ p {
   margin: 1rem 0;
 }
 
-/* line 26, ../scss/utilities/_buttons.scss */
+/* line 2, ../scss/utilities/_buttons.scss */
+button, .button {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  vertical-align: middle;
+}
+
+/* line 9, ../scss/utilities/_buttons.scss */
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: transparent;
+}
+
+/* line 39, ../scss/utilities/_buttons.scss */
 .b-trigger__btn {
   border-style: solid;
   border-width: 0px;
@@ -2843,6 +2857,7 @@ p {
   background-color: #008cba;
   border-color: #007095;
   color: white;
+  padding: 0.75rem 2rem;
   font-size: inherit;
   background-color: #40d0ad;
   color: white;
@@ -2862,12 +2877,12 @@ p {
 .b-trigger__btn:hover, .b-trigger__btn:focus {
   color: white;
 }
-/* line 13, ../scss/utilities/_buttons.scss */
+/* line 25, ../scss/utilities/_buttons.scss */
 .b-trigger__btn:hover {
   background-color: #1eab89;
 }
 
-/* line 30, ../scss/utilities/_buttons.scss */
+/* line 43, ../scss/utilities/_buttons.scss */
 .scroll-3thumbs__btn span {
   border-style: solid;
   border-width: 0px;
@@ -2890,6 +2905,7 @@ p {
   background-color: #008cba;
   border-color: #007095;
   color: white;
+  padding: 0.75rem 2rem;
   font-size: inherit;
   background-color: #40d0ad;
   color: white;
@@ -2904,6 +2920,7 @@ p {
   -moz-border-radius: 0px;
   border-radius: 0px;
   margin-bottom: 0;
+  padding: 0.5rem 1rem;
 }
 /* line 134, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .scroll-3thumbs__btn span:hover, .scroll-3thumbs__btn span:focus {
@@ -2913,9 +2930,63 @@ p {
 .scroll-3thumbs__btn span:hover, .scroll-3thumbs__btn span:focus {
   color: white;
 }
-/* line 13, ../scss/utilities/_buttons.scss */
+/* line 25, ../scss/utilities/_buttons.scss */
 .scroll-3thumbs__btn span:hover {
   background-color: #1eab89;
+}
+
+/* line 49, ../scss/utilities/_buttons.scss */
+.w-poll__btn-submit span {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: inherit;
+  background-color: #40d0ad;
+  color: white;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  width: 55%;
+  margin-bottom: 0;
+}
+/* line 134, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+.w-poll__btn-submit span:hover, .w-poll__btn-submit span:focus {
+  background-color: #007095;
+}
+/* line 145, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+.w-poll__btn-submit span:hover, .w-poll__btn-submit span:focus {
+  color: white;
+}
+/* line 25, ../scss/utilities/_buttons.scss */
+.w-poll__btn-submit span:hover {
+  background-color: #1eab89;
+}
+/* line 53, ../scss/utilities/_buttons.scss */
+.w-poll__btn-submit span:hover, .w-poll__btn-submit span:active, .w-poll__btn-submit span:focus {
+  background-color: #1eab89 !important;
 }
 
 /* line 2, ../scss/layout/_l-header.scss */
@@ -3425,9 +3496,8 @@ p {
     line-height: 1.3;
     padding: 8px 8px 12px;
   }
-}
-@media only screen and (max-width: 30em) {
-  /* line 111, ../scss/blocks/_b-three-articles.scss */
+
+  /* line 110, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 43px;
@@ -3439,17 +3509,29 @@ p {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 111, ../scss/blocks/_b-three-articles.scss */
+  /* line 121, ../scss/blocks/_b-three-articles.scss */
+  .b-ad__top {
+    margin-top: 13px !important;
+  }
+
+  /* line 125, ../scss/blocks/_b-three-articles.scss */
+  .b-three-articles .content-list .list__item--top-title,
+  .b-three-articles .content-list .list__item--bottom-title {
+    font-size: 1.125rem;
+    line-height: 1.2;
+  }
+
+  /* line 130, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 40px;
     padding-left: 14px;
     padding-top: 5px;
-    width: 120px;
+    width: 106px;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 111, ../scss/blocks/_b-three-articles.scss */
+  /* line 139, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     width: 108px;
@@ -3458,7 +3540,6 @@ p {
     right: -1px;
   }
 }
-
 @media only screen and (max-width: 30em) {
   /* line 2, ../scss/blocks/_b-trigger.scss */
   .b-trigger {
@@ -3504,40 +3585,44 @@ p {
   display: block;
   overflow: hidden;
 }
-/* line 29, ../scss/blocks/_b-trigger.scss */
+/* line 30, ../scss/blocks/_b-trigger.scss */
+.b-trigger .b-trigger__list .list__item--img img {
+  width: 100%;
+}
+/* line 34, ../scss/blocks/_b-trigger.scss */
 .b-trigger .b-trigger__list .list__item--content {
   bottom: 0;
   right: 0;
   position: absolute;
   background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
-  width: 100%;
+  width: 81%;
   padding-bottom: 15px;
-  padding-right: 53px;
   padding-top: 15px;
 }
-/* line 39, ../scss/blocks/_b-trigger.scss */
+/* line 43, ../scss/blocks/_b-trigger.scss */
 .b-trigger .b-trigger__list .list__item--title {
   font-size: 1.125rem;
   color: #333333;
 }
-/* line 43, ../scss/blocks/_b-trigger.scss */
+/* line 47, ../scss/blocks/_b-trigger.scss */
 .b-trigger .b-trigger__list .list__item--subtitle {
   font-size: 1rem;
   color: #999999;
 }
-/* line 47, ../scss/blocks/_b-trigger.scss */
+/* line 51, ../scss/blocks/_b-trigger.scss */
 .b-trigger .b-trigger__list .list__item--reviewCount {
   left: 0;
   position: absolute;
   background-color: #f64da3;
   color: white;
   font-size: 1.875rem;
-  padding: 5px 10px 10px;
+  padding: 16px 10px;
   font-weight: bold;
   text-transform: uppercase;
   bottom: 0;
+  line-height: 1;
 }
-/* line 57, ../scss/blocks/_b-trigger.scss */
+/* line 62, ../scss/blocks/_b-trigger.scss */
 .b-trigger .b-trigger__list .list__item--reviewCount span {
   font-size: 0.875rem;
   display: block;
@@ -3545,20 +3630,49 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 69, ../scss/blocks/_b-trigger.scss */
+  /* line 73, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--content {
+    width: 81%;
+  }
+
+  /* line 77, ../scss/blocks/_b-trigger.scss */
   .b-trigger .b-trigger__list .list__item--title,
   .b-trigger .b-trigger__list .list__item--subtitle {
     font-size: 1.25rem;
     line-height: 1.3;
   }
 
-  /* line 73, ../scss/blocks/_b-trigger.scss */
+  /* line 81, ../scss/blocks/_b-trigger.scss */
   .b-trigger .b-trigger__list .list__item--reviewCount {
     font-size: 2.125rem;
     line-height: 1;
-    padding: 14px 10px 10px;
+    padding: 13px 10px 10px;
   }
-  /* line 77, ../scss/blocks/_b-trigger.scss */
+  /* line 85, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--reviewCount span {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 30.001em) and (max-width: 62.5em) {
+  /* line 92, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--content {
+    width: 81%;
+  }
+
+  /* line 96, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--title,
+  .b-trigger .b-trigger__list .list__item--subtitle {
+    font-size: 1.375rem;
+    line-height: 1.3;
+  }
+
+  /* line 100, ../scss/blocks/_b-trigger.scss */
+  .b-trigger .b-trigger__list .list__item--reviewCount {
+    font-size: 2.125rem;
+    line-height: 1;
+    padding: 14px 10px;
+  }
+  /* line 104, ../scss/blocks/_b-trigger.scss */
   .b-trigger .b-trigger__list .list__item--reviewCount span {
     font-size: 1rem;
   }
@@ -3677,7 +3791,7 @@ p {
 .scroll-3thumbs__btn {
   display: block;
   float: left;
-  width: 100%;
+  width: 100% !important;
   border-bottom: solid 1px #ededed;
   margin-top: 35px;
 }
@@ -3763,6 +3877,10 @@ p {
   color: #999999;
 }
 /* line 19, ../scss/blocks/_b-video.scss */
+.b-video .b-video__img {
+  width: 100%;
+}
+/* line 22, ../scss/blocks/_b-video.scss */
 .b-video .b-video__title {
   font-size: 1.5rem;
   color: #333333;
@@ -3771,12 +3889,12 @@ p {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 29, ../scss/blocks/_b-video.scss */
+  /* line 33, ../scss/blocks/_b-video.scss */
   .b-video .b-video__section-title {
     margin-bottom: 5px;
   }
 
-  /* line 32, ../scss/blocks/_b-video.scss */
+  /* line 36, ../scss/blocks/_b-video.scss */
   .b-video .b-video__title {
     font-size: 1.375rem;
     line-height: 1.3;
@@ -4507,19 +4625,25 @@ p {
 }
 /* line 45, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__input {
-  position: relative;
-  top: 2px;
+  margin-bottom: 0;
+}
+/* line 48, ../scss/widgets/_w-poll.scss */
+.w-poll .w-poll__btn-submit {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 @media only screen {
-  /* line 54, ../scss/widgets/_w-poll.scss */
+  /* line 59, ../scss/widgets/_w-poll.scss */
   .w-poll .w-poll__subtitle, .w-poll .w-poll__label {
     font-size: 1.125rem;
   }
 }
 
 @media only screen and (min-width: 62.501em) {
-  /* line 59, ../scss/widgets/_w-poll.scss */
+  /* line 64, ../scss/widgets/_w-poll.scss */
   .w-poll {
     margin-left: 0;
     margin-right: 0;
@@ -4686,22 +4810,38 @@ p {
   margin-top: 35px;
   text-align: center;
 }
+/* line 30, ../scss/ads/_b-mpu__sidebar.scss */
+.b-mpu1__sidebar img {
+  width: 100%;
+  height: auto;
+}
 
-/* line 32, ../scss/ads/_b-mpu__sidebar.scss */
+/* line 36, ../scss/ads/_b-mpu__sidebar.scss */
 .b-mpu2__sidebar {
   text-align: center;
   margin-bottom: 35px;
 }
+/* line 39, ../scss/ads/_b-mpu__sidebar.scss */
+.b-mpu2__sidebar img {
+  width: 100%;
+  height: auto;
+}
 
 @media only screen and (max-width: 30em) {
-  /* line 38, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 46, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu1__sidebar {
     margin-bottom: 14px;
   }
 }
+@media only screen and (min-width: 30.001em) and (max-width: 62.5em) {
+  /* line 46, ../scss/ads/_b-mpu__sidebar.scss */
+  .b-mpu1__sidebar {
+    margin-top: 0;
+  }
+}
 
 @media only screen and (min-width: 62.501em) {
-  /* line 44, ../scss/ads/_b-mpu__sidebar.scss */
+  /* line 55, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu2__sidebar {
     margin-left: 0;
     margin-right: 0;

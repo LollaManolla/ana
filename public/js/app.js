@@ -15,6 +15,7 @@ $(document).ready(function() {
 	$(".b-scroll-3thumbs__list").owlCarousel({
 		items : 3,
 		itemsDesktop: [1199,3],
+		itemsTablet: [600,2], 
 		itemsMobile : [479,1],		
 		navigation: true,
 		navigationText: ["&nbsp;","&nbsp;"],
