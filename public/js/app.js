@@ -22,15 +22,3 @@ $(document).ready(function() {
 
 	});
 });
-
-$(document).ready(function() {
-	$(".b-teaser__products-bottom--h .products-bottom__list").owlCarousel({
-		items : 3,
-		itemsDesktop: [1199,3],
-		itemsMobile : [479,1],
-		navigation: true,
-		navigationText: ["&nbsp;","&nbsp;"],
-		pagination: false
-
-	});
-});

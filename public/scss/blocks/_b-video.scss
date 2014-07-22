@@ -1,14 +1,6 @@
 //set grid
 .b-video {
-  @media #{$small-only} {
     @include grid-column(12);
-  }
-  @media #{$medium-up} {
-    @include grid-column(12);
-  }
-  @media #{$large-up} {
-    @include grid-column(12);
-  }
 }
 
 
@@ -25,6 +17,11 @@
   }
   .b-video__content {
     position: relative;
+    .b-video__img {
+      /*width: 100%;
+      max-width: 100%;
+      height: auto;*/
+    }
   }
   .b-video__title {
     background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;

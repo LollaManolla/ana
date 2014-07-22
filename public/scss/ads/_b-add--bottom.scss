@@ -1,11 +1,23 @@
-//set grid
-.b-add--bottom {
-  @include grid-column(12, $center:true);
+  //set grid
+.b-ad__bottom {
+  @include grid-column(12, $collapse:true);
+  .b-add__bottom-content {
+    @include grid-row();
   }
-  //set style
-.b-add--bottom {
-  @include grid-column(12, $center:true);
+}
+//set style
+.b-ad__bottom {
   text-align:center;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+//set media
+.b-ad__bottom {
+  @media #{$small-only} {
+    margin-bottom: 0;
+    margin-top: 0;
+    img {
+      width: 100%;
+    }
+  }
 }

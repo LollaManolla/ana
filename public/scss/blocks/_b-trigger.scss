@@ -16,20 +16,18 @@
 //set style
 .b-trigger {
   text-align: center;
-   min-height: 356px;
+  min-height: 356px;
   .b-trigger__list {
-    border:solid 1px $gray-light;
     list-style: none;
     margin: 0 0 35px;
-    padding: 10px;
+    padding:0;
     position: relative;
     >li {
-
       display: block;
       overflow: hidden;
     }
     .list__item--content {
-            bottom: 0;
+      bottom: 0;
       @include left(0);
       position: absolute;
       background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
@@ -38,16 +36,16 @@
       padding-right: 53px;
       padding-top: 15px;
     }
-     .list__item--title {
-        font-size: rem-calc(18);
-        color: $black;
-      }
-            .list__item--subtitle {
-        font-size: rem-calc(16);
-        color: $gray-dark;
-      }
-      .list__item--reviewCount {
-          @include right(0);
+    .list__item--title {
+      font-size: rem-calc(18);
+      color: $black;
+    }
+    .list__item--subtitle {
+      font-size: rem-calc(16);
+      color: $gray-dark;
+    }
+    .list__item--reviewCount {
+      @include right(0);
       position: absolute;
       background-color: $pink;
       color: $white;
@@ -61,6 +59,6 @@
         display: block;
         font-weight: normal;
       }
-      }
+    }
   }
 }

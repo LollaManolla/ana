@@ -54,46 +54,36 @@
 @import "layout/l-footer";
 @import "layout/l-sidebar";
 
+//pages
+@import "pages/home";
+
 
 //blocks
 @import "blocks/b-three-articles";
 @import "blocks/b-trigger";
 @import "blocks/b-scroll-3thumbs";
 @import "blocks/b-video";
+@import "blocks/b-review-products";
+@import "blocks/b-counter";
 
-/*@import "blocks/b-teaser__featured--sidebar";
-@import "blocks/b-teaser__products-top--h";
-@import "blocks/b-teaser__category--h";
-@import "blocks/b-teaser__products-bottom--h";
-@import "blocks/b-teaser__mix-content--h";
-@import "blocks/b-product";
+//media
+@import "media-objects/media";
 
 //components*/
 @import "components/wayyana-topbar";
-@import "components/main-nav";/*
-@import "components/owl-carousel";*/
+@import "components/main-nav";
 
 //sprites
 @import "sprites/sprites";
-/*
-//pages
-@import "pages/home";
 
-//media object
-@import "media-objects/media-small";
-*/
 //widgets
 @import "widgets/w-forum";
  @import "widgets/w-poll";
 
- //ads*/
+ //ads
 @import "ads/b-add--top";
 @import "ads/b-add--bottom";
-@import "ads/b-mpu1__sidebar";
-/*@import "ads/b-add__top--sidebar ";
-@import "ads/b-add__middle--sidebar ";
-@import "ads/b-add__bottom--sidebar";*/
-
+@import "ads/b-mpu__sidebar";
 
 
  //hacks

@@ -31,6 +31,12 @@
 }
 
 
+//not sure where to put this and if code for this is good
+.col-border {
+  border:solid 1px $gray-light;
+  padding: 10px;
+}
+
 // android default browser font issue will be fixed like this:
 // .ua-os-name-android.ua-browser-name-safari  .namefclass {
  //   white-space: pre;

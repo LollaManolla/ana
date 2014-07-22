@@ -20,7 +20,7 @@
     @include grid-column(12);
   }
   @media #{$large-up} {
-    @include grid-column(8);
+    @include grid-column(12);
   }
 }
 
@@ -39,7 +39,6 @@
     color:$gray-dark;
   }
 }
-
 .b-scroll-3thumbs__list {
   padding-left:30px;
   padding-right: 30px;
@@ -68,16 +67,48 @@
     margin: 0;
   }
 }
-
 .scroll-3thumbs__btn {
   display: block;
   @include float(right);
   width: 100%;
   border-bottom: solid 1px $gray-light;
+  margin-top:35px;
   span {
     display: inline-block;
     @include float(right);
   }
 }
+
+.b-scroll-3thumbs__list.owl-carousel.owl-theme {
+  //Styling Next and Prev buttons 
+  .owl-controls .owl-buttons .owl-prev,
+  .owl-controls .owl-buttons .owl-next {
+    @media #{$small-only} {
+      border:solid 1px $gray-light;
+       width: 41px;
+       height: 72px;
+    }
+    @media #{$medium-up} {
+      width: 21px;
+      height: 40px;
+    }
+      @media #{$large-up} {
+      width: 17px;
+      height: 35px;
+    }
+    position: absolute;
+    font-size: rem-calc(30);
+    display: inline-block;
+    zoom: 1;
+    top: 18%;
+  }
+  .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+  }
+  .owl-controls .owl-buttons .owl-next {
+    right: 0;
+  }
+}//end products-top__list
+
 
 //set media

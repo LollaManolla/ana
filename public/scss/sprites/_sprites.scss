@@ -45,19 +45,11 @@ $large-spacing: 30px;
     @include small-sprite(text-bgrnd-yellow); 
 }
 
- //home products-top__list owl-carousel owl-theme
-  .b-teaser__products-top--h .products-top__list .owl-prev {
+ //b-scroll-3thumbs__list carousel arrows
+  .b-scroll-3thumbs__list .owl-prev {
     @include small-sprite(carousel-arrow-left);
   }
-  .b-teaser__products-top--h .products-top__list .owl-next {
-    @include small-sprite(carousel-arrow-right);
-  }
-
-   //home products-bottom__list owl-carousel owl-theme
-  .b-teaser__products-bottom--h .products-bottom__list .owl-prev {
-    @include small-sprite(carousel-arrow-left);
-  }
-  .b-teaser__products-bottom--h .products-bottom__list .owl-next {
+  .b-scroll-3thumbs__list .owl-next {
     @include small-sprite(carousel-arrow-right);
   }
 
@@ -84,20 +76,11 @@ $large-spacing: 30px;
     }
   }
 }
-
- //home products-top__list owl-carousel owl-theme
-  .b-teaser__products-top--h .products-top__list .owl-prev {
+  //b-scroll-3thumbs__list carousel arrows
+  .b-scroll-3thumbs__list .owl-prev {
     @include medium-sprite(carousel-arrow-left);
   }
-  .b-teaser__products-top--h .products-top__list .owl-next {
-    @include medium-sprite(carousel-arrow-right);
-  }
-
-   //home products-bottom__list owl-carousel owl-theme
-  .b-teaser__products-bottom--h .products-bottom__list .owl-prev {
-    @include medium-sprite(carousel-arrow-left);
-  }
-  .b-teaser__products-bottom--h .products-bottom__list .owl-next {
+  .b-scroll-3thumbs__list .owl-next {
     @include medium-sprite(carousel-arrow-right);
   }
 
@@ -173,18 +156,11 @@ $large-spacing: 30px;
 .b-three-articles .content-list .list__item--bottom-label {
     @include large-sprite(text-bgrnd-yellow); 
   }
- //home products-top__list owl-carousel owl-theme
-  .b-teaser__products-top--h .products-top__list .owl-prev {
+ //b-scroll-3thumbs__list carousel arrows
+  .b-scroll-3thumbs__list .owl-prev {
     @include large-sprite(carousel-arrow-left);
   }
-  .b-teaser__products-top--h .products-top__list .owl-next {
-    @include large-sprite(carousel-arrow-right);
-  }
-   //home products-bottom__list owl-carousel owl-theme
-  .b-teaser__products-bottom--h .products-bottom__list .owl-prev {
-    @include large-sprite(carousel-arrow-left);
-  }
-  .b-teaser__products-bottom--h .products-bottom__list .owl-next {
+  .b-scroll-3thumbs__list .owl-next {
     @include large-sprite(carousel-arrow-right);
   }
   //widget forum

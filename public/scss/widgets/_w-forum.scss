@@ -1,17 +1,21 @@
 //set grid
-//set block bottom content holders
-  .w-forum{
-
+.w-forum{
+  @media #{$medium-up} {
+    @include grid-column(6, $pull:6);
   }
-
-
-
-//set visibility rules
+  @media #{$large-up} {
+    @include grid-column(12);
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    @include float(left);
+  }
+}
+//set visibility 
 .w-forum {
   @extend .show-for-medium-up;
-}//end set holders
-
-
+}
 //set style
 .w-forum {
   margin-bottom:35px;

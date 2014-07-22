@@ -41,6 +41,9 @@
 .b-three-articles {
   .content-block {
     .content-block__img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
     }
     .content-block__title {
       text-transform: uppercase;

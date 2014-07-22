@@ -1,0 +1,14 @@
+.l-sidebar {
+   @media #{$small-up} {
+    @include grid-column(12);
+  }
+  @media #{$medium-up} {
+     @include grid-column(12);
+  }
+  @media #{$large-up} {
+     @include grid-column(4);
+}
+}
+.l-sidebar__content {
+  @include grid-row();
+}
