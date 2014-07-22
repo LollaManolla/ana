@@ -1,0 +1,41 @@
+//set grid
+.b-video {
+  @media #{$small-only} {
+    @include grid-column(12);
+  }
+  @media #{$medium-up} {
+    @include grid-column(12);
+  }
+  @media #{$large-up} {
+    @include grid-column(12);
+  }
+}
+
+
+//set style
+.b-video {
+  margin-bottom: 35px;
+  .b-video__section-title{
+    text-transform: uppercase;
+    border-bottom:solid 3px $green-light;
+    font-size: rem-calc(24);
+    span {
+      color:$gray-dark;
+    }
+  }
+  .b-video__content {
+    position: relative;
+  }
+  .b-video__title {
+    background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: rem-calc(24);
+    color: $black;
+  }
+}
+
+//set media 
