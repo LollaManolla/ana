@@ -14,8 +14,8 @@
 //   "foundation/components/dropdown",
 //   "foundation/components/dropdown-buttons",
 //   "foundation/components/flex-video",
-     "foundation/components/forms",
-     "foundation/components/grid",
+"foundation/components/forms",
+"foundation/components/grid",
 //   "foundation/components/inline-lists",
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
@@ -23,7 +23,7 @@
 //   "foundation/components/magellan",
 //   "foundation/components/orbit",
 //   "foundation/components/pagination",
- //  "foundation/components/panels",
+//  "foundation/components/panels",
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
 //   "foundation/components/reveal",
@@ -38,7 +38,7 @@
 //   "foundation/components/top-bar",
 //   "foundation/components/type";
 //   "foundation/components/offcanvas",
-     "foundation/components/visibility";
+"foundation/components/visibility";
 
 
 
@@ -49,7 +49,8 @@
 @import "utilities/buttons";
 
 //layout
-@import "layout/l-header";
+@import "layout/l-header-mob";
+@import "layout/l-header-desk";
 @import "layout/l-content";
 @import "layout/l-footer";
 @import "layout/l-sidebar";
@@ -63,7 +64,7 @@
 @import "blocks/b-trigger";
 @import "blocks/b-scroll-3thumbs";
 @import "blocks/b-video";
-@import "blocks/b-review-products";
+@import "blocks/b-articles";
 @import "blocks/b-counter";
 
 //media
@@ -71,20 +72,23 @@
 
 //components*/
 @import "components/wayyana-topbar";
-@import "components/main-nav";
+@import "components/main-nav-desk";
+@import "components/main-nav-mob";
+@import "components/owl-carousel"; 
 
 //sprites
 @import "sprites/sprites";
 
 //widgets
 @import "widgets/w-forum";
- @import "widgets/w-poll";
+@import "widgets/w-poll";
+@import "widgets/w-rating";
 
- //ads
+//ads
 @import "ads/b-add--top";
 @import "ads/b-add--bottom";
 @import "ads/b-mpu__sidebar";
 
 
- //hacks
- @import "utilities/hacks";
+//hacks
+@import "utilities/hacks";

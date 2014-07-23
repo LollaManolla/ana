@@ -1,6 +1,14 @@
 //set grid
+.b-scroll-3thumbs {
+  @media #{$small-up} {
+    @include grid-column(12);
+  }
+  @media #{$medium-up} {
+    @include grid-column($collapse:true);
+  }
+}
 .b-scroll-3thumbs.top-rated-week {
-  @media #{$small-only} {
+  @media #{$small-up} {
     @include grid-column(12);
   }
   @media #{$medium-up} {
@@ -11,25 +19,10 @@
   }
 }
 
-
-.b-scroll-3thumbs {
-  @media #{$small-only} {
-    @include grid-column(12);
-  }
-  @media #{$medium-up} {
-    @include grid-column(12);
-  }
-  @media #{$large-up} {
-    @include grid-column(12);
-  }
-}
-
 //set visibility
 .b-scroll-3thumbs .scroll-3thumbs__btn {
   @extend .hidden-for-small-only;
 }
-
-
 
 //set style
 .b-scroll-3thumbs {
@@ -82,38 +75,6 @@
     @include float(right);
   }
 }
-
-.b-scroll-3thumbs__list.owl-carousel.owl-theme {
-//Styling Next and Prev buttons 
-.owl-controls .owl-buttons .owl-prev,
-.owl-controls .owl-buttons .owl-next {
-  @media #{$small-only} {
-    border:solid 1px $gray-light;
-    width: 41px;
-    height: 72px;
-  }
-  @media #{$medium-up} {
-    width: 21px;
-    height: 40px;
-  }
-  @media #{$large-up} {
-    width: 17px;
-    height: 35px;
-  }
-  position: absolute;
-  font-size: rem-calc(30);
-  display: inline-block;
-  zoom: 1;
-  top: 18%;
-}
-.owl-controls .owl-buttons .owl-prev {
-  left: 0;
-}
-.owl-controls .owl-buttons .owl-next {
-  right: 0;
-}
-}//end products-top__list
-
 
 //set media
 @media #{$small-only} {

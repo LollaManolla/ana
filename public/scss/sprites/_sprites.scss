@@ -38,20 +38,20 @@ $large-spacing: 30px;
 
 //home b-content__top--h
 .b-three-articles .content-list .list__item--top-label {
-    @include small-sprite(text-bgrnd-green); 
+  @include small-sprite(text-bgrnd-green); 
 }
 
 .b-three-articles .content-list .list__item--bottom-label {
-    @include small-sprite(text-bgrnd-yellow); 
+  @include small-sprite(text-bgrnd-yellow); 
 }
 
- //b-scroll-3thumbs__list carousel arrows
-  .b-scroll-3thumbs__list .owl-prev {
-    @include small-sprite(carousel-arrow-left);
-  }
-  .b-scroll-3thumbs__list .owl-next {
-    @include small-sprite(carousel-arrow-right);
-  }
+//b-scroll-3thumbs__list carousel arrows
+.b-scroll-3thumbs__list .owl-prev {
+  @include small-sprite(carousel-arrow-left);
+}
+.b-scroll-3thumbs__list .owl-next {
+  @include small-sprite(carousel-arrow-right);
+}
 
 }//small ends
 
@@ -76,27 +76,28 @@ $large-spacing: 30px;
     }
   }
 }
-  //b-scroll-3thumbs__list carousel arrows
-  .b-scroll-3thumbs__list .owl-prev {
-    @include medium-sprite(carousel-arrow-left);
-  }
-  .b-scroll-3thumbs__list .owl-next {
-    @include medium-sprite(carousel-arrow-right);
-  }
 
+//b-scroll-3thumbs__list carousel arrows
+.b-scroll-3thumbs__list .owl-prev {
+  @include medium-sprite(carousel-arrow-left);
+}
+.b-scroll-3thumbs__list .owl-next {
+  @include medium-sprite(carousel-arrow-right);
+}
 
 //home b-content__top--h
 .b-three-articles .content-list .list__item--top-label {
-    @include medium-sprite(text-bgrnd-green); 
+  @include medium-sprite(text-bgrnd-green); 
 }
 
 .b-three-articles .content-list .list__item--bottom-label {
-    @include medium-sprite(text-bgrnd-yellow); 
+  @include medium-sprite(text-bgrnd-yellow); 
 }
-  //widget forum
-  .w-forum .data__comments {
-    @include medium-sprite(icon-comment-baloon);
-  }
+
+//widget forum
+.w-forum .data__comments {
+  @include medium-sprite(icon-comment-baloon);
+}
 }//medium ends
 
 
@@ -113,59 +114,62 @@ $large-spacing: 30px;
 }
 
 //header
-  .header__desk {
-    .header-logo{
-      @include large-sprite(logo-ana);
-      @include rtl {
-        background-position: 154px 0;
-      }
+.header__desk {
+  .header-logo{
+    @include large-sprite(logo-ana);
+    @include rtl {
+      background-position: 154px 0;
     }
-    .header-search__button{
-      @include large-sprite(header-icon-search);
-    }
-    .header-social__fb {
-      @include large-sprite(header-icon-fb); 
-    }
-    .header-social__tube {
-      @include large-sprite(header-icon-yt); 
-    }
-    .header-social__tweet {
-      @include large-sprite(header-icon-tw); 
-    }
-    .header-social__gplus {
-      @include large-sprite(header-icon-gplus); 
-    }
-    .header-social__pinit {
-      @include large-sprite(header-icon-pinit); 
-    }
+  }
+  .header-search__button{
+    @include large-sprite(header-icon-search);
+  }
+  .header-social__fb {
+    @include large-sprite(header-icon-fb); 
+  }
+  .header-social__tube {
+    @include large-sprite(header-icon-yt); 
+  }
+  .header-social__tweet {
+    @include large-sprite(header-icon-tw); 
+  }
+  .header-social__gplus {
+    @include large-sprite(header-icon-gplus); 
+  }
+  .header-social__pinit {
+    @include large-sprite(header-icon-pinit); 
+  }
 
-    .header-social__instg {
-      @include large-sprite(header-icon-instagram); 
-    }
-    nav a.home {
-      @include large-sprite(main-nav-icon-home); 
-      @include rtl {
-        @include large-sprite(main-nav-icon-home-ar); 
-      }
+  .header-social__instg {
+    @include large-sprite(header-icon-instagram); 
+  }
+  nav a.home {
+    @include large-sprite(main-nav-icon-home); 
+    @include rtl {
+      @include large-sprite(main-nav-icon-home-ar); 
     }
   }
-  //home b-content__top--h
+}
+
+//home b-content__top--h
 .b-three-articles .content-list .list__item--top-label {
-    @include large-sprite(text-bgrnd-green); 
-  }
+  @include large-sprite(text-bgrnd-green); 
+}
 .b-three-articles .content-list .list__item--bottom-label {
-    @include large-sprite(text-bgrnd-yellow); 
-  }
- //b-scroll-3thumbs__list carousel arrows
-  .b-scroll-3thumbs__list .owl-prev {
-    @include large-sprite(carousel-arrow-left);
-  }
-  .b-scroll-3thumbs__list .owl-next {
-    @include large-sprite(carousel-arrow-right);
-  }
-  //widget forum
-  .w-forum .data__comments {
-    @include large-sprite(icon-comment-baloon);
-  }
+  @include large-sprite(text-bgrnd-yellow); 
+}
+
+//b-scroll-3thumbs__list carousel arrows
+.b-scroll-3thumbs__list .owl-prev {
+  @include large-sprite(carousel-arrow-left);
+}
+.b-scroll-3thumbs__list .owl-next {
+  @include large-sprite(carousel-arrow-right);
+}
+
+//widget forum
+.w-forum .data__comments {
+  @include large-sprite(icon-comment-baloon);
+}
 }//large ends
 

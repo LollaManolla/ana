@@ -1,17 +1,42 @@
-//set holders
+//set grid
 .media {
-  @include grid-row($behavior: nest);
+  @media #{$small-only} {
+    @include grid-column(12, $collapse:true);
+  }
+  @media #{$medium-up} {
+    @include grid-column(6, $collapse:true);
+  }
 }
-.media__item { 
-  @include float(left);
-  display: block;
-  max-width: 25%;
+.media.last {
+  @media #{$small-only} {
+    .media__item {
+      @include grid-column ($collapse:true);
+    }
+    .media__body {
+      @include grid-column ($collapse:false);
+    }
+  }
+}
+.media__content {
+  @include grid-row();
+}
+.media__item  {
+  @include grid-column (3, $collapse:true);
 }
 .media__body {
-  @include grid-column(9);
+  @include grid-column (9);
+}
+.last .media__item {
+  @include grid-column (5);
+}
+.last .media__body {
+  @include grid-column (7, $collapse:true);
 }
 
-//set style 
+//set style
+.media { 
+  overflow: hidden;
+}
 .media {
   p, a {
     font-size: rem-calc(14);
@@ -22,9 +47,7 @@
     line-height: 1.2;
     padding-top: 3px;
     padding-bottom:10px;
-  }
-  .subtitle {
-
+    margin: 0;
   }
   .link__readmore {
     color: $green-light;
@@ -32,19 +55,19 @@
 }
 
 //set media
-@media #{$small-only} { 
+@media #{$small-only} {
+  .media.last {
+    margin-top:35px;
+    margin-bottom:35px;
+  }
   .media {
-    .author, .subtitle, .link__readmore {
+    .title,
+    a,
+    .author, 
+    .subtitle, 
+    .link__readmore,
+    .prodCount {
       font-size: rem-calc(16);
     }
-  }
-  .b-review-products__review, 
-  .b-review-products__product {
-    margin-bottom: 25px;
-  }
-  .product-content__body .prodCount, 
-  .product-content__body .title, 
-  .product-content__body a {
-          font-size: rem-calc(16);
   }
 }

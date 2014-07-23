@@ -4,13 +4,12 @@
     @include grid-column(6, $push:6);
   }
   @media #{$large-up} {
-    @include grid-column(12);
+    @include grid-column(12,$collapse:true);
   }
   .w-poll__img--full {
     @include grid-row(nest);
   }
 }
-
 //set style
 .w-poll {
   clear: both;
@@ -52,17 +51,15 @@
     margin-bottom: 15px;
   }
 }
-
 //media
-.w-poll {
-  @media #{$small-up} {
-    .w-poll__subtitle, .w-poll__label {
-      font-size: rem-calc(18);
-    }
+@media #{$small-up} {
+  .w-poll__subtitle, 
+  .w-poll__label {
+    font-size: rem-calc(18);
   }
 }
-.w-poll {
 @media #{$large-up} {
+  .w-poll {
     margin-left: 0;
     margin-right: 0;
     left: auto;

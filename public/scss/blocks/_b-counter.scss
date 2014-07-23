@@ -1,13 +1,13 @@
 //set grid
 .b-counter {
-  @media #{$small-up} {
-    @include grid-column(12);
+  @media #{$small-only} {
+    @include grid-column(12,$collapse:true);
   }
-  @media #{$medium-up} {
+  @media #{$medium-only} {
     @include grid-column(6, $push:6);
   }
   @media #{$large-up} {
-    @include grid-column(12);
+    @include grid-column(12,$collapse:true);
   }
 }
 
@@ -15,7 +15,11 @@
 .b-counter {
   text-align: center;
   margin-bottom:35px;
+}
+
+//set media
   @media #{$large-up} {
+    .b-counter {
     margin-left: 0;
     margin-right: 0;
     left: auto;

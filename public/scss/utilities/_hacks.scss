@@ -11,13 +11,13 @@
   @media #{$small-only} {
     margin-bottom: 35px;
   }
-    @media #{$medium-up} {
+  @media #{$medium-up} {
     margin-bottom: 35px;
   }
-    @media #{$large-up} {
+  @media #{$large-up} {
     margin-bottom: 200px;
   }
-  }
+}
 
 
 //note for iphone zoom problem maybe
@@ -39,8 +39,8 @@
 
 // android default browser font issue will be fixed like this:
 // .ua-os-name-android.ua-browser-name-safari  .namefclass {
- //   white-space: pre;
- //   word-break: break-word;
+//   white-space: pre;
+//   word-break: break-word;
 //}
 
 

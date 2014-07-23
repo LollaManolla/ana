@@ -7,10 +7,12 @@
     @include grid-column(3);
   }
 }
+
 //set visibility
 .l-footer {
   @extend .show-for-large-up;
 }
+
 //set style
 .l-footer {
   background-color: $gray-light;

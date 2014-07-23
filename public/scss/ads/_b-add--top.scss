@@ -5,12 +5,14 @@
     @include grid-row();
   }
 }
+
 //set style
 .b-ad__top{
   text-align:center;
   margin-top: 5px;
   margin-bottom: 15px;
 }
+
 //set media
 .b-ad__top {
   @media #{$small-only} {
