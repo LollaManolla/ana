@@ -6,20 +6,6 @@
 .header__desk nav a.home {background-position: 0 -756px !important;}
 .header__mob .main-nav .logo a {background-position: 0 8px;}
 
-//sidebar add banner problem so temp fix is this
-.b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
-  @media #{$small-only} {
-    margin-bottom: 35px;
-  }
-  @media #{$medium-up} {
-    margin-bottom: 35px;
-  }
-  @media #{$large-up} {
-    margin-bottom: 200px;
-  }
-}
-
-
 //note for iphone zoom problem maybe
 //-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 // but at the moment we are using this one

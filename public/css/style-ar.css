@@ -3339,8 +3339,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 @media only screen {
   /* line 2, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles {
-    padding-left: 0.6875rem;
-    padding-right: 0.6875rem;
+    padding-left: 0;
+    padding-right: 0;
     width: 100%;
     float: right;
   }
@@ -3365,8 +3365,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 @media only screen and (max-width: 30em) {
   /* line 12, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-block {
-    padding-left: 0.6875rem;
-    padding-right: 0.6875rem;
+    padding-left: 0;
+    padding-right: 0;
     width: 100%;
     float: right;
   }
@@ -3399,7 +3399,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 
-/* line 30, ../scss/blocks/_b-three-articles.scss */
+/* line 29, ../scss/blocks/_b-three-articles.scss */
 .b-three-articles__content {
   width: 100%;
   margin-right: auto;
@@ -3478,12 +3478,18 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 @media only screen and (max-width: 30em) {
-  /* line 95, ../scss/blocks/_b-three-articles.scss */
+  /* line 96, ../scss/blocks/_b-three-articles.scss */
+  .b-three-articles__content .content-block__title,
+  .b-three-articles__content .content-block__subtitle {
+    padding-right: 10px;
+  }
+
+  /* line 99, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-block {
     margin-bottom: 35px;
   }
 
-  /* line 99, ../scss/blocks/_b-three-articles.scss */
+  /* line 103, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-title,
   .b-three-articles .content-list .list__item--bottom-title {
     font-size: 1.25rem;
@@ -3491,7 +3497,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     padding: 8px 8px 12px;
   }
 
-  /* line 105, ../scss/blocks/_b-three-articles.scss */
+  /* line 109, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 43px;
@@ -3503,19 +3509,19 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 116, ../scss/blocks/_b-three-articles.scss */
+  /* line 120, ../scss/blocks/_b-three-articles.scss */
   .b-ad__top {
     margin-top: 13px !important;
   }
 
-  /* line 120, ../scss/blocks/_b-three-articles.scss */
+  /* line 124, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-title,
   .b-three-articles .content-list .list__item--bottom-title {
     font-size: 1.125rem;
     line-height: 1.2;
   }
 
-  /* line 125, ../scss/blocks/_b-three-articles.scss */
+  /* line 129, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     height: 40px;
@@ -3525,7 +3531,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 134, ../scss/blocks/_b-three-articles.scss */
+  /* line 138, ../scss/blocks/_b-three-articles.scss */
   .b-three-articles .content-list .list__item--top-label,
   .b-three-articles .content-list .list__item--bottom-label {
     width: 108px;
@@ -4727,8 +4733,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 @media only screen and (max-width: 30em) {
   /* line 2, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu1__sidebar {
-    padding-left: 0.6875rem;
-    padding-right: 0.6875rem;
+    padding-left: 0;
+    padding-right: 0;
     width: 100%;
     float: right;
   }
@@ -4758,8 +4764,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 @media only screen and (max-width: 30em) {
   /* line 13, ../scss/ads/_b-mpu__sidebar.scss */
   .b-mpu2__sidebar {
-    padding-left: 0.6875rem;
-    padding-right: 0.6875rem;
+    padding-left: 0;
+    padding-right: 0;
     width: 100%;
     float: right;
   }
@@ -4837,33 +4843,14 @@ button:hover, button:focus, .button:hover, .button:focus {
   background-position: 0 8px;
 }
 
-@media only screen and (max-width: 30em) {
-  /* line 10, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
-    margin-bottom: 35px;
-  }
-}
-@media only screen and (min-width: 30.001em) {
-  /* line 10, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
-    margin-bottom: 35px;
-  }
-}
-@media only screen and (min-width: 62.501em) {
-  /* line 10, ../scss/utilities/_hacks.scss */
-  .b-teaser__featured--h .featured-articles .featured-articles__list .list__item--last {
-    margin-bottom: 200px;
-  }
-}
-
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 28, ../scss/utilities/_hacks.scss */
+  /* line 14, ../scss/utilities/_hacks.scss */
   select, textarea, input,
   select:focus, textarea:focus, input:focus {
     font-size: 16px;
   }
 }
-/* line 35, ../scss/utilities/_hacks.scss */
+/* line 21, ../scss/utilities/_hacks.scss */
 .col-border {
   border: solid 1px #ededed;
   padding: 10px;

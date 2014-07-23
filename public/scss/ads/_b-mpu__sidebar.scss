@@ -1,7 +1,7 @@
 //set grid
 .b-mpu1__sidebar {
   @media #{$small-only} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
     @include grid-column(6);
@@ -12,7 +12,7 @@
 }
 .b-mpu2__sidebar {
   @media #{$small-only} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
     @include grid-column(6, $pull:6);

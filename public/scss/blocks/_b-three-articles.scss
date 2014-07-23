@@ -1,7 +1,7 @@
 //set grid
 .b-three-articles {
   @media #{$small-up} {
-    @include grid-column(12);
+    @include grid-column(12,$collapse:true);
   }
   @media #{$medium-only} {
     @include grid-column($collapse:true);
@@ -11,7 +11,7 @@
   }
   .content-block {
     @media #{$small-only} {
-      @include grid-column(12);
+      @include grid-column(12, $collapse:true);
     }
     @media #{$medium-up} {
       @include grid-column(8);
@@ -26,11 +26,11 @@
     }
   }
 }
-
 .b-three-articles__content {
     @include grid-row();
   }
 
+  
 
 //set style
 .b-three-articles {
@@ -92,6 +92,10 @@
 
 //set media
 @media #{$small-only} { 
+  .b-three-articles__content .content-block__title,
+  .b-three-articles__content .content-block__subtitle {
+    @include padding-left(10px);
+  }
   .b-three-articles .content-block {
     margin-bottom: 35px;
   }
