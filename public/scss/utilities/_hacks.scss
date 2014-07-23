@@ -23,6 +23,19 @@
   padding: 10px;
 }
 
+//baloons bgrnd img position
+//lsmall
+@media #{$small-only} {
+.content-products__reviewCount {
+    background-position: 0 -150px;
+}
+}
+@media #{$medium-only} {
+.content-products__reviewCount {
+    background-position: 0 -200px;
+}
+}
+
 // android default browser font issue will be fixed like this:
 // .ua-os-name-android.ua-browser-name-safari  .namefclass {
 //   white-space: pre;

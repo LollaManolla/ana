@@ -63,18 +63,20 @@
 @import "blocks/b-three-articles";
 @import "blocks/b-trigger";
 @import "blocks/b-scroll-3thumbs";
-@import "blocks/b-video";
+@import "blocks/b-category";
 @import "blocks/b-articles";
 @import "blocks/b-counter";
 
 //media
-@import "media-objects/media";
+@import "media-objects/media-small";
+@import "media-objects/media-big";
 
 //components*/
 @import "components/wayyana-topbar";
 @import "components/main-nav-desk";
 @import "components/main-nav-mob";
 @import "components/owl-carousel"; 
+@import "components/tags"; 
 
 //sprites
 @import "sprites/sprites";

@@ -53,6 +53,14 @@ $large-spacing: 30px;
   @include small-sprite(carousel-arrow-right);
 }
 
+//baloons - b-counter
+.content-products__productCount {
+    @include small-sprite(baloon-pink);
+}
+.content-products__reviewCount {
+    @include small-sprite(baloon-green);
+}
+
 }//small ends
 
 ////////sprites for medium up
@@ -98,6 +106,15 @@ $large-spacing: 30px;
 .w-forum .data__comments {
   @include medium-sprite(icon-comment-baloon);
 }
+
+//baloons - b-counter
+.content-products__productCount {
+    @include medium-sprite(baloon-pink);
+}
+.content-products__reviewCount {
+    @include medium-sprite(baloon-green);
+}
+
 }//medium ends
 
 
@@ -171,5 +188,14 @@ $large-spacing: 30px;
 .w-forum .data__comments {
   @include large-sprite(icon-comment-baloon);
 }
+
+//baloons - b-counter
+.content-products__productCount {
+    @include large-sprite(baloon-pink);
+}
+.content-products__reviewCount {
+    @include large-sprite(baloon-green);
+}
+
 }//large ends
 

@@ -49,6 +49,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .w-poll__btn-submit {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
   span {
     @include btn;
     width: 55%;
@@ -56,5 +60,14 @@ button:hover, button:focus, .button:hover, .button:focus {
     &:hover, &:active, &:focus {
       background-color:$green-dark !important;
     }
+  }
+}
+
+.b-counter__btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+    span {
+    @include btn;
   }
 }
