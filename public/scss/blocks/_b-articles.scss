@@ -1,0 +1,41 @@
+//set grid
+.b-articles {
+  @include grid-column(12, $collapse:true);
+}
+.articles__review-products {
+  @include grid-row();
+}
+
+//set style
+.b-articles {
+  margin-bottom:35px;
+}
+.b-articles__section-title {
+  text-transform: uppercase;
+  border-bottom:solid 3px $green-light;
+  font-size: rem-calc(24);
+  margin-bottom: 15px;
+  span {
+    color:$gray-dark;
+  }
+}
+.article__review-products--title {
+  color: $black;
+  font-size: rem-calc(18);
+  line-height: 1.2;
+  padding-top: 3px;
+  padding-bottom:10px;
+}
+
+//set media
+@media #{$small-only} {
+  .articles__review-products {
+    border-bottom:solid 1px $gray-light;
+  }
+}
+
+@media #{$medium-up} {
+  .article__review-products--title  {
+    @include grid-column($offset:6);
+  }
+}

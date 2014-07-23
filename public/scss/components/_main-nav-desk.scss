@@ -1,0 +1,35 @@
+//set grid
+.header__desk .main-nav {
+  @include grid-column(12, $collapse:true);
+}
+
+//set style
+.header__desk .main-nav {
+  background-color: $green-light;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  a {
+    text-transform: uppercase;
+    color: $white;
+    display: block;
+    @include float(left);
+    padding: 7px 24px;
+    &:hover {
+      background-color: $green-dark;
+    }
+  }
+  a.home {
+    text-indent: -9999px;
+    @include margin-left(16px);
+    padding: 0 12px 11px;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  a.last {
+    right: 0;
+    background-color: $green-dark;
+    position: absolute;
+  }
+}

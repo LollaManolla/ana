@@ -1,0 +1,15 @@
+//set grid
+.l-header {
+  @include grid-row();
+}
+.header__mob {
+  @include grid-column(12, $collapse:true);
+  .header__mob-content {
+    @include grid-row($behavior: nest-collapse);
+  }
+}
+
+//set visibility
+.header__mob {
+  @extend .hide-for-large-up;
+}
