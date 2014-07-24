@@ -1,21 +1,10 @@
 //set grid
-.b-mpu1__sidebar {
-  @media #{$small-only} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$medium-up} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(4, $push:8);
-  }
-}
 .b-mpu2__sidebar {
   @media #{$small-only} {
     @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
-    @include grid-column(6, $pull:6);
+    @include grid-column(6);
   }
   @media #{$large-up} {
     @include grid-column(12,$collapse:true);
@@ -49,7 +38,9 @@
 }
 
 @media #{$medium-only} {
+  .b-mpu1__sidebar {
   margin-top: 0;
+}
 }
 
 @media #{$large-up} {

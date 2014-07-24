@@ -1,9 +1,10 @@
 //set grid
 .b-articles {
-  @include grid-column(12, $collapse:true);
+  /*@include grid-column(12, $collapse:true);*/
 }
 .articles__review-products {
   @include grid-row();
+  margin-bottom: 35px;
 }
 
 //set style
@@ -31,6 +32,10 @@
 @media #{$small-only} {
   .articles__review-products {
     border-bottom:solid 1px $gray-light;
+  }
+  .article__review-products--title {
+      font-size: rem-calc(22);
+      margin:0;
   }
 }
 

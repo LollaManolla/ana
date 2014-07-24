@@ -1,24 +1,3 @@
-//set grid
-.b-scroll-3thumbs {
-  @media #{$small-up} {
-    @include grid-column(12);
-  }
-  @media #{$medium-up} {
-    @include grid-column($collapse:true);
-  }
-}
-.b-scroll-3thumbs.top-rated-week {
-  @media #{$small-up} {
-    @include grid-column(12);
-  }
-  @media #{$medium-up} {
-    @include grid-column(12);
-  }
-  @media #{$large-up} {
-    @include grid-column(8, $pull:4);
-  }
-}
-
 //set visibility
 .b-scroll-3thumbs .scroll-3thumbs__btn {
   @extend .hidden-for-small-only;
@@ -27,6 +6,11 @@
 //set style
 .b-scroll-3thumbs {
   margin-bottom: 35px;
+    &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
 }
 .b-scroll-3thumbs__section-title {
   text-transform: uppercase;

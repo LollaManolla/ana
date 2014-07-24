@@ -1,9 +1,6 @@
   //set grid
 .b-ad__bottom {
-  @include grid-column(12, $collapse:true);
-  .b-add__bottom-content {
     @include grid-row();
-  }
 }
 
 //set style

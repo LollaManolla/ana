@@ -4,7 +4,7 @@
     @include grid-column(12,$collapse:true);
   }
   @media #{$medium-only} {
-    @include grid-column(6, $push:6);
+    @include grid-column(6);
   }
   @media #{$large-up} {
     @include grid-column(12,$collapse:true);
@@ -105,7 +105,7 @@
     font-size: rem-calc(35);
     height: 145px;
     @include padding-right(19px);
-    padding-top: 54px;
+    padding-top: 56px;
     top: 21px;
     width: 139px;
     span {

@@ -42,11 +42,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 .b-trigger__btn{
   @include btn;
 }
+
 .scroll-3thumbs__btn {
   span {
     @include btn-flat;
   }
 }
+
 
 .w-poll__btn-submit {
     display: block;
@@ -63,7 +65,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 
-.b-counter__btn {
+.b-counter__btn,
+.b-articles__btn  {
   display: block;
   width: 100%;
   text-align: center;

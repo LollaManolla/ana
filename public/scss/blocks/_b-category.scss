@@ -24,6 +24,18 @@
     padding-top: 11px;
   }
 } 
+.b-category.tags {
+  position: relative;
+  margin-bottom: 0;
+  .b-category__title {
+  bottom: 0;
+      position: absolute;
+      background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
+      padding: 10px;
+      width: 100%;
+}
+}
+
 //set media 
 @media #{$small-only} { 
   .b-category .b-category__section-title {
@@ -34,3 +46,8 @@
     line-height: 1.3;
   }
 }
+@media #{$medium-only} { 
+  .b-category.tags {
+    margin-bottom: 35px;
+  }
+  }

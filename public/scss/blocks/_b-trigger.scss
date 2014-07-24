@@ -1,20 +1,12 @@
 //set grid
 .b-trigger {
-  @media #{$small-only} {
-    @include grid-column(12);
-  }
-  @media #{$medium-only} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(4);
-  }
+  border:solid 1px $gray-light;
+  padding: 10px;
 }
 
 //set style
 .b-trigger {
   text-align: center;
-  min-height: 356px;
   .b-trigger__list {
     list-style: none;
     margin: 0 0 35px;
@@ -104,3 +96,4 @@
     }
   }
 }
+
