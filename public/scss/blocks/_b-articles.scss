@@ -3,10 +3,19 @@
   /*@include grid-column(12, $collapse:true);*/
 }
 .articles__review-products {
-  @include grid-row();
+  @include grid-row($behavior:nest);
   margin-bottom: 35px;
 }
 
+.articles__related {
+  @include grid-row($behavior:nest);
+  margin-bottom: 35px;
+}
+
+.articles__products {
+    @include grid-row($behavior:nest);
+  margin-bottom: 35px;
+}
 //set style
 .b-articles {
   margin-bottom:35px;
@@ -36,6 +45,7 @@
   .article__review-products--title {
       font-size: rem-calc(22);
       margin:0;
+      padding-left:10px;
   }
 }
 
