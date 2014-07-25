@@ -23,17 +23,12 @@
     }
   }
 
-
-
-  
-
 //set style
 .b-three__article-one__img {
       width: 100%;
       max-width: 100%;
       height: auto;
     }
-
  .b-three__article-one__title {
       text-transform: uppercase;
       color:$green-light;
@@ -41,25 +36,21 @@
       padding-top: 10px;
       padding-bottom: 0px;
     }
-    
  .b-three__article-one__subtitle {
       color:$black;
       font-size: rem-calc(22);
       line-height: 1.3;
     }
-
 .b-three__article-two__list {
       list-style: none;
       margin: 0;
       padding: 0;
     }
-
  .b-three__article-two__list-item__top,
     .b-three__article-two__list-item__bottom {
       position: relative;
       margin-bottom:35px;
     }
-
    .b-three__article-two__list-item__top-label,
     .b-three__article-two__list-item__bottom-label{
       position: absolute;
@@ -69,15 +60,11 @@
       text-transform: uppercase;
       @include right(0);
     }
-
-
     .b-three__article-two__list-item__top-img,
     .b-three__article-two__list-item__bottom-img {
       min-width: 100%;
       height: auto;
     }
-
-
     .b-three__article-two__list-item__top-title,
     .b-three__article-two__list-item__bottom-title {
       position: absolute;
@@ -91,10 +78,8 @@
 
 //set media
 @media #{$small-only} { 
-
     .b-three__article-one {
     margin-bottom: 35px;
-
   }
   .b-three__article-one__title,
   .b-three__article-one__subtitle {
@@ -106,7 +91,6 @@
     line-height: 1.3;
     padding: 8px 8px 12px;
   }
-
  .b-three__article-two__list-item__top-label,
   .b-three__article-two__list-item__bottom-label{
     height: 43px;

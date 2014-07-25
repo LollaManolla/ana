@@ -21,7 +21,7 @@ ul.tags__list {
       color:$gray-dark; 
       font-size:rem-calc(14);
       display: block;
-          padding: 2px 10px;
+      padding: 2px 10px;
 
       &:hover {
 
@@ -34,26 +34,26 @@ ul.tags__list {
 //set media
 @media #{$small-only}{        
   ul.tags__list  {
-  margin-bottom: 10px;
-  margin-top: 13px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+  }
+  .b-category.tags {
+    height: auto; 
+    margin-bottom:35px;
+  }
 }
-.b-category.tags {
-  height: auto; 
-  margin-bottom:35px;
-}
-}
-  @media #{$medium-only}{    
+@media #{$medium-only}{    
   ul.tags__list {    
     margin-bottom: 12px;
     margin-top: 0;
+  }
+  .b-category.tags {
+    height: auto; 
+  }
 }
-.b-category.tags {
-  height: auto; 
+@media #{$large-up}{
+  ul.tags__list  {
+    margin-bottom: 13px;
+    margin-top: 0;
   }
-  }
-    @media #{$large-up}{
-      ul.tags__list  {
-        margin-bottom: 13px;
-        margin-top: 0;
-      }
-    }
+}

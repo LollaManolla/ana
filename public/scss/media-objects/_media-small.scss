@@ -7,15 +7,12 @@
     @include grid-column(6, $collapse:true);
   }
 }
-
 .media-small__item  {
   @include grid-column (3);
 }
-
 .media-small__body {
 @include grid-column (9);
 }
-
 .media-small.product {
     @media #{$medium-up} {
     @include grid-column(6);
@@ -51,11 +48,6 @@
   }
 }
 
-.media-small.product {
- .title {
- font-size: 14px;
- color:$gray-dark; 
- }}
 //set media
 @media #{$small-only} {
   .media-small.product {
@@ -84,48 +76,3 @@
     }
   }
 }
-@media #{$large-up} {}
-/*
-//set grid
-.media-small {
-  @media #{$small-only} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$medium-up} {
-    @include grid-column(6, $collapse:true);
-  }
-}
-.media-small.product {
-  @media #{$small-only} {
-    .media-small__item {
-      @include grid-column ($collapse:true);
-    }
-    .media-small__body {
-      @include grid-column ($collapse:false);
-    }
-  }
-}
-.media-small__content {
-  @include grid-row();
-}
-.media-small__item  {
-  @include grid-column (3, $collapse:true);
-}
-.media-small__body {
-  @include grid-column (9);
-}
-.product .media-small__item {
-  @include grid-column (5);
-}
-.product  .media-small__body {
-  @include grid-column (7, $collapse:true);
-}
-
-
-
-//set style
-.media-small { 
-  overflow: hidden;
-}
-
-*/
