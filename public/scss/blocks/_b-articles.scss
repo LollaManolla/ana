@@ -16,6 +16,11 @@
     @include grid-row($behavior:nest);
   margin-bottom: 35px;
 }
+
+.articles__comments{
+      @include grid-row($behavior:nest);
+  margin-bottom: 35px;
+}
 //set style
 .b-articles {
   margin-bottom:35px;
