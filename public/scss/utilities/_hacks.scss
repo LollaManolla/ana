@@ -42,12 +42,36 @@
 }
 
 //category height issue due to banner in side bar
-@media only screen and (min-width: 62.563em) and (max-width: 64.000em) { 
+@media only screen and (min-width: 62.563em) and (max-width: 62.999em) { 
   .b-category.tags {
-   height: 311px;
+   height: 302px !important;
    overflow: hidden;
    }
 }
+@media only screen and (min-width: 63.000em) and (max-width: 63.688em) { 
+  .b-category.tags {
+   height: 306px !important;
+   overflow: hidden;
+   }
+}
+@media only screen and (min-width: 63.688em) and (max-width: 64.313em) { 
+  .b-category.tags {
+   height: 309px !important;
+   overflow: hidden;
+   }
+}
+@media only screen and (min-width: 64.314em) and (max-width:65.000em)  { 
+  .b-category.tags {
+   height: 311px !important;
+   overflow: hidden;
+   }
+}
+
+
+  .b-category.tags {
+   height: 314px;
+   overflow: hidden;
+   }
 
 
 // android default browser font issue will be fixed like this:

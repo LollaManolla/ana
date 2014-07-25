@@ -1,10 +1,24 @@
 //set grid
 .product-page {
-  @include grid-column(8);
+  @media #{$small-up} {
+    @include grid-column(12);
+  }
+  @media #{$large-up} {
+    @include grid-column(8);
+  }
 }
 article.product-details {
   @include grid-row($behavior:collapse);
 }
+  article.product-details .b-editors {
+     @media #{$small-only} {    
+      width: 100%;
+    }
+         @media #{$medium-up} {    
+      width: 90%;
+    }
+}
+
 //set visibility
 .b-share-article__list .list__item-pinit {
   @extend .show-for-large-up;
@@ -33,6 +47,7 @@ article.product-details {
 
   figure {
     margin:0;
+    text-align: center;
   }
 
   .article-content {
@@ -99,8 +114,21 @@ article.product-details {
     }
   }
   .b-editors {
-    @include grid-column(12, $collapse:true);
-    margin-top: 35px;
+
+
+
+       clear: both;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    &:before {
+      clear: both;
+      content: " ";
+      display: block;
+
+    } 
+
+
     .editors-rounded-list{
       counter-reset: li;
       list-style: none outside none;
@@ -185,6 +213,9 @@ article.product-details {
       text-indent: -9999px;
       width: 96px;
     }
+    .list__item-pinit {
+      @include margin-right(0);
+    }
   }
 }
 
@@ -195,11 +226,20 @@ article.product-details {
   article.product-details .b-editors .editors-rounded-list .list__item--title {
     font-size:rem-calc(18);
   }
+  article.product-details figure {
+    margin:0 auto 45px;
+  }
+  article.product-details .b-share-article__list li {
+      @include margin-right(6px);
+  }
+article.product-details .b-share-article__list .list__item-fb {
+  @include margin-right(0);
+}
 }
 @media #{$medium-up} {
   article.product-details  .editors-rounded-list {
     @include float(right);
-    width: 373px;
+    max-width: 373px;
   }
   article.product-details  .editors-numbers-list {
     @include float(left);
@@ -224,10 +264,7 @@ article.product-details {
     font-size: rem-calc(14)
   }
   article.product-details .editors-numbers-list {
-    width: 256px;
-  }
-  article.product-details figure {
-    margin: 0 0 223px;
+    max-width: 256px;
   }
 }
 @media #{$large-up} {
