@@ -61,6 +61,20 @@ $large-spacing: 30px;
     @include small-sprite(baloon-green);
 }
 
+//share buttons
+.b-share-article__list .list__item-gplus {
+     @include small-sprite(icon-share-gplus);  
+} 
+.b-share-article__list .list__item-tweet {
+     @include small-sprite(icon-share-tweet);  
+} 
+.b-share-article__list .list__item-fb {
+     @include small-sprite(icon-share-fb);  
+} 
+.b-share-article__list .list__item-pinit {
+     @include small-sprite(icon-share-pinit); 
+} 
+
 }//small ends
 
 ////////sprites for medium up
@@ -114,6 +128,20 @@ $large-spacing: 30px;
 .content-products__reviewCount {
     @include medium-sprite(baloon-green);
 }
+
+//share buttons
+.b-share-article__list .list__item-gplus {
+     @include medium-sprite(icon-share-gplus);  
+} 
+.b-share-article__list .list__item-tweet {
+     @include medium-sprite(icon-share-tweet);  
+} 
+.b-share-article__list .list__item-fb {
+     @include medium-sprite(icon-share-fb);  
+} 
+.b-share-article__list .list__item-pinit {
+     @include medium-sprite(icon-share-pinit); 
+} 
 
 }//medium ends
 
@@ -195,6 +223,20 @@ $large-spacing: 30px;
 }
 .content-products__reviewCount {
     @include large-sprite(baloon-green);
+}
+
+//share buttons
+.b-share-article__list .list__item-gplus {
+     @include large-sprite(icon-share-gplus);  
+} 
+.b-share-article__list .list__item-tweet {
+     @include large-sprite(icon-share-tweet);  
+} 
+.b-share-article__list .list__item-fb {
+     @include large-sprite(icon-share-fb);  
+} 
+.b-share-article__list .list__item-pinit {
+     @include large-sprite(icon-share-pinit); 
 }
 
 }//large ends

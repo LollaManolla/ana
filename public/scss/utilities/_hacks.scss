@@ -4,7 +4,12 @@
 
 //sprites position changing
 .header__desk nav a.home {background-position: 0px -1098px !important;}
-.header__mob .main-nav .logo a {background-position: 6px -316px;}
+.header__mob .main-nav .logo a {
+@media #{$small-only} {
+  background-position:5px -383px;}
+  @media #{$medium-only} {
+  background-position:0px -440px;}
+}
 
 //note for iphone zoom problem maybe
 //-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
@@ -37,12 +42,14 @@
 }
 
 //category height issue due to banner in side bar
-@media #{$large-up} { 
-.b-category.tags {
-   height: 314px;
+@media only screen and (min-width: 62.563em) and (max-width: 64.000em) { 
+  .b-category.tags {
+   height: 311px;
    overflow: hidden;
    }
- }
+}
+
+
 // android default browser font issue will be fixed like this:
 // .ua-os-name-android.ua-browser-name-safari  .namefclass {
 //   white-space: pre;

@@ -1,6 +1,6 @@
 //overwrite some default styles
 button, .button {
-  background-color: transparent;
+  background-color: $green-light;
   margin:0;
   padding:0;
   font-size: inherit;
@@ -8,7 +8,7 @@ button, .button {
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: transparent;
+  background-color: $green-dark !important;
 }
 
 //set style
@@ -26,7 +26,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   -moz-background-clip:    padding; 
   background-clip:         padding-box;
   &:hover {
-    background-color: $green-dark;
+    background-color: $green-dark !important;
   }
 }
 
@@ -80,4 +80,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   @include btn;
   display: table;
   margin:0 auto;
+  &:hover, &:active, &:focus {
+      background-color:$green-dark !important;
+    }
 }

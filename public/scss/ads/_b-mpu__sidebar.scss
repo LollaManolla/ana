@@ -11,6 +11,11 @@
   }
 }
 
+//set visibility tules
+.b-mpu1__top-sidebar {
+  @extend .show-for-large-up;
+  margin-bottom: 35px;
+}
 //set style
 .b-mpu1__sidebar {
   margin-top: 35px;
