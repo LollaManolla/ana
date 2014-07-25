@@ -5337,19 +5337,30 @@ article.product-details .b-share-article__list .list__item-pinit {
 .b-comment__body p {
   font-size: 0.875rem;
 }
-/* line 70, ../scss/blocks/_b-comments.scss */
-.b-comment__body .b-comment__body-title,
-.b-comment__body .b-comment__body-subtitle {
+/* line 69, ../scss/blocks/_b-comments.scss */
+.b-comment__body .b-comment__body-title {
   font-size: 1.125rem;
   color: #333333;
 }
 /* line 74, ../scss/blocks/_b-comments.scss */
+.b-comment__body .b-comment__body-subtitle {
+  font-size: 0.875rem;
+  color: #333333;
+}
+/* line 79, ../scss/blocks/_b-comments.scss */
 .b-comment__body hr {
   border-top: solid 1px #ededed;
   border-bottom: none;
   border-left: none;
   border-right: none;
-  margin: 35px 0;
+  margin: 35px 0 10px;
+}
+
+/* line 88, ../scss/blocks/_b-comments.scss */
+.btn-reply__comment {
+  font-size: 0.875rem;
+  float: left;
+  padding-left: 30px;
 }
 
 @media only screen and (max-width: 30em) {
@@ -5849,9 +5860,9 @@ ul.tags__list > li.tags__item > a:hover {
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 162, medium/*.png */
-  .medium-sprite, .header__mob .main-nav .menu a, .header__mob .main-nav .user a, .header__mob .main-nav .search a, .header__mob .main-nav .logo a, .b-scroll-3thumbs__list .owl-prev, .b-scroll-3thumbs__list .owl-next, .b-three__article-two__list-item__top-label, .b-three__article-two__list-item__bottom-label, .w-forum .data__comments, .content-products__productCount, .content-products__reviewCount, .b-share-article__list .list__item-gplus, .b-share-article__list .list__item-tweet, .b-share-article__list .list__item-fb, .b-share-article__list .list__item-pinit {
-    background: url('../assets/images/medium-s3ccaf7983b.png') no-repeat;
+  /* line 170, medium/*.png */
+  .medium-sprite, .header__mob .main-nav .menu a, .header__mob .main-nav .user a, .header__mob .main-nav .search a, .header__mob .main-nav .logo a, .b-scroll-3thumbs__list .owl-prev, .b-scroll-3thumbs__list .owl-next, .b-three__article-two__list-item__top-label, .b-three__article-two__list-item__bottom-label, .w-forum .data__comments, .content-products__productCount, .content-products__reviewCount, .b-share-article__list .list__item-gplus, .b-share-article__list .list__item-tweet, .b-share-article__list .list__item-fb, .b-share-article__list .list__item-pinit, .btn-reply__comment {
+    background: url('../assets/images/medium-s7d5a8db55d.png') no-repeat;
   }
 
   /* line 87, ../scss/sprites/_sprites.scss */
@@ -5925,111 +5936,121 @@ ul.tags__list > li.tags__item > a:hover {
   .b-share-article__list .list__item-pinit {
     background-position: 0 -383px;
   }
+
+  /* line 145, ../scss/sprites/_sprites.scss */
+  .btn-reply__comment {
+    background-position: 0 -1332px;
+  }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 226, large/*.png */
-  .large-sprite, .wayyana__logo, .header__desk .header-logo, .header__desk .header-search__button, .header__desk .header-social__fb, .header__desk .header-social__tube, .header__desk .header-social__tweet, .header__desk .header-social__gplus, .header__desk .header-social__pinit, .header__desk .header-social__instg, .header__desk nav a.home, .b-three__article-two__list-item__top-label, .b-three__article-two__list-item__bottom-label, .b-scroll-3thumbs__list .owl-prev, .b-scroll-3thumbs__list .owl-next, .w-forum .data__comments, .content-products__productCount, .content-products__reviewCount, .b-share-article__list .list__item-gplus, .b-share-article__list .list__item-tweet, .b-share-article__list .list__item-fb, .b-share-article__list .list__item-pinit {
-    background: url('../assets/images/large-s82dd2a3eaf.png') no-repeat;
+  /* line 234, large/*.png */
+  .large-sprite, .wayyana__logo, .header__desk .header-logo, .header__desk .header-search__button, .header__desk .header-social__fb, .header__desk .header-social__tube, .header__desk .header-social__tweet, .header__desk .header-social__gplus, .header__desk .header-social__pinit, .header__desk .header-social__instg, .header__desk nav a.home, .b-three__article-two__list-item__top-label, .b-three__article-two__list-item__bottom-label, .b-scroll-3thumbs__list .owl-prev, .b-scroll-3thumbs__list .owl-next, .w-forum .data__comments, .content-products__productCount, .content-products__reviewCount, .b-share-article__list .list__item-gplus, .b-share-article__list .list__item-tweet, .b-share-article__list .list__item-fb, .b-share-article__list .list__item-pinit, .btn-reply__comment {
+    background: url('../assets/images/large-s1519db3b68.png') no-repeat;
   }
 
-  /* line 154, ../scss/sprites/_sprites.scss */
+  /* line 156, ../scss/sprites/_sprites.scss */
   .wayyana__logo {
     background-position: 0 -434px;
     background-position: 60px -91px;
   }
 
-  /* line 163, ../scss/sprites/_sprites.scss */
+  /* line 165, ../scss/sprites/_sprites.scss */
   .header__desk .header-logo {
     background-position: 0 -343px;
     background-position: 154px 0;
   }
-  /* line 169, ../scss/sprites/_sprites.scss */
+  /* line 171, ../scss/sprites/_sprites.scss */
   .header__desk .header-search__button {
     background-position: 0 -1021px;
   }
-  /* line 172, ../scss/sprites/_sprites.scss */
+  /* line 174, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__fb {
     background-position: 0 -1251px;
   }
-  /* line 175, ../scss/sprites/_sprites.scss */
+  /* line 177, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__tube {
     background-position: 0 -793px;
   }
-  /* line 178, ../scss/sprites/_sprites.scss */
+  /* line 180, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__tweet {
     background-position: 0 -907px;
   }
-  /* line 181, ../scss/sprites/_sprites.scss */
+  /* line 183, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__gplus {
     background-position: 0 -736px;
   }
-  /* line 184, ../scss/sprites/_sprites.scss */
+  /* line 186, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__pinit {
     background-position: 0 -850px;
   }
-  /* line 188, ../scss/sprites/_sprites.scss */
+  /* line 190, ../scss/sprites/_sprites.scss */
   .header__desk .header-social__instg {
     background-position: 0 -964px;
   }
-  /* line 191, ../scss/sprites/_sprites.scss */
+  /* line 193, ../scss/sprites/_sprites.scss */
   .header__desk nav a.home {
     background-position: 0 -1356px;
     background-position: 0 -1308px;
   }
 
-  /* line 200, ../scss/sprites/_sprites.scss */
+  /* line 202, ../scss/sprites/_sprites.scss */
   .b-three__article-two__list-item__top-label {
     background-position: 0 -1071px;
   }
 
-  /* line 203, ../scss/sprites/_sprites.scss */
+  /* line 205, ../scss/sprites/_sprites.scss */
   .b-three__article-two__list-item__bottom-label {
     background-position: 0 -1190px;
   }
 
-  /* line 208, ../scss/sprites/_sprites.scss */
+  /* line 210, ../scss/sprites/_sprites.scss */
   .b-scroll-3thumbs__list .owl-prev {
     background-position: 0 -1467px;
   }
 
-  /* line 211, ../scss/sprites/_sprites.scss */
+  /* line 213, ../scss/sprites/_sprites.scss */
   .b-scroll-3thumbs__list .owl-next {
     background-position: 0 -1404px;
   }
 
-  /* line 216, ../scss/sprites/_sprites.scss */
+  /* line 218, ../scss/sprites/_sprites.scss */
   .w-forum .data__comments {
     background-position: 0 -1132px;
   }
 
-  /* line 221, ../scss/sprites/_sprites.scss */
+  /* line 223, ../scss/sprites/_sprites.scss */
   .content-products__productCount {
     background-position: 0 0;
   }
 
-  /* line 224, ../scss/sprites/_sprites.scss */
+  /* line 226, ../scss/sprites/_sprites.scss */
   .content-products__reviewCount {
     background-position: 0 -180px;
   }
 
-  /* line 229, ../scss/sprites/_sprites.scss */
+  /* line 231, ../scss/sprites/_sprites.scss */
   .b-share-article__list .list__item-gplus {
     background-position: 0 -550px;
   }
 
-  /* line 232, ../scss/sprites/_sprites.scss */
+  /* line 234, ../scss/sprites/_sprites.scss */
   .b-share-article__list .list__item-tweet {
     background-position: 0 -674px;
   }
 
-  /* line 235, ../scss/sprites/_sprites.scss */
+  /* line 237, ../scss/sprites/_sprites.scss */
   .b-share-article__list .list__item-fb {
     background-position: 0 -612px;
   }
 
-  /* line 238, ../scss/sprites/_sprites.scss */
+  /* line 240, ../scss/sprites/_sprites.scss */
   .b-share-article__list .list__item-pinit {
     background-position: 0 -488px;
+  }
+
+  /* line 245, ../scss/sprites/_sprites.scss */
+  .btn-reply__comment {
+    background-position: 0 -1584px;
   }
 }
 @media only screen and (min-width: 30.001em) {
@@ -6465,4 +6486,9 @@ ul.tags__list > li.tags__item > a:hover {
 .section-list__right-align > li > a {
   font-size: 0.875rem;
   display: inline-block;
+}
+
+/* line 116, ../scss/utilities/_hacks.scss */
+.btn-reply__comment {
+  background-position: 42px -1332px;
 }

@@ -55,24 +55,24 @@ $large-spacing: 30px;
 
 //baloons - b-counter
 .content-products__productCount {
-    @include small-sprite(baloon-pink);
+  @include small-sprite(baloon-pink);
 }
 .content-products__reviewCount {
-    @include small-sprite(baloon-green);
+  @include small-sprite(baloon-green);
 }
 
 //share buttons
 .b-share-article__list .list__item-gplus {
-     @include small-sprite(icon-share-gplus);  
+  @include small-sprite(icon-share-gplus);  
 } 
 .b-share-article__list .list__item-tweet {
-     @include small-sprite(icon-share-tweet);  
+  @include small-sprite(icon-share-tweet);  
 } 
 .b-share-article__list .list__item-fb {
-     @include small-sprite(icon-share-fb);  
+  @include small-sprite(icon-share-fb);  
 } 
 .b-share-article__list .list__item-pinit {
-     @include small-sprite(icon-share-pinit); 
+  @include small-sprite(icon-share-pinit); 
 } 
 
 }//small ends
@@ -123,26 +123,28 @@ $large-spacing: 30px;
 
 //baloons - b-counter
 .content-products__productCount {
-    @include medium-sprite(baloon-pink);
+  @include medium-sprite(baloon-pink);
 }
 .content-products__reviewCount {
-    @include medium-sprite(baloon-green);
+  @include medium-sprite(baloon-green);
 }
 
 //share buttons
 .b-share-article__list .list__item-gplus {
-     @include medium-sprite(icon-share-gplus);  
+  @include medium-sprite(icon-share-gplus);  
 } 
 .b-share-article__list .list__item-tweet {
-     @include medium-sprite(icon-share-tweet);  
+  @include medium-sprite(icon-share-tweet);  
 } 
 .b-share-article__list .list__item-fb {
-     @include medium-sprite(icon-share-fb);  
+  @include medium-sprite(icon-share-fb);  
 } 
 .b-share-article__list .list__item-pinit {
-     @include medium-sprite(icon-share-pinit); 
+  @include medium-sprite(icon-share-pinit); 
 } 
-
+.btn-reply__comment {
+  @include medium-sprite(icon-reply); 
+}
 }//medium ends
 
 
@@ -219,25 +221,29 @@ $large-spacing: 30px;
 
 //baloons - b-counter
 .content-products__productCount {
-    @include large-sprite(baloon-pink);
+  @include large-sprite(baloon-pink);
 }
 .content-products__reviewCount {
-    @include large-sprite(baloon-green);
+  @include large-sprite(baloon-green);
 }
 
 //share buttons
 .b-share-article__list .list__item-gplus {
-     @include large-sprite(icon-share-gplus);  
+  @include large-sprite(icon-share-gplus);  
 } 
 .b-share-article__list .list__item-tweet {
-     @include large-sprite(icon-share-tweet);  
+  @include large-sprite(icon-share-tweet);  
 } 
 .b-share-article__list .list__item-fb {
-     @include large-sprite(icon-share-fb);  
+  @include large-sprite(icon-share-fb);  
 } 
 .b-share-article__list .list__item-pinit {
-     @include large-sprite(icon-share-pinit); 
+  @include large-sprite(icon-share-pinit); 
 }
 
+//
+.btn-reply__comment {
+  @include large-sprite(icon-reply); 
+}
 }//large ends
 

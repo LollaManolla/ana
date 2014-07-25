@@ -66,16 +66,27 @@
   p {
         font-size: rem-calc(14);
   }
-  .b-comment__body-title,
-    .b-comment__body-subtitle {
+  .b-comment__body-title{
     font-size: rem-calc(18);
     color: $black;
   }
+
+  .b-comment__body-subtitle {
+    font-size: rem-calc(14);
+      color: $black;
+  }
+
   hr {
    border-top:solid 1px $gray-light;
    border-bottom:none;
    border-left:none;
    border-right:none;
-   margin: 35px 0;
+   margin: 35px 0 10px;
   }
+}
+
+.btn-reply__comment  {
+  font-size: rem-calc(14);
+    @include float(right);
+    @include padding-right(30px);
 }
