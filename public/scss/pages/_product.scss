@@ -63,13 +63,12 @@ article.product-details {
       text-align: center;
       display: block;
       @include float(left);
-      line-height: 2.8;
       >li {
         display: inline-block;
         @include float(left);
-        line-height: 2.8;
+        line-height: 3.5;
         vertical-align: middle;
-        padding: 6px 0 2px;
+        padding: 0;
       }
       .list__item--img {
         float: none;
