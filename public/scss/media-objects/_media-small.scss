@@ -51,8 +51,11 @@
   }
 }
 
-
-
+.media-small.product {
+ .title {
+ font-size: 14px;
+ color:$gray-dark; 
+ }}
 //set media
 @media #{$small-only} {
   .media-small.product {
