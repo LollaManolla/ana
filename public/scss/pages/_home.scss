@@ -6,8 +6,6 @@
   @include grid-row($behavior:nest);
 }
 
-
-
 .l-content__top-block {
   @media #{$small-up} {
     @include grid-column(12);
@@ -19,8 +17,6 @@
     @include grid-column(8);
   }
 }
-
-
 
 .l-content__top-block__bottom {
   @media #{$small-up} {
@@ -81,4 +77,3 @@
 .l-content__bootom {
 @include grid-column(12, $collapse:true);
 }
-

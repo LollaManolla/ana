@@ -74,3 +74,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     @include btn;
   }
 }
+
+
+.product-details__btn--review {
+  @include btn;
+  display: table;
+  margin:0 auto;
+}
