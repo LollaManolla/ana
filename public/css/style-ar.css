@@ -4202,42 +4202,97 @@ article.product-details .article-content ul.list > li span {
   margin-right: 10px;
   min-width: 80px;
 }
-/* line 181, ../bower_components/foundation/scss/foundation/components/_global.scss */
-article.product-details .b-editors:before, article.product-details .b-editors:after {
-  content: " ";
-  display: table;
-}
-/* line 182, ../bower_components/foundation/scss/foundation/components/_global.scss */
-article.product-details .b-editors:after {
-  clear: both;
+/* line 90, ../scss/pages/_product.scss */
+article.product-details .b-editors {
+  padding-left: 0.6875rem;
+  padding-right: 0.6875rem;
+  width: 100%;
+  float: right;
 }
 /* line 92, ../scss/pages/_product.scss */
-article.product-details .b-editors h2 {
+article.product-details .b-editors .editors-rounded-list {
+  counter-reset: li;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+/* line 97, ../scss/pages/_product.scss */
+article.product-details .b-editors .editors-rounded-list .list__item--title {
+  padding: 0;
   text-transform: uppercase;
   border-bottom: solid 3px #40d0ad;
   font-size: 1.125rem;
   margin-bottom: 15px;
 }
-/* line 97, ../scss/pages/_product.scss */
-article.product-details .b-editors h2 span {
+/* line 103, ../scss/pages/_product.scss */
+article.product-details .b-editors .editors-rounded-list .list__item--title span {
   color: #999999;
 }
-/* line 102, ../scss/pages/_product.scss */
-article.product-details .b-editors ul.editors-list__tips,
-article.product-details .b-editors ul.editors-list__review {
+/* line 106, ../scss/pages/_product.scss */
+article.product-details .b-editors .editors-rounded-list .list__item--title:before {
+  border-radius: 0;
+  content: none;
+}
+/* line 111, ../scss/pages/_product.scss */
+article.product-details .b-editors .editors-rounded-list li {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.4em 0.4em 0.4em 3em;
+  position: relative;
+  text-decoration: none;
+}
+/* line 117, ../scss/pages/_product.scss */
+article.product-details .b-editors .editors-rounded-list li:before {
+  font-size: 1.25rem;
+  color: #40d0ad;
+  background: none repeat scroll 0 0 #ededed;
+  border-radius: 2em;
+  content: counter(li,decimal);
+  counter-increment: li;
+  height: 2em;
+  left: -0.3em;
+  line-height: 2em;
+  margin-top: -1.3em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 2em;
+}
+/* line 136, ../scss/pages/_product.scss */
+article.product-details .editors-numbers-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  border-top: solid 1px #ededed;
 }
-/* line 110, ../scss/pages/_product.scss */
-article.product-details ul.editors-list__tips {
-  float: left;
+/* line 142, ../scss/pages/_product.scss */
+article.product-details .editors-numbers-list li {
+  border-bottom: solid 1px #ededed;
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.4em 0;
+  position: relative;
+  text-decoration: none;
+  text-align: right;
 }
-/* line 114, ../scss/pages/_product.scss */
-article.product-details ul.editors-list__review {
-  float: right;
+/* line 151, ../scss/pages/_product.scss */
+article.product-details .editors-numbers-list li span {
+  color: #f64da3;
+  display: inline-block;
+  text-align: left;
 }
 
+@media only screen and (min-width: 30.001em) {
+  /* line 166, ../scss/pages/_product.scss */
+  .editors-rounded-list {
+    float: left;
+  }
+
+  /* line 170, ../scss/pages/_product.scss */
+  .editors-numbers-list {
+    float: right;
+  }
+}
 /* line 2, ../scss/blocks/_b-three-articles.scss */
 .b-three__article {
   width: auto;

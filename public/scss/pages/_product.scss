@@ -24,46 +24,46 @@ article.product-details {
   }
 
   .article-content {
-  ul.rating-list {
-    border-top:solid 1px $gray-light;
-    border-bottom:solid 1px $gray-light;
-    font-size:rem-calc(16);
-    list-style: none;
-    margin: 35px  0;
-    padding: 0;
-    color:$gray-medium;
-    width: 100%;
- text-align: center;
-          display: block;
-             @include float(left);
-              line-height: 2.8;
-    >li {
-      display: inline-block;
+    ul.rating-list {
+      border-top:solid 1px $gray-light;
+      border-bottom:solid 1px $gray-light;
+      font-size:rem-calc(16);
+      list-style: none;
+      margin: 35px  0;
+      padding: 0;
+      color:$gray-medium;
+      width: 100%;
+      text-align: center;
+      display: block;
       @include float(left);
-          line-height: 2.8;
-      vertical-align: middle;
-      padding: 6px 0 2px;
-    }
-    .list__item--img {
-      float: none;
-      display: inline-block;
-      margin: 0 auto;
-    }
-    .list__item--reviewCount {
-      color: $pink;
-      font-size: rem-calc(32);
-      font-weight: 500;
-      line-height: 0.8;
-      padding: 6px 0 2px;
-      @include float(right);
-      span {
-        display: block;
-        color: $gray-medium;
-        font-size: rem-calc(16);
+      line-height: 2.8;
+      >li {
+        display: inline-block;
+        @include float(left);
+        line-height: 2.8;
+        vertical-align: middle;
+        padding: 6px 0 2px;
+      }
+      .list__item--img {
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+      }
+      .list__item--reviewCount {
+        color: $pink;
+        font-size: rem-calc(32);
+        font-weight: 500;
+        line-height: 0.8;
+        padding: 6px 0 2px;
+        @include float(right);
+        span {
+          display: block;
+          color: $gray-medium;
+          font-size: rem-calc(16);
+        }
       }
     }
-  }
-      p {
+    p {
       font-weight: lighter;
       color: $black;
       font-size: rem-calc(18);
@@ -86,36 +86,75 @@ article.product-details {
       }
     }
 
-}
-.b-editors {
-  @include clearfix;
-  h2 {
-    text-transform: uppercase;
-    border-bottom:solid 3px $green-light;
-    font-size: rem-calc(18);
-    margin-bottom: 15px;
-    span {
-      color:$gray-dark;
+  }
+  .b-editors {
+    @include grid-column(12);
+    .editors-rounded-list{
+      counter-reset: li;
+      list-style: none outside none;
+      margin:0;
+      padding: 0;
+       .list__item--title {
+        padding: 0;
+          text-transform: uppercase;
+      border-bottom:solid 3px $green-light;
+      font-size: rem-calc(18);
+      margin-bottom: 15px;
+      span {
+        color:$gray-dark;
+      }
+      &:before {
+        border-radius: 0;
+    content: none;
+      }
+    }
+      li {
+        display: block;
+        margin: 0.5em 0;
+        padding: 0.4em 0.4em 0.4em 3em;
+        position: relative;
+        text-decoration: none;
+        &:before {
+          font-size: rem-calc(20);
+          color:$green-light;
+          background: none repeat scroll 0 0 $gray-light;
+          border-radius: 2em;
+          content: counter(li, decimal);
+          counter-increment: li;
+          height: 2em;
+          left: -0.3em;
+          line-height: 2em;
+          margin-top: -1.3em;
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          width: 2em;
+        }
+      }
     }
   }
-  ul.editors-list__tips,
-  ul.editors-list__review {
-list-style: none;
-margin: 0;
-padding: 0;
+  .editors-numbers-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: solid 1px $gray-light;
 
+    li {
+     
+      border-bottom: solid 1px $gray-light;
+      display: block;
+        margin: 0.5em 0;
+        padding:0.4em 0;
+        position: relative;
+        text-decoration: none;
+           @include text-align(left);
+           span {
+            color: $pink;
+            display: inline-block;
+            @include text-align(right);
+           }
+    }
   }
-}
-
-ul.editors-list__tips {
-  @include float(right);
-}
-
-ul.editors-list__review {
-  @include float(left);
-}
-
-
 }
 
 
@@ -124,6 +163,14 @@ ul.editors-list__review {
 
 }
 @media #{$medium-up} {
+  .editors-rounded-list {
+    @include float(right);
+  }
+
+  .editors-numbers-list {
+    @include float(left);
+  }
+
 
 }
 @media #{$large-up} {
