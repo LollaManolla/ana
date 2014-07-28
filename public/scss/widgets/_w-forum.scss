@@ -4,7 +4,7 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12,$collapse:true);
+    @include grid-column(12);
   }
 }
 //set visibility 
@@ -13,33 +13,33 @@
 }
 //set style
 .w-forum {
-  margin-bottom:35px;
+  /*margin-bottom:35px;*/
   p {
-    margin: 1rem 0 !important;
+    /*margin: 1rem 0 !important;*/
   }
   .forum__title {
-    font-size: rem-calc(24);
+    /*font-size: rem-calc(24);*/
     text-transform: uppercase;
     color: $black;
-    margin-top: 0 !important;
+   /* margin-top: 0 !important;*/
   }
   .forum__content {
     border-bottom: dashed 1px $gray-light;
-    margin:1rem 0;
+   /* margin:1rem 0;*/
   }
   .content__data {
     .data__comments {
       display: block;
       @include float(left);
-      @media #{$medium-up} {
+    /*  @media #{$medium-up} {
         height: 33px;
         width: 38px;
         @include padding-right(5px);
-      }
-      height: 28px;
-      margin-right: 10px;
+      }*/
+     /* height: 28px;
+      margin-right: 10px;*/
       text-align: center;
-      width: 33px;
+     /* width: 33px;*/
       color: $white;
     }
     .data__post-day {
@@ -50,10 +50,10 @@
 //set media
 @media #{$large-up} {
   .w-forum {
-    margin-left: 0;
+ /*   margin-left: 0;
     margin-right: 0;
     left: auto;
     right: auto;
-    @include float(left);
+    @include float(left);*/
   }
 }

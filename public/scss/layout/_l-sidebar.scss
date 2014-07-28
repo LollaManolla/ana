@@ -1,3 +1,4 @@
+//set grid
 .l-sidebar {
   @media #{$small-up} {
     @include grid-column(12);
@@ -8,4 +9,18 @@
 }
 .l-sidebar__content {
   @include grid-row();
+}
+
+.l-sidebar.two-blocks {
+  float: $opposite-direction !important; 
+
+}
+
+.l-sidebar.two-blocks .wrapper {
+   @media #{$medium-up} {
+    @include grid-column(6);
+  }
+  @media #{$large-up} {
+    @include grid-column(12);
+  }
 }

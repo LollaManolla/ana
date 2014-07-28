@@ -23,25 +23,25 @@
 .b-comment__list {
   border-top:solid 1px $gray-light;
   border-bottom:solid 1px $gray-light;
-  font-size:rem-calc(14);
-  font-weight: lighter;
+ /* font-size:rem-calc(14);
+  font-weight: lighter;*/
   list-style: none;
-  margin: 35px  11px;
-  padding: 0;
+ /* margin: 35px  11px;
+  padding: 0;*/
   color:$gray-medium;
   text-align: center;
 
   >li {
     display: inline-block;
     @include float(left);
-    line-height: 1.8;
-    vertical-align: middle;
+  /*  line-height: 1.8;
+    vertical-align: middle;*/
    
   }
   .b-comment__item--widget {
     float: none;
     display: inline-block;
-    margin: 0 auto 0 -144px;
+   /* margin: 0 auto 0 -144px;*/
   }
   .b-comment__item--date {
     @include float(right);
@@ -52,11 +52,11 @@
   a, p {
     display: block;
     text-align: center;
-    font-size: rem-calc(14);
+   /* font-size: rem-calc(14);*/
   }
   .b-comment__member-like-num {
-    padding-right:20px;
-    padding-left:20px;
+  /*  padding-right:20px;
+    padding-left:20px;*/
     position: relative;
     top:65px;
     img {
@@ -68,33 +68,33 @@
 
 .b-comment__body {
   p {
-        font-size: rem-calc(14);
+        /*font-size: rem-calc(14);*/
   }
   .link__readmore {
     color:$green-light;
     &:after {
       content:" >";
-      font-size: rem-calc(14);
+     /* font-size: rem-calc(14);*/
     }
   }
   .b-comment__body-title{
-    font-size: rem-calc(18);
+   /* font-size: rem-calc(18);*/
     color: $black;
   }
 
   .b-comment__body-subtitle {
-    font-size: rem-calc(14);
+   /* font-size: rem-calc(14);*/
       color: $black;
   }
 
 }
 .b-comment__body-review {
    border-bottom:solid 1px $gray-light;
-   margin-bottom: 15px;
-   padding-bottom:35px;
+ /*  margin-bottom: 15px;
+   padding-bottom:35px;*/
 }
 .btn-reply__comment  {
-  font-size: rem-calc(14);
+ /* font-size: rem-calc(14);*/
     @include float(right);
     @include padding-right(30px);
 }
@@ -106,17 +106,17 @@
     border:none;
   }
   .b-comment__body-review {
-     padding-bottom: 15px;
-     margin-bottom: 0;
+   /*  padding-bottom: 15px;
+     margin-bottom: 0;*/
      border:none;
   }
   .b-comment__list .b-comment__item--widget {
-margin:0 auto 0 -43px;
+    /*margin:0 auto 0 -43px;*/
   }
   .b-comment__list {
-        margin: 0 11px;
+      /*  margin: 0 11px;*/
           border-bottom:none;
-          padding-top:15px;
+        /*  padding-top:15px;*/
 
   }
 }

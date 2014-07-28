@@ -65,6 +65,7 @@
 @import "blocks/b-trigger";
 @import "blocks/b-scroll-3thumbs";
 @import "blocks/b-category";
+@import "blocks/b-category-tags";
 @import "blocks/b-articles";
 @import "blocks/b-counter";
 @import "blocks/b-comments";
@@ -89,9 +90,9 @@
 @import "widgets/w-rating";
 
 //ads
-@import "ads/b-add--top";
-@import "ads/b-add--bottom";
-@import "ads/b-mpu__sidebar";
+@import "ads/leaderboard__top";
+@import "ads/leaderboard__bottom";
+@import "ads/mpu__sidebar";
 
 
 //hacks

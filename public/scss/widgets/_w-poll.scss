@@ -4,12 +4,13 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12,$collapse:true);
+    @include grid-column(12);
   }
   .w-poll__img--full {
     @include grid-row(nest);
   }
 }
+/*
 //set style
 .w-poll {
   clear: both;
@@ -66,3 +67,4 @@
     @include float(left);
   }
 }
+*/

@@ -16,15 +16,12 @@ ul.tags__list {
       background-color: $green-light;
       color:$white;
     }
-
     >a {
       color:$gray-dark; 
       font-size:rem-calc(14);
       display: block;
       padding: 2px 10px;
-
       &:hover {
-
         color:$white;
       }
     }

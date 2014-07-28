@@ -46,6 +46,7 @@
       padding-top: 0;
     }
     .header-search__button {
+      background-color: transparent !important;
       @include right(34px);
       height: 21px;
       margin: 0;

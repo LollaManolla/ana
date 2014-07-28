@@ -65,14 +65,7 @@
 }
 
 
-.l-content__page {
-  @media #{$small-up} {
-    @include grid-column(12);
-  }
-  @media #{$large-up} {
-    @include grid-column(8);
-  }
-}
+
 
 .l-content__bootom {
 @include grid-column(12, $collapse:true);

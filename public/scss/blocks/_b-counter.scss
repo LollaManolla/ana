@@ -7,16 +7,16 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12,$collapse:true);
+    @include grid-column(12);
   }
 }
 
 //set style
 .b-counter {
   text-align: center;
-  margin-bottom:35px;
+  /*margin-bottom:35px;*/
   .head-title {
-    font-size: rem-calc(28);
+    /*font-size: rem-calc(28);*/
     color: $black;
     text-transform: uppercase;
     span {
@@ -25,18 +25,18 @@
 
   }
   .title {
-    font-size: rem-calc(28);
+   /* font-size: rem-calc(28);*/
     text-transform: uppercase;
     color: $green-light;
-    line-height: 0.5;
-    padding-bottom: 13px;
+    /*line-height: 0.5;
+    padding-bottom: 13px;*/
   }
   .subtitle {
     border-top: solid 1px $gray-light;
     border-bottom: solid 1px $gray-light;
     color: $pink;
     text-transform: uppercase;
-    line-height: 1.9;
+  /*  line-height: 1.9;*/
   }
       .btn {
         @include btn;
@@ -45,15 +45,17 @@
 }
 
 .b-counter--content {
-  margin-bottom: 15px;
-  margin:0 auto;}
+  /*margin-bottom: 15px;
+  margin:0 auto;*/
+
+}
 
   .b-counter--content-wrapper {
     position: relative;
     margin:0 auto;
     .content-products__productCount {
       position: absolute;
-      line-height: 0.8;
+      /*line-height: 0.8;*/
       color: white;
       font-weight: bold;
       position: absolute;
@@ -87,13 +89,13 @@
 //set media
 @media #{$small-only} {
   .b-counter--content-wrapper {
-    min-height: 192px;
+   /* min-height: 192px;*/
   }
   .b-counter--content-wrapper {
-    width: 248px;
+   /* width: 248px;*/
   }
   .b-counter--content-wrapper .content-products__productCount {
-    font-size: rem-calc(37);
+   /* font-size: rem-calc(37);
     height: 145px;
     @include padding-right(11px);
     padding-top: 36px;
@@ -101,10 +103,10 @@
     width: 139px;
     span {
       font-size: rem-calc(18);
-    }
+    }*/
   }
   .b-counter--content-wrapper  .content-products__reviewCount {
-    font-size: rem-calc(35);
+ /*   font-size: rem-calc(35);
     height: 145px;
     @include padding-right(19px);
     padding-top: 56px;
@@ -112,10 +114,10 @@
     width: 139px;
     span {
       font-size: rem-calc(18);
-    }
+    }*/
   }
 }
-
+/*
 @media #{$medium-only} {
   .b-counter--content-wrapper {
     min-height: 217px;
@@ -177,4 +179,4 @@
       font-size: rem-calc(18);
     }
   }
-}
+}*/
