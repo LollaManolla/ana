@@ -44,6 +44,11 @@
   .w-poll__input {
     margin-bottom: 0;
   }
+   .btn {
+        @include btn;
+
+
+  }
 }
 //media
 @media #{$small-up} {

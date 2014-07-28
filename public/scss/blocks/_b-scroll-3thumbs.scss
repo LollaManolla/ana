@@ -11,6 +11,17 @@
     clear: both;
     display: block;
   }
+  .btn {
+    display: block;
+@include float(left);
+  width: 100% ;
+  border-bottom: solid 1px $gray-light;
+  margin-top:35px;
+  span {
+    @include btn-flat;
+    @include float(right);
+
+  }
 }
 .b-scroll-3thumbs__section-title {
   text-transform: uppercase;
@@ -48,17 +59,9 @@
     margin: 0;
   }
 }
-.scroll-3thumbs__btn {
-  display: block;
-  @include float(right);
-  width: 100% !important;
-  border-bottom: solid 1px $gray-light;
-  margin-top:35px;
-  span {
-    display: inline-block;
-    @include float(right);
-  }
+
 }
+
 
 //set media
 @media #{$small-only} {

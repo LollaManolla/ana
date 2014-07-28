@@ -62,16 +62,16 @@ $large-spacing: 30px;
 }
 
 //share buttons
-.b-share-article__list .list__item-gplus {
+.share-article__list .list__item-gplus {
   @include small-sprite(icon-share-gplus);  
 } 
-.b-share-article__list .list__item-tweet {
+.share-article__list  .list__item-tweet {
   @include small-sprite(icon-share-tweet);  
 } 
-.b-share-article__list .list__item-fb {
+.share-article__list  .list__item-fb {
   @include small-sprite(icon-share-fb);  
 } 
-.b-share-article__list .list__item-pinit {
+.share-article__list  .list__item-pinit {
   @include small-sprite(icon-share-pinit); 
 } 
 
@@ -130,16 +130,16 @@ $large-spacing: 30px;
 }
 
 //share buttons
-.b-share-article__list .list__item-gplus {
+.share-article__list  .list__item-gplus {
   @include medium-sprite(icon-share-gplus);  
 } 
-.b-share-article__list .list__item-tweet {
+.share-article__list .list__item-tweet {
   @include medium-sprite(icon-share-tweet);  
 } 
-.b-share-article__list .list__item-fb {
+.share-article__list .list__item-fb {
   @include medium-sprite(icon-share-fb);  
 } 
-.b-share-article__list .list__item-pinit {
+.share-article__list .list__item-pinit {
   @include medium-sprite(icon-share-pinit); 
 } 
 .btn-reply__comment {
@@ -228,16 +228,16 @@ $large-spacing: 30px;
 }
 
 //share buttons
-.b-share-article__list .list__item-gplus {
+.share-article__list .list__item-gplus {
   @include large-sprite(icon-share-gplus);  
 } 
-.b-share-article__list .list__item-tweet {
+.share-article__list .list__item-tweet {
   @include large-sprite(icon-share-tweet);  
 } 
-.b-share-article__list .list__item-fb {
+.share-article__list  .list__item-fb {
   @include large-sprite(icon-share-fb);  
 } 
-.b-share-article__list .list__item-pinit {
+.share-article__list .list__item-pinit {
   @include large-sprite(icon-share-pinit); 
 }
 

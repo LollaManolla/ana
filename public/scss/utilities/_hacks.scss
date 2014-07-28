@@ -3,7 +3,7 @@
 
 
 //sprites position changing
-.header__desk nav a.home {background-position: 0px -1098px !important;}
+.header__desk nav a.home {background-position:0 -1347px !important;}
 .header__mob .main-nav .logo a {
 @media #{$small-only} {
   background-position:5px -383px;}
@@ -116,3 +116,39 @@
 .btn-reply__comment  {
      background-position: 42px -1332px;
 }
+
+
+
+
+//category
+.top-left,
+.page-left {
+  background-color:yellow;
+ @media #{$small-up} {
+    @include grid-column(12, $collapse:true);
+  }
+  @media #{$medium-only} {
+    @include grid-column(12, $collapse:true);
+  }
+  @media #{$large-up} {
+    @include grid-column(8, $collapse:true);
+  }
+
+}
+
+
+.top-right,
+.page-right {
+  background-color:red;
+ @media #{$small-up} {
+    @include grid-column(12, $collapse:true);
+  }
+  @media #{$medium-only} {
+    @include grid-column(12, $collapse:true);
+  }
+  @media #{$large-up} {
+    @include grid-column(4, $collapse:true);
+  }
+
+}
+
