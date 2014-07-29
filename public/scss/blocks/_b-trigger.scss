@@ -37,7 +37,10 @@
       position: absolute;
       background: url(./../assets/images/text-bgrnd-opacity-white.png) repeat transparent;
       width: 100%;
-      padding:10px 0;
+      @include text-align(left);
+      height: 70px;
+      @include padding-left(10px);
+      padding-top: 10px;
     }
     .b-trigger__item--title {
       color: $black;
@@ -50,6 +53,7 @@
       @include right(0);
       line-height: 0.98;
       padding: 10px;
+      height: 70px;
       position: absolute;
       background-color: $pink;
       color: $white;
@@ -102,8 +106,5 @@
 @media #{$large-up} {
   .b-trigger__item--title {
     font-size: rem-calc(18);
-  }
-  .b-trigger .b-trigger__list .b-trigger__item--content {
-    width:81%;
   }
 }

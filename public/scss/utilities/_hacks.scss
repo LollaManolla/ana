@@ -19,7 +19,7 @@
 
 
 //sprites position changing
-.header__desk nav a.home {background-position:0 -1347px !important;}
+.header__desk nav a.home {background-position:0 -1472px !important;}
 .header__mob .main-nav .logo a {
   @media #{$small-only} {
     background-position:5px -383px;}
@@ -50,3 +50,12 @@
   background-position: 48px -1581px;
 }
 
+//hacks for arabic sprites
+:lang(ar) {
+.wayyana__logo {
+    background-position: 51px -434px;
+}
+.header__desk .header-logo {
+    background-position: 156px -343px;
+}
+}

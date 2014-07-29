@@ -68,7 +68,7 @@
   text-align: center;
   color: $white;
   text-transform: uppercase;
-  @include right(0);
+  right:0;
 }
 
 .b-three__article-two__list-item__top-img,

@@ -27,7 +27,7 @@
     }
   }
   a.last {
-    right: 0;
+    @include right(0);
     background-color: $green-dark;
     position: absolute;
   }
