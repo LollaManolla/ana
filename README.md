@@ -9,21 +9,38 @@ The easiest way to get started with Foundation + Compass.
   * [compass](http://compass-style.org/): `gem install compass`
   * [bower](http://bower.io): `npm install bower -g`
 
-## Quickstart
+## Notes
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+* hacks
+- for quick fixes or any fixes, keep it here
 
-```bash
-compass watch
-```
+* style writing:
+  //set grid
+ //set visibility
+ //set style
+ //set media 
 
-## Upgrading
+* media can have values
+- @media #{$small-only} {}
+- @media #{$medium-only} {}
+- @media #{$large-only} {}
+- @media #{$small-up} {}
+- @media #{$medium-up} {}
+- @media #{$large-up} {}
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+* media object 
+  <article class="media-small review">
+    <div class="media-small__item"> <a href="#">img,video..</a> </div>
+       <div class="media-small__body "></div>
+  </article>
 
-```bash
-bower update
-```
+* titles, headings
+- section-title, title, subtitle
+
+
+
+
+
+
+
+
