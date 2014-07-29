@@ -1,15 +1,11 @@
 //keep all hacks and note for it in this file
 //sass buttons are imported from forms by foundation, if we are using foundation forms then leave it
-
-
-//sprites position changing
-.header__desk nav a.home {background-position:0 -1347px !important;}
-.header__mob .main-nav .logo a {
-@media #{$small-only} {
-  background-position:5px -383px;}
-  @media #{$medium-only} {
-  background-position:0px -440px;}
-}
+// android default browser font issue will be fixed like this:
+// .ua-os-name-android.ua-browser-name-safari  .namefclass {
+//   white-space: pre;
+//   word-break: break-word;
+//}
+//use of valuse - rem for fonts, px for margins/paddings
 
 //note for iphone zoom problem maybe
 //-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
@@ -22,136 +18,35 @@
 }
 
 
+//sprites position changing
+.header__desk nav a.home {background-position:0 -1347px !important;}
+.header__mob .main-nav .logo a {
+  @media #{$small-only} {
+    background-position:5px -383px;}
+    @media #{$medium-only} {
+      background-position:0px -440px;}
+    }
+
 //not sure where to put this and if code for this is good
 .col-border {
   border:solid 1px $gray-light;
   padding: 10px;
 }
 
-//baloons bgrnd img position
-//lsmall
+//baloons forum
 @media #{$small-only} {
-.content-products__reviewCount {
+  .content-products__reviewCount {
     background-position: 0 -150px;
-}
+  }
 }
 @media #{$medium-only} {
-.content-products__reviewCount {
+  .content-products__reviewCount {
     background-position: 0 -200px;
-}
-}
-
-/*
-//category height issue due to banner in side bar
-@media only screen and (min-width: 62.563em) and (max-width: 62.999em) { 
-  .b-category.tags {
-   height: 302px !important;
-   overflow: hidden;
-   }
-}
-@media only screen and (min-width: 63.000em) and (max-width: 63.688em) { 
-  .b-category.tags {
-   height: 306px !important;
-   overflow: hidden;
-   }
-}
-@media only screen and (min-width: 63.688em) and (max-width: 64.313em) { 
-  .b-category.tags {
-   height: 309px !important;
-   overflow: hidden;
-   }
-}
-@media only screen and (min-width: 64.314em) and (max-width:65.000em)  { 
-  .b-category.tags {
-   height: 311px !important;
-   overflow: hidden;
-   }
-}
-
-
-  .b-category.tags {
-   height: 314px;
-   overflow: hidden;
-   }
-*/
-
-// android default browser font issue will be fixed like this:
-// .ua-os-name-android.ua-browser-name-safari  .namefclass {
-//   white-space: pre;
-//   word-break: break-word;
-//}
-
-
-//use of valuse - rem for fonts, px for margins/paddings
-
-//ne znam gde ovo da stavim
-.section-list__right-align {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-  @include text-align(right);
-  >li {
-    display: inline-block;
-    &:after {
-      content: "|";
-      font-size: rem-calc(12);
-      @include padding-left(10px);
-      @include padding-right(10px);
-      color: $pink;
-    }
-    &:last-child {
-      &:after {
-        content: "";
-        @include padding-right(0);
-      }
-    }
-    >a {
-      font-size: rem-calc(14);
-      display: inline-block;
-    }
   }
 }
 
 //reply icona
 .btn-reply__comment  {
-     background-position: 42px -1332px;
+  background-position: 48px -1581px;
 }
 
-
-
-/*
-//category
-.top-left,
-.page-left {
-  background-color:yellow;
- @media #{$small-up} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$medium-only} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$large-up} {
-    @include grid-column(8, $collapse:true);
-  }
-
-}
-
-
-.top-right,
-.page-right {
-  background-color:red;
- @media #{$small-up} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$medium-only} {
-    @include grid-column(12, $collapse:true);
-  }
-  @media #{$large-up} {
-    @include grid-column(4, $collapse:true);
-  }
-
-}
-
-*/
-//for the right sidebar 

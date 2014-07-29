@@ -1,7 +1,5 @@
 //set style
 ul.tags__list {
-  margin:0;
-  padding: 0;
   list-style: none;
   >li.tags__item {
     display:inline-block;
@@ -10,17 +8,16 @@ ul.tags__list {
     -moz-border-radius: 3px;
     border-radius: 3px;
     border-color:$gray-dark;
-    margin-bottom: 6px;
-    @include   margin-right(3px);
     &:hover {
       background-color: $green-light;
       color:$white;
     }
     >a {
       color:$gray-dark; 
-      font-size:rem-calc(14);
       display: block;
       padding: 2px 10px;
+      font-size:rem-calc(14);
+      font-weight: lighter;
       &:hover {
         color:$white;
       }
@@ -28,29 +25,35 @@ ul.tags__list {
   }
 }
 
+
 //set media
-@media #{$small-only}{        
+@media #{$small-only} {        
   ul.tags__list  {
-    margin-bottom: 10px;
-    margin-top: 13px;
-  }
-  .b-category.tags {
-    height: auto; 
-    margin-bottom:35px;
+    margin:15px 0 0;
+    padding:0;
+    >li.tags__item {
+      margin-bottom: 10px;
+      @include margin-right(10px);
+    }
   }
 }
 @media #{$medium-only}{    
   ul.tags__list {    
-    margin-bottom: 12px;
-    margin-top: 0;
-  }
-  .b-category.tags {
-    height: auto; 
+    margin:15px 0 0;
+    padding:0;
+    >li.tags__item {
+      margin-bottom: 15px;
+      @include margin-right(10px);
+    }
   }
 }
 @media #{$large-up}{
   ul.tags__list  {
-    margin-bottom: 13px;
-    margin-top: 0;
+    margin:15px 0 0;
+    padding:0;
+    >li.tags__item {
+      margin-bottom: 15px;
+      @include margin-right(10px);
+    }
   }
 }

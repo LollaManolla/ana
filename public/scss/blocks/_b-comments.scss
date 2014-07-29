@@ -6,7 +6,7 @@
   @include grid-column(3);
 }
 .b-comment__body {
-    @include grid-column(9);
+  @include grid-column(9);
 }
 
 //set visibility
@@ -19,29 +19,57 @@
 .b-comment__body .link__readmore {
   @extend .show-for-small-only;
 }
+
 //set style
+.section-list__right-align {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  @include text-align(right);
+  >li {
+    display: inline-block;
+    &:after {
+      content: "|";
+      font-size: rem-calc(12);
+      @include padding-left(10px);
+      @include padding-right(10px);
+      color: $pink;
+    }
+    &:last-child {
+      &:after {
+        content: "";
+        @include padding-right(0);
+        @include padding-left(0);
+      }
+    }
+    >a {
+      font-size: rem-calc(14);
+      display: inline-block;
+    }
+  }
+}
 .b-comment__list {
   border-top:solid 1px $gray-light;
   border-bottom:solid 1px $gray-light;
- /* font-size:rem-calc(14);
-  font-weight: lighter;*/
+  font-weight: lighter;
   list-style: none;
- /* margin: 35px  11px;
-  padding: 0;*/
+  margin: 35px  11px;
+  padding: 0;
   color:$gray-medium;
   text-align: center;
 
   >li {
     display: inline-block;
     @include float(left);
-  /*  line-height: 1.8;
-    vertical-align: middle;*/
-   
+    line-height: 1.8;
+    vertical-align: middle;
+
   }
   .b-comment__item--widget {
     float: none;
     display: inline-block;
-   /* margin: 0 auto 0 -144px;*/
+    margin: 0 auto 0 -144px;
   }
   .b-comment__item--date {
     @include float(right);
@@ -52,71 +80,98 @@
   a, p {
     display: block;
     text-align: center;
-   /* font-size: rem-calc(14);*/
   }
   .b-comment__member-like-num {
-  /*  padding-right:20px;
-    padding-left:20px;*/
+    padding-right:20px;
+    padding-left:20px;
     position: relative;
     top:65px;
+    font-size: rem-calc(12);
+    line-height: 1.5;
     img {
       display: block;
-      margin:0 auto;
+      margin:0 auto 15px;
     }
   }
 }
 
 .b-comment__body {
   p {
-        /*font-size: rem-calc(14);*/
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    font-size:rem-calc(14);
   }
   .link__readmore {
     color:$green-light;
     &:after {
       content:" >";
-     /* font-size: rem-calc(14);*/
+      font-size: rem-calc(16);
     }
   }
   .b-comment__body-title{
-   /* font-size: rem-calc(18);*/
     color: $black;
+    margin-top: 0 !important;
+    font-size: rem-calc(18);
   }
 
   .b-comment__body-subtitle {
-   /* font-size: rem-calc(14);*/
-      color: $black;
+    color: $black;
+    font-size: rem-calc(14);
   }
 
 }
 .b-comment__body-review {
-   border-bottom:solid 1px $gray-light;
- /*  margin-bottom: 15px;
-   padding-bottom:35px;*/
+  border-bottom:solid 1px $gray-light;
+  margin-bottom: 15px;
+  padding-bottom:35px;
 }
 .btn-reply__comment  {
- /* font-size: rem-calc(14);*/
-    @include float(right);
-    @include padding-right(30px);
+  font-size: rem-calc(16);
+  @include float(right);
+  @include padding-right(30px);
 }
 
 //set media
 @media #{$small-only} {
-
   .b-comment__body {
     border:none;
   }
   .b-comment__body-review {
-   /*  padding-bottom: 15px;
-     margin-bottom: 0;*/
-     border:none;
-  }
-  .b-comment__list .b-comment__item--widget {
-    /*margin:0 auto 0 -43px;*/
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    border:none;
   }
   .b-comment__list {
-      /*  margin: 0 11px;*/
-          border-bottom:none;
-        /*  padding-top:15px;*/
+    border-bottom: medium none;
+    @include float(left);
+    margin: 0 0 35px;
+    padding: 15px 0 0;
+    width: 100%;
+  }
+  .b-comment__list .b-comment__item--widget {
+    display: block;
+    @include float(left);
+    margin: 0 auto;
+    @include text-align(left);
+  }
+  .b-comment__list,
+  .b-comment__member,
+  .b-comment__member,
+  .b-comment__body  p {
+    font-size:rem-calc(16);
+  }
+  .b-comment__body-title{
+    font-size: rem-calc(22);
+  }
 
+  @media #{$medium-up} {
+    .b-comment__list,
+    .b-comment__member,
+    .b-comment__member,
+    .b-comment__body  p,
+    .b-comment__body-subtitle {
+      font-size:rem-calc(14) !important;
+      border-bottom:solid 12px red;
+    }
   }
 }

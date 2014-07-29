@@ -14,7 +14,7 @@
 
 .product-page article header {
   @media #{$small-only} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
     @include grid-column(7, $offset:5);
@@ -63,7 +63,7 @@
     @include grid-column(12);
   }
   @media #{$medium-up} {
-    @include grid-column(7, $offset:1, $push:4);
+    @include grid-column(6, $offset:1, $push:5);
   }
 }
 
@@ -72,7 +72,7 @@
     @include grid-column(12);
   }
   @media #{$medium-up} {
-    @include grid-column(4, $pull:8);
+    @include grid-column(5, $pull:7);
   }
 }
 
@@ -83,7 +83,7 @@
 }
 
 //set visibility
-.share-article__list .list__item-pinit {
+.share-article__list .share-article__item-pinit {
   @extend .show-for-large-up;
 }
 
@@ -92,13 +92,13 @@
   header {
     position: relative;
     h1 {
-      font-size: rem-calc(20);
       display:inline-block;
-      width: 280px;
       @include float(left);
+      width: 280px;
+      font-size: rem-calc(24);
     }
     p {
-      font-size: rem-calc(24);
+      font-size: rem-calc(26);
       @include border-left(solid 1px $gray-medium);
       @include text-align(right);
       @include padding-left(20px);
@@ -120,8 +120,8 @@
     border-top:solid 1px $gray-light;
     border-bottom:solid 1px $gray-light;
     list-style: none;
-    margin: 35px  0;
     padding: 0;
+    margin: 15px  0;
     color:$gray-medium;
     width: 100%;
     text-align: center;
@@ -129,6 +129,7 @@
     @include float(left);
     >li {
       display: inline-block;
+      font-weight: lighter;
       @include float(left);
       line-height: 3.5;
       vertical-align: middle;
@@ -141,13 +142,16 @@
     }
     .list__item--reviewCount {
       color: $pink;
-      font-weight: 500;
       line-height: 0.8;
+      font-size: rem-calc(30);
+      font-weight: bold;
       padding: 6px 0 2px;
       @include float(right);
       span {
         display: block;
         color: $gray-medium;
+        font-size: rem-calc(16);
+        font-weight: lighter;
       }
     }
   }
@@ -166,6 +170,7 @@
       display: block;
       line-height: 0.8;
       vertical-align: middle;
+      color: $gray-medium;
       span {
         font-weight: bold;
         display: inline-block;
@@ -186,7 +191,7 @@
     text-transform: uppercase;
     border-bottom:solid 3px $gray-light;
     color: $green-light;
-    font-size: rem-calc(14);
+    font-size: rem-calc(18);
     margin-bottom: 15px;
     span {
       color:$black;
@@ -198,12 +203,13 @@
   }
   li {
     display: block;
-    margin: 0.5em 0;
-    padding: 0.4em 0.4em 0.4em 3em;
+    margin: 0;
+    padding: 0 0 1em 2.5em;
     position: relative;
     text-decoration: none;
+    font-size: rem-calc(14);
     &:before {
-      font-size: rem-calc(20);
+      font-size: rem-calc(16);
       color:$green-light;
       background: none repeat scroll 0 0 $gray-light;
       border-radius: 2em;
@@ -212,10 +218,9 @@
       height: 1.5em;
       left:0;
       line-height: 1.5em;
-      margin-top: -1.3em;
       position: absolute;
       text-align: center;
-      top: 71%;
+      top: 0;
       width: 1.5em;
     }
   }
@@ -223,8 +228,7 @@
 
 .b-editors__numbered-list  {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 29px 0 0;
   border-top: solid 1px $gray-light;
   li {
     border-bottom: solid 1px $gray-light;
@@ -235,6 +239,7 @@
     text-decoration: none;
     line-height: 3;
     vertical-align: middle;
+    font-size: rem-calc(14);
     @include text-align(left);
     span {
       @include float(right);
@@ -260,7 +265,30 @@
     text-indent: -9999px;
     width: 96px;
   }
-  .list__item-pinit {
+  .share-article__item-pinit {
     @include margin-right(0);
+  }
+}
+
+//set media 
+@media #{$small-up} {
+  .product-page article {
+    margin-top: 35px;
+  }
+  .b-editors {
+    margin-top: 35px;
+  }
+  .share-article__item-fb {
+    @include margin-right(0 !important);
+  }
+}
+@media #{$large-up} {
+  .share-article__item-fb {
+    @include margin-right(10px !important);
+  }
+  .b-editors {
+    background: url("/public/assets/images/bg-content-product-detail.jpg") no-repeat scroll center top transparent;
+    margin-top: 35px;
+    padding-top: 35px;
   }
 }

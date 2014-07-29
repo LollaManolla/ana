@@ -4,23 +4,12 @@
     @include grid-column(12);
   }
   @media #{$large-up} {
-    @include grid-column(4);
+    @include grid-column(4, $collapse:true);
   }
 }
 .l-sidebar__content {
   @include grid-row();
 }
-
 .l-sidebar.two-blocks {
   float: $opposite-direction !important; 
-
-}
-
-.l-sidebar.two-blocks .wrapper {
-   @media #{$medium-up} {
-    @include grid-column(6);
-  }
-  @media #{$large-up} {
-    @include grid-column(12);
-  }
 }

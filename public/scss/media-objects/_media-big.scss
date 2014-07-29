@@ -16,8 +16,9 @@
 }
 .media-big__body {
   .title {
-     /*font-size: rem-calc(22);
-     line-height: 1.3;*/
+     font-size: rem-calc(18);
+     line-height: 1.3;
+     font-weight: lighter;
   }
 }
 
@@ -25,5 +26,8 @@
 @media #{$small-only} {
   .media-big {
     @include grid-column(12);
+    .title {
+     font-size: rem-calc(22);
+   }
   }
 }

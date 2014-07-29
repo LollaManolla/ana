@@ -20,7 +20,7 @@ button:active,
 //set style
 @mixin btn {
   @include button;
-  display: table;
+  display: inline-block;
   margin: 0 auto;
   padding:0.75rem 2rem;
   font-size: inherit;
@@ -46,41 +46,4 @@ button:active,
   border-radius: 0px; 
   margin-bottom: 0;
   padding: 0.5rem 1rem;
-}
-
-
-
-
-
-
-.w-poll__btn-submit {
-    display: block;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 15px;
-  span {
-    @include btn;
-    width: 55%;
-    margin-bottom: 0;
-    &:hover, &:active, &:focus {
-      background-color:$green-dark !important;
-    }
-  }
-}
-
-
-
-
-
-.product-details__btn--review {
-  @include btn;
-  display: table;
-  margin:0 auto;
-  &:hover, &:active, &:focus {
-      background-color:$green-dark !important;
-    }
-}
-
-.btn-reply__comment {
-  //in b-comments + hacks
 }

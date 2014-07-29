@@ -1,5 +1,6 @@
 //set grid
-.mpu__bottom{
+.mpu__top,
+.mpu__bottom {
   @media #{$small-only} {
     @include grid-column(12, $collapse:true);
   }
@@ -11,13 +12,11 @@
   }
 }
 
-//set visibility tules
-.mpu__top {
-  /*@extend .show-for-large-up;*/
-  /*margin-bottom: 35px;*/
-}
+//set visibility rules
+
 //set style
-.mpu__top, .mpu__bottom {
+.mpu__top, 
+.mpu__bottom {
   margin-bottom: 35px;
   text-align: center;
   img {
@@ -26,35 +25,9 @@
   }
 }
 
-.b-mpu2__sidebar {
-  text-align: center;
-  margin-bottom: 35px;
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/*
-//set media rule
-@media #{$small-only} {
-  .b-mpu1__sidebar {
-    margin-bottom: 14px;
-  }
-}
-
-@media #{$medium-only} {
-  .b-mpu1__sidebar {
-  margin-top: 0;
-}
-}
-
-@media #{$large-up} {
-  .b-mpu2__sidebar {
-    margin-left: 0;
-    margin-right: 0;
-    left: auto;
-    right: auto;
-    @include float(left);
-  }
-}*/
+//set media
+@media #{$small-only} {}
+@media #{$small-up} {}
+@media #{$medium-only} {}
+@media #{$medium-up} {}
+@media #{$large-up} {}

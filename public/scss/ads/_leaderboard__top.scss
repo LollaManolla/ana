@@ -1,23 +1,24 @@
-  //set grid
+//set grid
 .leaderboard__top {
   @include grid-column(12, $collapse:true);
-  
 }
 
+//set visibility rules
+
 //set style
-.leaderboard__top{
+.leaderboard__top {
   text-align:center;
-   margin: 5px auto 15px;
 }
 
 //set media
 .leaderboard__top {
   @media #{$small-only} {
-   margin-bottom: 0;
-    margin-top: 0;
-      img {
-    width: 100%;
+    img {
+      width: 100%;
+    }
   }
+  @media #{$medium-up} {
+    margin-top: 15px;
+    margin-bottom: 35px;
   }
 }
-

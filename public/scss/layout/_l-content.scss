@@ -2,7 +2,6 @@
 .l-content {
   @include grid-row();
 }
-
 .l-content__page {
   @media #{$small-up} {
     @include grid-column(12);

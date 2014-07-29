@@ -10,14 +10,12 @@
     @include grid-row(nest);
   }
 }
-/*
+
 //set style
 .w-poll {
-  clear: both;
+  font-weight: lighter;
   margin-bottom:35px;
-  p {
-    margin: 1rem 0 !important;
-  }
+  clear:both;
   .w-poll__img--full {
     .w-poll__img {
       max-width: 100%;
@@ -25,14 +23,18 @@
       height: auto;
     }
   }
-  .w-poll__title {
-    font-size: rem-calc(24);
+  .w-poll__section-title {
     text-transform: uppercase;
     color: $black;
-    margin-top: 0 !important;
+    font-weight: normal;
+    margin-bottom:10px !important;
+    font-size: rem-calc(24); 
   }
-  .w-poll__subtitle {
+  .w-poll__title {
     color: $black;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    line-height:1.4;
   }
   .w-poll__fieldset {
     border:none;
@@ -45,26 +47,18 @@
   .w-poll__input {
     margin-bottom: 0;
   }
-   .btn {
-        @include btn;
+  .btn {
+    @include btn;
+    display: table;
+    margin-top: 35px;
 
+  }
+}
 
+//set media
+@media #{$small-only} {
+  .w-poll__title,
+  .w-poll__label  {
+    font-size: rem-calc(20);
   }
 }
-//media
-@media #{$small-up} {
-  .w-poll__subtitle, 
-  .w-poll__label {
-    font-size: rem-calc(18);
-  }
-}
-@media #{$large-up} {
-  .w-poll {
-    margin-left: 0;
-    margin-right: 0;
-    left: auto;
-    right: auto;
-    @include float(left);
-  }
-}
-*/

@@ -54,24 +54,24 @@ $large-spacing: 30px;
 }
 
 //baloons - b-counter
-.content-products__productCount {
+.b-counter__productCount {
   @include small-sprite(baloon-pink);
 }
-.content-products__reviewCount {
+.b-counter__reviewCount {
   @include small-sprite(baloon-green);
 }
 
 //share buttons
-.share-article__list .list__item-gplus {
+.share-article__item-gplus {
   @include small-sprite(icon-share-gplus);  
 } 
-.share-article__list  .list__item-tweet {
+.share-article__item-tweet {
   @include small-sprite(icon-share-tweet);  
 } 
-.share-article__list  .list__item-fb {
+.share-article__item-fb {
   @include small-sprite(icon-share-fb);  
 } 
-.share-article__list  .list__item-pinit {
+.share-article__item-pinit {
   @include small-sprite(icon-share-pinit); 
 } 
 
@@ -122,24 +122,24 @@ $large-spacing: 30px;
 }
 
 //baloons - b-counter
-.content-products__productCount {
+.b-counter__productCount {
   @include medium-sprite(baloon-pink);
 }
-.content-products__reviewCount {
+.b-counter__reviewCount {
   @include medium-sprite(baloon-green);
 }
 
 //share buttons
-.share-article__list  .list__item-gplus {
+.share-article__item-gplus {
   @include medium-sprite(icon-share-gplus);  
 } 
-.share-article__list .list__item-tweet {
+.share-article__item-tweet {
   @include medium-sprite(icon-share-tweet);  
 } 
-.share-article__list .list__item-fb {
+.share-article__item-fb {
   @include medium-sprite(icon-share-fb);  
 } 
-.share-article__list .list__item-pinit {
+.share-article__item-pinit {
   @include medium-sprite(icon-share-pinit); 
 } 
 .btn-reply__comment {
@@ -220,24 +220,24 @@ $large-spacing: 30px;
 }
 
 //baloons - b-counter
-.content-products__productCount {
+.b-counter__productCount {
   @include large-sprite(baloon-pink);
 }
-.content-products__reviewCount {
+.b-counter__reviewCount {
   @include large-sprite(baloon-green);
 }
 
 //share buttons
-.share-article__list .list__item-gplus {
+.share-article_item-gplus {
   @include large-sprite(icon-share-gplus);  
 } 
-.share-article__list .list__item-tweet {
+.share-article_item-tweet {
   @include large-sprite(icon-share-tweet);  
 } 
-.share-article__list  .list__item-fb {
+.share-article__item-fb {
   @include large-sprite(icon-share-fb);  
 } 
-.share-article__list .list__item-pinit {
+.share-article__item-pinit {
   @include large-sprite(icon-share-pinit); 
 }
 

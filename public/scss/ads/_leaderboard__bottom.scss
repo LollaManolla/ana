@@ -1,20 +1,17 @@
-  //set grid
+//set grid
 .leaderboard__bottom {
-    @include grid-row();
+  @include grid-row();
 }
+//set visibility rules
 
 //set style
 .leaderboard__bottom {
   text-align:center;
-  /*margin-top: 35px;
-  margin-bottom: 35px;*/
 }
 
 //set media
 .leaderboard__bottom {
   @media #{$small-only} {
-   /* margin-bottom: 0;
-    margin-top: 0;*/
     img {
       width: 100%;
     }
