@@ -6,6 +6,7 @@ $small-layout:vertical;
 $small-repeat: no-repeat; 
 $small-spacing: 30px;
 
+
 $medium-layout:vertical;
 $medium-repeat: no-repeat; 
 $medium-spacing: 30px;
@@ -13,7 +14,8 @@ $medium-spacing: 30px;
 $large-layout:vertical;
 $large-repeat: no-repeat; 
 $large-spacing: 30px;
-
+$large-position-x:-100%;
+$large-position-y:-100%;
 ////////sprites for small
 @media #{$small-only} {
   @import "small/*.png";  
@@ -32,6 +34,9 @@ $large-spacing: 30px;
     }
     .logo a {
       @include small-sprite(logo-ana);
+       @include rtl {
+        @include small-sprite(logo-ana,$offset-x: 5px, $offset-y: 0);
+      }
     }
   }
 }
@@ -95,6 +100,9 @@ $large-spacing: 30px;
     }
     .logo a {
       @include medium-sprite(logo-ana);
+      @include rtl {
+        @include medium-sprite(logo-ana,$offset-x: 5px, $offset-y: 0);
+      }
     }
   }
 }
@@ -119,6 +127,9 @@ $large-spacing: 30px;
 //widget forum
 .w-forum .data__comments {
   @include medium-sprite(icon-comment-baloon);
+   @include rtl {
+        @include medium-sprite(icon-comment-baloon,$offset-x: 2px, $offset-y: 0);
+      }
 }
 
 //baloons - b-counter
@@ -142,7 +153,7 @@ $large-spacing: 30px;
 .share-article__item-pinit {
   @include medium-sprite(icon-share-pinit); 
 } 
-.btn-reply__comment {
+.btn-reply__comment span {
   @include medium-sprite(icon-reply); 
 }
 }//medium ends
@@ -152,11 +163,12 @@ $large-spacing: 30px;
 @media #{$large-up} {
   @import "large/*.png";  
 
+
 //topbar
 .wayyana__logo {
   @include large-sprite(logo-wayyana);
   @include rtl {
-    background-position: 60px -91px;
+    @include large-sprite(logo-wayyana,$offset-x: 51px, $offset-y: 0);
   }
 }
 
@@ -165,7 +177,7 @@ $large-spacing: 30px;
   .header-logo{
     @include large-sprite(logo-ana);
     @include rtl {
-      background-position: 154px 0;
+      @include large-sprite(logo-ana, $offset-x: 100%, $offset-y: 0);
     }
   }
   .header-search__button{
@@ -217,6 +229,9 @@ $large-spacing: 30px;
 //widget forum
 .w-forum .data__comments {
   @include large-sprite(icon-comment-baloon);
+     @include rtl {
+        @include large-sprite(icon-comment-baloon,$offset-x: 5px, $offset-y: 0);
+      }
 }
 
 //baloons - b-counter
@@ -242,8 +257,10 @@ $large-spacing: 30px;
 }
 
 //
-.btn-reply__comment {
+.btn-reply__comment span {
   @include large-sprite(icon-reply); 
+  @include rtl {
+    @include large-sprite(icon-reply-ar); 
+  }
 }
 }//large ends
-

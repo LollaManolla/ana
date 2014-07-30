@@ -60,7 +60,7 @@
     text-align: center;
     text-transform: uppercase;
     z-index:2;
-    @include left(0);
+    left: 0;
     span {
       display: block;
       font-weight: normal;
@@ -71,9 +71,8 @@
     color: white;
     font-weight: bold;
     position: absolute;
-    text-align: center;
     text-transform: uppercase;
-    @include right(0);
+    right: 0;
     line-height: 0.8;
     z-index:1;
     span {
@@ -85,7 +84,7 @@
 }
 
 //set media
-@media #{$small-up} {
+@media #{$small-only} {
   .b-counter .head-title{
     font-size: rem-calc(36);  
   }
@@ -101,28 +100,26 @@
   }
   .b-counter--content-wrapper .b-counter__productCount {
     font-size: rem-calc(37);
-    height: 145px;
-    @include padding-right(11px);
+    height: 147px;
     padding-top: 39px;
     top: 29px;
-    width: 139px;
+    width: 141px;
     span {
       font-size: rem-calc(18);
     }
   }
   .b-counter--content-wrapper  .b-counter__reviewCount {
     font-size: rem-calc(35);
-    height: 145px;
-    @include padding-right(19px);
+    height: 130px;
     padding-top: 33px;
-    top: 21px;
-    width: 139px;
+    top: 36px;
+    width: 126px;
     span {
       font-size: rem-calc(18);
     }
   }
 }
-
+/*
 @media #{$medium-up} {
   .b-counter .head-title{
     font-size: rem-calc(39);  
@@ -160,8 +157,9 @@
     }
   }
 }
+*/
 
-@media #{$large-up} {
+@media #{$medium-up} {
   .b-counter .head-title{
     font-size: rem-calc(34);  
   }
@@ -177,22 +175,21 @@
   }
   .b-counter--content-wrapper .b-counter__productCount {
     font-size: rem-calc(41);
-    @include padding-right(19px);
-    height: 154px;
+    height: 157px;
     padding-top: 37px;
     top: 16px;
-    width: 158px;
+    width: 153px;
+    padding-right: 3px;
     span {
       font-size: rem-calc(18);
     }
   }
   .b-counter--content-wrapper  .b-counter__reviewCount {
     font-size: rem-calc(35);
-    height: 140px;
-    @include padding-right(8px);
+    height: 141px;
     padding-top: 34px;
     top: 21px;
-    width: 136px;
+    width: 134px;
     span {
       font-size: rem-calc(18);
     }

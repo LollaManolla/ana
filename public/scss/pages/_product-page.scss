@@ -113,6 +113,9 @@
     margin: 0 auto;
     text-align: center;
   }
+  .btn {
+    @include btn;
+  }
 }
 
 .article-content {
@@ -135,12 +138,12 @@
       vertical-align: middle;
       padding: 0;
     }
-    .list__item--img {
+    .rating-list__item--img {
       float: none;
       display: inline-block;
       margin: 0 auto;
     }
-    .list__item--reviewCount {
+    .rating-list__item--reviewCount {
       color: $pink;
       line-height: 0.8;
       font-size: rem-calc(30);
@@ -174,7 +177,7 @@
       span {
         font-weight: bold;
         display: inline-block;
-        margin-right: 10px;
+        @include margin-right(10px);
         min-width: 80px;
       }
     }
@@ -186,7 +189,7 @@
   list-style: none outside none;
   margin:0;
   padding: 0;
-  .list__item--title {
+  .rounded-list__item--title {
     padding: 0;
     text-transform: uppercase;
     border-bottom:solid 3px $gray-light;
@@ -204,7 +207,7 @@
   li {
     display: block;
     margin: 0;
-    padding: 0 0 1em 2.5em;
+    @include padding (0, 0, 1em, 2.5em);
     position: relative;
     text-decoration: none;
     font-size: rem-calc(14);
@@ -216,7 +219,7 @@
       content: counter(li, decimal);
       counter-increment: li;
       height: 1.5em;
-      left:0;
+      @include left(0);
       line-height: 1.5em;
       position: absolute;
       text-align: center;

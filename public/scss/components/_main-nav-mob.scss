@@ -14,22 +14,34 @@
       >a {
         text-indent: -9999px;
         display: block; 
-        @media #{$small-only} {
-          width: 43px;
-          height: 46px;
-        }
-        width: 60px;
-        height: 52px;
       }
     }
     .logo {
       @include float(right);
-      a {
-        @media #{$small-only} {
-          width: 150px;
-        }
-        width: 185px;
-      }
     }
   }
+}
+
+//set media
+@media #{$small-only} {
+.header__mob .main-nav > li > a {
+  width: 43px;
+          height: 46px;
+}
+.header__mob .main-nav .logo a {
+    height: 39px;
+    margin-top: 6px;
+    width: 150px;
+}
+}
+@media #{$medium-only} {
+.header__mob .main-nav > li > a {
+        width: 60px;
+        height: 52px;
+}
+.header__mob .main-nav .logo a {
+  height: 45px;
+    margin-top: 6px;
+    width: 185px;
+}
 }

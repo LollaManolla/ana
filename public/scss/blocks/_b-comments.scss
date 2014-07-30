@@ -27,6 +27,7 @@
   padding: 0;
   display: block;
   @include text-align(right);
+  @include rtl {direction:rtl};
   >li {
     display: inline-block;
     &:after {
@@ -73,6 +74,7 @@
   }
   .b-comment__item--date {
     @include float(right);
+    @include rtl {direction:ltr};
   }
 }
 
@@ -128,7 +130,12 @@
 .btn-reply__comment  {
   font-size: rem-calc(16);
   @include float(right);
-  @include padding-right(30px);
+  span {
+    display: inline-block;
+    height: 16px;
+    width: 22px;
+    @include margin-left(8px);
+}
 }
 
 //set media

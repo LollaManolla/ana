@@ -18,14 +18,7 @@
 }
 
 
-//sprites position changing
-.header__desk nav a.home {background-position:0 -1472px !important;}
-.header__mob .main-nav .logo a {
-  @media #{$small-only} {
-    background-position:5px -383px;}
-    @media #{$medium-only} {
-      background-position:0px -440px;}
-    }
+
 
 //not sure where to put this and if code for this is good
 .col-border {
@@ -33,23 +26,64 @@
   padding: 10px;
 }
 
-//baloons forum
-@media #{$small-only} {
-  .content-products__reviewCount {
-    background-position: 0 -150px;
+//ballons pink and green
+@media only screen and (min-width: 30.063em) and (max-width: 39.313em) { 
+.b-counter .head-title{
+    font-size: rem-calc(26);
+    color: red;
   }
-}
-@media #{$medium-only} {
-  .content-products__reviewCount {
-    background-position: 0 -200px;
+  .b-counter .title { 
+    font-size: rem-calc(24);
+  }
+  .b-counter .subtitle {
+    font-size: rem-calc(18);
+    line-height: 1.2;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+  .b-counter--content-wrapper {
+    width: 100%;
+    min-height: 192px;
+  }
+ .b-counter--content-wrapper .b-counter__productCount {
+  background-image:url("../assets/images/small-s358e189f6d.png");
+  background-repeat:  no-repeat ;
+  background-color: rgba(0, 0, 0, 0);
+  background-position:0 0;
+  background-size: cover;
+     font-size: rem-calc(34);
+    height: 145px;
+    padding-top: 39px;
+      padding-right: 12px !important;
+    top: 29px;
+    width: 139px;
+    padding-right: 0;
+    span {
+      font-size: rem-calc(16);
+    }
+  }
+  .b-counter--content-wrapper  .b-counter__reviewCount {
+  background-image:url("../assets/images/small-s358e189f6d.png");
+  background-repeat:  no-repeat ;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: 17px -144px;
+  background-size: cover;
+    font-size: rem-calc(26);
+    height: 145px;
+   padding-left: 14px;
+    padding-top: 39px;
+    top: 32px;
+    width: 127px;
+    span {
+      font-size: rem-calc(16);
+    }
   }
 }
 
-//reply icona
-.btn-reply__comment  {
-  background-position: 48px -1581px;
-}
 
+
+
+/*
 //hacks for arabic sprites
 :lang(ar) {
 .wayyana__logo {
@@ -59,3 +93,4 @@
     background-position: 156px -343px;
 }
 }
+*/

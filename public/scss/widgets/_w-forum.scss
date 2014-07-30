@@ -36,7 +36,7 @@
       display: block;
       @include float(left);
       height: 28px;
-      margin-right: 10px;
+      @include margin-right(10px);
       text-align: center;
       width: 33px;
       color: $white;
@@ -57,7 +57,7 @@
       line-height:1.8;
       height: 33px ;
       width: 38px;
-      @include padding-right(5px);
+      @include padding-right(0);
     }
   }
   .w-forum .forum__title { 
@@ -70,6 +70,7 @@
     font-size: rem-calc(13);  
     .data__comments {
       line-height:1.8;
+      @include padding-right(5px);
     }
   }
 }
