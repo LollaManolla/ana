@@ -9,18 +9,18 @@ The easiest way to get started with Foundation + Compass.
   * [compass](http://compass-style.org/): `gem install compass`
   * [bower](http://bower.io): `npm install bower -g`
 
-## Notes
+#Notes
 
-* hacks
+##Hacks
 - for quick fixes or any fixes, keep it here
 
-* style writing:
-  //set grid
- //set visibility
- //set style
- //set media 
+##style writing:
+* set grid
+* set visibility
+* set style
+* set media 
 
-* media can have values
+## media can have values
 - @media #{$small-only} {}
 - @media #{$medium-only} {}
 - @media #{$large-only} {}
