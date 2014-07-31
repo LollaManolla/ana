@@ -60,7 +60,7 @@
 
 .product-page article  .b-editors__rounded-list {
   @media #{$small-only} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
     @include grid-column(6, $offset:1, $push:5);
@@ -69,7 +69,7 @@
 
 .product-page article .b-editors__numbered-list {
   @media #{$small-only} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
   @media #{$medium-up} {
     @include grid-column(5, $pull:7);
@@ -78,7 +78,10 @@
 
 .product-page article .share-article__list {
   @media #{$small-up} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
+  }
+    @media #{$medium-up} {
+    @include grid-column($collapse:false);
   }
 }
 
@@ -286,13 +289,16 @@
   }
   .share-article__list li {
     width: 92px;
-    @include margin-right(1px !important);
+@include margin-right(4px);
   }
   .share-article__item-fb {
     @include margin-right(0 !important);
   }
 }
-@media #{$large-up} {
+@media #{$medium-up} {
+   .share-article__list li {
+     @include margin-right(10px !important);
+   }
   .share-article__item-fb {
     @include margin-right(10px !important);
   }

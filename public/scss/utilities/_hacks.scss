@@ -18,7 +18,9 @@
 }
 
 
-
+.header__desk nav a.home {
+    background-position: 12px -1543px;
+}
 
 //not sure where to put this and if code for this is good
 .col-border {
@@ -79,18 +81,3 @@
     }
   }
 }
-
-
-
-
-/*
-//hacks for arabic sprites
-:lang(ar) {
-.wayyana__logo {
-    background-position: 51px -434px;
-}
-.header__desk .header-logo {
-    background-position: 156px -343px;
-}
-}
-*/

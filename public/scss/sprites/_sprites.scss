@@ -204,9 +204,7 @@ $large-position-y:-100%;
   }
   nav a.home {
     @include large-sprite(main-nav-icon-home); 
-    @include rtl {
-      @include large-sprite(main-nav-icon-home-ar); 
-    }
+
   }
 }
 
