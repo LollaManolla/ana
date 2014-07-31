@@ -21,21 +21,27 @@ The easiest way to get started with Foundation + Compass.
 * set media 
 
 ## media can have values
-- @media #{$small-only} {}
-- @media #{$medium-only} {}
-- @media #{$large-only} {}
-- @media #{$small-up} {}
-- @media #{$medium-up} {}
-- @media #{$large-up} {}
+* @media #{$small-only} {}
+* @media #{$medium-only} {}
+* @media #{$large-only} {}
+* @media #{$small-up} {}
+* @media #{$medium-up} {}
+* @media #{$large-up} {}
 
-* media object 
+## media object 
   <article class="media-small review">
     <div class="media-small__item"> <a href="#">img,video..</a> </div>
        <div class="media-small__body "></div>
   </article>
 
-* titles, headings
-- section-title, title, subtitle
+## titles, headings
+* section-title
+* title
+* subtitle
+
+## Margins, paddings
+* 35px large divide
+* 15 px small divide
 
 
 

@@ -4228,7 +4228,7 @@ button:active,
   padding: 0;
 }
 /* line 141, ../scss/pages/_product-page.scss */
-.article-content ul.rating-list .rating-list__item--img {
+.article-content ul.rating-list .rating-list__item--w-rates {
   float: none;
   display: inline-block;
   margin: 0 auto;
