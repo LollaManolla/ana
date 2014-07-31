@@ -50,9 +50,15 @@
 
 //set media
 @media #{$small-only} {
-  .media-small.product {
-    margin-top:35px;
-    margin-bottom:35px;
+  .product-page article,
+  .media-small .product-title {
+    margin-top: 0;
+  }
+  .media-small {
+    margin-bottom: 35px !important;
+    &:nth-last-child(1) {
+      margin-bottom: 0 !important;
+    }
   }
   .media-small {
     .title,

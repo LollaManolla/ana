@@ -4,14 +4,14 @@
 
 //set style
 .b-category__img {
-    width: 100%;
-    height: auto;
-  }
-
-.b-category__title {
-font-weight:lighter;
-font-size:rem-calc(24);
-color:$black;
+  width: 100%;
+  height: auto;
 }
 
-//set media
+.b-category__title {
+  font-weight:lighter;
+  font-size:rem-calc(22);
+  line-height: 1.5;
+  padding-top:5px;
+  color:$black;
+}

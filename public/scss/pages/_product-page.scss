@@ -39,7 +39,7 @@
   }
 }
 
-.product-details__btn--review {
+.product-page article .btn {
   @media #{$small-only} {
     @include grid-column(12);
   }
@@ -50,7 +50,7 @@
 
 .product-page article .b-editors {
   @media #{$small-up} {
-    @include grid-column(12);
+    @include grid-column(12, $collapse:true);
   }
 }
 
@@ -278,8 +278,15 @@
   .product-page article {
     margin-top: 35px;
   }
+  .product-page article header h1 {
+    width: 200px;
+  }
   .b-editors {
     margin-top: 35px;
+  }
+  .share-article__list li {
+    width: 92px;
+    @include margin-right(1px !important);
   }
   .share-article__item-fb {
     @include margin-right(0 !important);

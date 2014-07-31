@@ -28,6 +28,7 @@
     @include grid-column(12);
     .title {
      font-size: rem-calc(22);
+     margin-top: 5px;
    }
   }
 }

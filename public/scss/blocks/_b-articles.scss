@@ -23,7 +23,7 @@
   .btn {
     @include btn;
     display: table;
-    margin-top: 35px;
+    margin:35px auto 0;
   }
 }
 .b-articles__section-title {
@@ -35,6 +35,9 @@
     color:$gray-dark;
   }
 }
+.articles__review-products {
+  margin-bottom: 35px !important;
+}
 .article__review-products--title-right,
 .article__review-products--title-left {
   color: $black;
@@ -45,11 +48,14 @@
 @media #{$small-only} {
   .articles__review-products {
     border-bottom:solid 1px $gray-light;
+    &:nth-last-child(2) {
+      border-bottom:none;
+    }
   }
   .article__review-products--title-right,
   .article__review-products--title-left {
     margin-top:0;
-    padding-left:10px;
+    @include padding-left(10px);
   }
 }
 
