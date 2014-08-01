@@ -34,6 +34,9 @@ $font-roboto:      Roboto, sans-serif;
 a {
   color:$pink; 
   text-decoration:none;
+  img {
+    border: none;
+  }
 }
 p {
   color:$gray-dark;

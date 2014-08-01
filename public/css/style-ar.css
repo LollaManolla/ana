@@ -3405,32 +3405,36 @@ a {
   color: #f64da3;
   text-decoration: none;
 }
+/* line 37, ../scss/utilities/_typo.scss */
+a img {
+  border: none;
+}
 
-/* line 38, ../scss/utilities/_typo.scss */
+/* line 41, ../scss/utilities/_typo.scss */
 p {
   color: #999999;
   margin: 0 !important;
 }
 
-/* line 42, ../scss/utilities/_typo.scss */
+/* line 45, ../scss/utilities/_typo.scss */
 h1, h2 {
   color: #333333;
   font-weight: normal;
 }
 
-/* line 48, ../scss/utilities/_typo.scss */
+/* line 51, ../scss/utilities/_typo.scss */
 h1 {
   font-size: 1.25rem;
   margin: 0 0 1rem;
 }
 
-/* line 53, ../scss/utilities/_typo.scss */
+/* line 56, ../scss/utilities/_typo.scss */
 h2 {
   font-size: 1.5rem;
   margin: 1rem 0 2rem;
 }
 
-/* line 58, ../scss/utilities/_typo.scss */
+/* line 61, ../scss/utilities/_typo.scss */
 p {
   font-size: 1rem;
   margin: 1rem 0;
