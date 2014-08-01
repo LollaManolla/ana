@@ -26,6 +26,10 @@ $(document).ready(function() {
            $('.owl-wrapper-outer', $b3thumbsSlider).css("direction", "ltr");
            $('.owl-wrapper-outer .owl-wrapper', $b3thumbsSlider).css("direction", "rtl");
            $(sld).data('owlCarousel').jumpTo(1000);
+											$b3thumbsSlider.css("width","1px");
+            setTimeout(function(){
+              $b3thumbsSlider.css("width","");
+            }, 0);
            clearInterval(owlB3thumbInterval0);
          }
        }, 100);
