@@ -4834,6 +4834,7 @@ button:active,
 .b-category__tags .tags__block .tags__title {
   color: #333333;
   font-weight: lighter;
+  font-size: 1rem;
 }
 
 /* line 2, ../scss/blocks/_b-articles.scss */
@@ -5546,30 +5547,31 @@ button:active,
   margin: 0 0 5px 0;
   font-weight: lighter;
   font-size: 0.875rem;
+  color: #999999;
 }
-/* line 63, ../scss/media-objects/_media-small.scss */
+/* line 64, ../scss/media-objects/_media-small.scss */
 .media-small__body .link__readmore {
   color: #40d0ad;
   font-size: 0.75rem;
 }
-/* line 66, ../scss/media-objects/_media-small.scss */
+/* line 67, ../scss/media-objects/_media-small.scss */
 .media-small__body .link__readmore:after {
   content: "\003e";
   margin-left: 5px;
 }
-/* line 72, ../scss/media-objects/_media-small.scss */
+/* line 73, ../scss/media-objects/_media-small.scss */
 .media-small__body .w-rating,
 .media-small__body .prodCount {
   display: block;
 }
-/* line 75, ../scss/media-objects/_media-small.scss */
+/* line 76, ../scss/media-objects/_media-small.scss */
 .media-small__body .prodCount {
   margin: 10px 0;
   font-size: 0.875rem;
 }
 
 @media only screen and (min-width: 30.001em) {
-  /* line 84, ../scss/media-objects/_media-small.scss */
+  /* line 85, ../scss/media-objects/_media-small.scss */
   .articles__review-products .media-small.product {
     margin-top: 0;
   }
