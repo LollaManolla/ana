@@ -203,7 +203,7 @@ $large-position-y:-100%;
     @include large-sprite(header-icon-instagram); 
   }
   nav a.home {
-    @include large-sprite(main-nav-icon-home); 
+    @include large-sprite(main-nav-icon-home, $offset-x: 12px, $offset-y: 9); 
 
   }
 }

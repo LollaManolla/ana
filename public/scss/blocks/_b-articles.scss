@@ -1,6 +1,6 @@
 //set grid
 .articles__review-products {
-  @include grid-row($behavior:nest);
+  @include grid-row();
 }
 .articles__related {
   @include grid-row($behavior:nest);
@@ -19,48 +19,46 @@
 
 //set style
 .b-articles {
-  margin-bottom:35px;
   .btn {
     @include btn;
     display: table;
-    margin:35px auto 0;
   }
 }
 .b-articles__section-title {
   text-transform: uppercase;
   border-bottom:solid 3px $green-light;
-  margin-top:0;
-  margin-bottom: 15px;
+  margin: 10px auto;
   span {
     color:$gray-dark;
   }
 }
-.articles__review-products {
-  margin-bottom: 35px !important;
-}
 .article__review-products--title-right,
 .article__review-products--title-left {
   color: $black;
-  line-height: 1.2;
+  @include padding(0, 50px, 0, 0);
+  font-size: rem-calc(20);
+  margin: -30px 0 15px 0;
+}
+
+.articles__review-products {
+  margin-top:35px;
+  border-bottom:solid 1px $gray-light;
+  &:nth-last-child(2) {
+    border-bottom:none;
+  }
 }
 
 //set media
-@media #{$small-only} {
-  .articles__review-products {
-    border-bottom:solid 1px $gray-light;
-    &:nth-last-child(2) {
-      border-bottom:none;
-    }
-  }
+@media #{$medium-up} {
   .article__review-products--title-right,
   .article__review-products--title-left {
-    margin-top:0;
-    @include padding-left(10px);
+    margin: 0 0 15px 0;
   }
-}
-
-@media #{$medium-up} {
-  //it pushes title in right 
+  .articles__review-products {
+    border-bottom:none;
+    margin-bottom:35px;
+    margin-top:0;
+  }
   .article__review-products--title-right  {
     @include grid-column($offset:6);
   }

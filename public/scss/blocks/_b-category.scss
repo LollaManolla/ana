@@ -6,12 +6,11 @@
 .b-category__img {
   width: 100%;
   height: auto;
+  margin-bottom: 5px;
 }
 
 .b-category__title {
   font-weight:lighter;
-  font-size:rem-calc(22);
-  line-height: 1.5;
-  padding-top:5px;
+  font-size: rem-calc(18);
   color:$black;
 }

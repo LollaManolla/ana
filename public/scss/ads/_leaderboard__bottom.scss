@@ -2,6 +2,10 @@
 .leaderboard__bottom {
   @include grid-row();
 }
+.leaderboard-wrapper {
+  @include grid-column(12, $collapse:true);
+}
+
 //set visibility rules
 
 //set style
@@ -10,10 +14,10 @@
 }
 
 //set media
+@media #{$medium-up} {
 .leaderboard__bottom {
-  @media #{$small-only} {
-    img {
-      width: 100%;
-    }
+    margin-top: 35px !Important;
+    margin-bottom: 35px !Important;
   }
-}
+  }
+

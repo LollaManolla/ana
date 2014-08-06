@@ -12,52 +12,15 @@
 
 //set style
 .b-category__tags {
-  margin-bottom: 35px;
   .tags__block {
-    position: relative;
     .tags__img {
       width: 100%;
+      margin:5px 0;
     }
     .tags__title {
-      bottom: 0;
-      position: absolute;
-      background-image: url(./../assets/images/text-bgrnd-opacity-white.png) ;
-      background-repeat:repeat;
-      background-color:transparent;
-      padding: 10px;
-      width: 100%;
       color: $black;
       font-weight: lighter;
-      font-size:rem-calc(22);
-      line-height: 1.5;
+    
     }
-  }
-}
-
-//set media 
-@media #{$small-only} {
-  .b-category__tags {
-    .tags__block {
-      .tags__title {
-        position: relative;
-        background-image:none;
-        padding:0;
-      }
-    }
-  }
-  .b-category__tags .tags__block .tags__title {
-    padding-top: 10px;
-  }
-  .b-category__tags .tags__block .tags__title {
-    font-size: rem-calc(25);
-  }
-}
-
-@media #{$medium-up} {    
-  .b-category__tags .tags__block .tags__title {
-    padding:10px;
-  }
-  .b-category__tags .tags__block .tags__title {
-    font-size: rem-calc(24); 
   }
 }

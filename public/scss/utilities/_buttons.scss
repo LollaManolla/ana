@@ -23,9 +23,8 @@ button:active,
   display: inline-block;
   margin: 0 auto;
   padding:0.75rem 2rem;
-  font-size: inherit;
   background-color: $green-light;
-    border-color: $green-dark;
+  border-color: $green-dark;
   color: $white;
   text-transform: uppercase;
   -webkit-border-radius: 4px; 
@@ -34,6 +33,12 @@ button:active,
   -webkit-background-clip: padding-box; 
   -moz-background-clip:    padding; 
   background-clip:         padding-box;
+  @media #{$small-only} {
+    font-size: rem-calc(18);
+  }
+  @media #{$medium-up} {
+    font-size: rem-calc(16);
+  }
   &:hover, &:focus, &:active {
     background-color: $green-dark !important;
   }
@@ -46,4 +51,17 @@ button:active,
   border-radius: 0px; 
   margin-bottom: 0;
   padding: 0.5rem 1rem;
+}
+
+
+.btn-flat {
+  @extend .show-for-medium-up;
+  display: block;
+  width: 100% ;
+  border-bottom: solid 1px $gray-light;
+  span {
+    @include btn-flat;
+    display: table;
+    @include margin(0,0,0,auto);
+  }
 }

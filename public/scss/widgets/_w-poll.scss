@@ -4,7 +4,7 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12);
+        @include grid-column(11, $center:true, $collapse:true);
   }
   .w-poll__img--full {
     @include grid-row(nest);
@@ -12,29 +12,31 @@
 }
 
 //set style
+.w-poll   .col-border {
+  border:solid 1px $gray-light;
+  padding: 10px;
+}
+
 .w-poll {
-  font-weight: lighter;
-  margin-bottom:35px;
   clear:both;
   .w-poll__img--full {
     .w-poll__img {
       max-width: 100%;
       width: 100%;
       height: auto;
+      margin: 15px 0;
     }
   }
   .w-poll__section-title {
     text-transform: uppercase;
     color: $black;
-    font-weight: normal;
-    margin-bottom:10px !important;
-    font-size: rem-calc(24); 
   }
   .w-poll__title {
     color: $black;
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-    line-height:1.4;
+  }
+  form {
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .w-poll__fieldset {
     border:none;
@@ -44,21 +46,9 @@
   .w-poll__label {
     color: $gray-dark;
   }
-  .w-poll__input {
-    margin-bottom: 0;
-  }
   .btn {
     @include btn;
-    display: table;
-    margin-top: 35px;
-
-  }
-}
-
-//set media
-@media #{$small-only} {
-  .w-poll__title,
-  .w-poll__label  {
-    font-size: rem-calc(20);
+   display: table;
+    margin:0 auto;
   }
 }

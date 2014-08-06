@@ -3,12 +3,12 @@
   @media #{$small-up} {
     @include grid-column(12);
   }
+    @media #{$medium-up} {
+    @include grid-column(12, $collapse:true);
+  }
   @media #{$large-up} {
     @include grid-column(4, $collapse:true);
   }
-}
-.l-sidebar__content {
-  @include grid-row();
 }
 .l-sidebar.two-blocks {
   float: $opposite-direction !important; 

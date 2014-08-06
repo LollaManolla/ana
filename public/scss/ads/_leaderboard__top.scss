@@ -1,5 +1,8 @@
-//set grid
+ //set grid
 .leaderboard__top {
+  @include grid-row();
+}
+.leaderboard-wrapper {
   @include grid-column(12, $collapse:true);
 }
 
@@ -8,17 +11,12 @@
 //set style
 .leaderboard__top {
   text-align:center;
+  margin-top:0;
 }
 
 //set media
 .leaderboard__top {
-  @media #{$small-only} {
-    img {
-      width: 100%;
-    }
-  }
   @media #{$medium-up} {
-    margin-top: 15px;
-    margin-bottom: 35px;
+    margin-top:15px;
   }
 }

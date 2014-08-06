@@ -80,7 +80,7 @@
   @media #{$small-up} {
     @include grid-column(12, $collapse:true);
   }
-    @media #{$medium-up} {
+  @media #{$medium-up} {
     @include grid-column($collapse:false);
   }
 }
@@ -97,11 +97,10 @@
     h1 {
       display:inline-block;
       @include float(left);
-      width: 280px;
-      font-size: rem-calc(24);
+      width: 200px;
     }
     p {
-      font-size: rem-calc(26);
+      font-size: rem-calc(24);
       @include border-left(solid 1px $gray-medium);
       @include text-align(right);
       @include padding-left(20px);
@@ -148,16 +147,16 @@
     }
     .rating-list__item--reviewCount {
       color: $pink;
-      line-height: 0.8;
-      font-size: rem-calc(30);
+      line-height: 1;
+      font-size: rem-calc(34);
       font-weight: bold;
-      padding: 6px 0 2px;
       @include float(right);
       span {
         display: block;
         color: $gray-medium;
         font-size: rem-calc(16);
-        font-weight: lighter;
+        text-transform: uppercase;
+        font-weight: normal;
       }
     }
   }
@@ -165,18 +164,17 @@
   p {
     font-weight: lighter;
     color: $black;
+    line-height: 1.5;
   }
 
   ul.list {
     margin: 35px 0;
     padding: 0;
     list-style: none;
-    font-size: rem-calc(16);
     >li {
       display: block;
-      line-height: 0.8;
-      vertical-align: middle;
-      color: $gray-medium;
+      color: $gray-dark;
+      line-height: 2;
       span {
         font-weight: bold;
         display: inline-block;
@@ -187,6 +185,7 @@
   }
 }
 
+//rounded list 
 .b-editors__rounded-list {
   counter-reset: li;
   list-style: none outside none;
@@ -197,7 +196,7 @@
     text-transform: uppercase;
     border-bottom:solid 3px $gray-light;
     color: $green-light;
-    font-size: rem-calc(18);
+    font-size: rem-calc(20);
     margin-bottom: 15px;
     span {
       color:$black;
@@ -215,7 +214,6 @@
     text-decoration: none;
     font-size: rem-calc(14);
     &:before {
-      font-size: rem-calc(16);
       color:$green-light;
       background: none repeat scroll 0 0 $gray-light;
       border-radius: 2em;
@@ -232,16 +230,17 @@
   }
 }
 
+//list with numbers
 .b-editors__numbered-list  {
   list-style: none;
-  margin: 29px 0 0;
+  margin: 35px 0 0;
+  padding:0;
   border-top: solid 1px $gray-light;
   li {
     border-bottom: solid 1px $gray-light;
     display: block;
     margin: 0.5em 0;
     padding:0.4em 0;
-    position: relative;
     text-decoration: none;
     line-height: 3;
     vertical-align: middle;
@@ -250,61 +249,52 @@
     span {
       @include float(right);
       color: $pink;
-      display: table;
+      display: block;
       margin-top: 9px;
     }
   }
 }
 
+//share list
 .share-article__list {
   list-style: none;
-  margin:35px 0;
-  padding:0;
-  @include float(left);
-  display: block;
-  width: 100%;
+  margin:0 auto;
+  text-align: center;
   li {
-    display: block;
-    @include float(left);
-    height: 33px;
-    @include margin-right(10px);
-    text-indent: -9999px;
-    width: 96px;
-  }
-  .share-article__item-pinit {
-    @include margin-right(0);
+    display: inline-block;
+    min-width: 92px;
+    a {
+      display: inline-block;
+      height: 33px;
+      text-indent: -9999px;
+    }
   }
 }
 
-//set media 
-@media #{$small-up} {
-  .product-page article {
-    margin-top: 35px;
+//set media
+@media #{$medium-up} {
+  .product-page {
+    margin-top: 0;
   }
-  .product-page article header h1 {
-    width: 200px;
+  .product-page article .share-article__list {
+    text-align: left;
+    li {
+      min-width: 100px;
+    }
   }
-  .b-editors {
-    margin-top: 35px;
-  }
-  .share-article__list li {
-    width: 92px;
-@include margin-right(4px);
-  }
-  .share-article__item-fb {
-    @include margin-right(0 !important);
+  .product-page article .share-article__list .share-article__item-pinit {
+    display: inline-block !important;
   }
 }
+
+//set media
 @media #{$medium-up} {
-   .share-article__list li {
-     @include margin-right(10px !important);
-   }
-  .share-article__item-fb {
-    @include margin-right(10px !important);
-  }
   .b-editors {
     background: url("/public/assets/images/bg-content-product-detail.jpg") no-repeat scroll center top transparent;
     margin-top: 35px;
     padding-top: 35px;
+  }
+  .b-editors__rounded-list {
+    margin-top: 8px;
   }
 }

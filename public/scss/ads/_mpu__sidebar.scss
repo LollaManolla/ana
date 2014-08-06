@@ -8,16 +8,13 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12);
+          @include grid-column(11, $center:true, $collapse:true);
   }
 }
-
-//set visibility rules
 
 //set style
 .mpu__top, 
 .mpu__bottom {
-  margin-bottom: 35px;
   text-align: center;
   img {
     width: 100%;
@@ -26,8 +23,3 @@
 }
 
 //set media
-@media #{$small-only} {}
-@media #{$small-up} {}
-@media #{$medium-only} {}
-@media #{$medium-up} {}
-@media #{$large-up} {}

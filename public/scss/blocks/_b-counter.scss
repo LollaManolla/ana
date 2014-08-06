@@ -7,7 +7,7 @@
     @include grid-column(6);
   }
   @media #{$large-up} {
-    @include grid-column(12);
+    @include grid-column(11, $center:true, $collapse:true);
   }
 }
 
@@ -15,45 +15,51 @@
 
 //set style
 .b-counter {
-  margin-bottom: 35px;
+  .col-border {
+    border:solid 1px $gray-light;
+    padding: 10px;
+  }
   text-align: center;
   .head-title {
     font-weight:lighter;
     color: $black;
     text-transform: uppercase;
+   font-size: rem-calc(36); 
     span {
       color:$gray-dark;
     }
   }
   .title {
-    font-size: rem-calc(28);
     text-transform: uppercase;
     color: $green-light;
-    line-height: 0.5;
-    padding-bottom: 13px;
+     font-size: rem-calc(36); 
+
   }
   .subtitle {
     border-top: solid 1px $gray-light;
     border-bottom: solid 1px $gray-light;
     color: $pink;
     text-transform: uppercase;
-    line-height: 1.9;
+    font-size: rem-calc(18); 
   }
   .btn {
     @include btn;
-    margin: 0 auto 5px;
+    margin-top:35px;
   }
 }
 .b-counter--content {
-  margin:0 auto 15px;
+  width: 253px;
+  height: 170px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .b-counter--content-wrapper {
-  position: relative;
-  margin:0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
   .b-counter__productCount {
-    position: absolute;
-    line-height: 0.8;
     color: white;
     font-weight: bold;
     position: absolute;
@@ -61,20 +67,30 @@
     text-transform: uppercase;
     z-index:2;
     left: 0;
+    font-size: rem-calc(46); 
+width: 57%;
+height: 93%;
+    padding-top: 33px;
+    line-height: 0.9;
+    @include padding-right(9px);
     span {
       display: block;
       font-weight: normal;
+     font-size: rem-calc(18);
     }
   }
   .b-counter__reviewCount {
-    position: absolute;
     color: white;
     font-weight: bold;
     position: absolute;
     text-transform: uppercase;
     right: 0;
-    line-height: 0.8;
     z-index:1;
+   font-size: rem-calc(36); 
+width: 49%;
+height: 90%;
+    @include padding(33px, 5px, 0, 0);
+    line-height: 0.9;
     span {
       display: block;
       font-size: rem-calc(18);
@@ -83,115 +99,8 @@
   }
 }
 
-//set media
-@media #{$small-only} {
-  .b-counter .head-title{
-    font-size: rem-calc(36);  
-  }
-  .b-counter .title { 
-    font-size: rem-calc(39);
-  }
-  .b-counter .subtitle {
-    font-size: rem-calc(20);
-  }
-  .b-counter--content-wrapper {
-    width: 248px;
-    min-height: 192px;
-  }
-  .b-counter--content-wrapper .b-counter__productCount {
-    font-size: rem-calc(37);
-    height: 147px;
-    padding-top: 39px;
-    top: 29px;
-    width: 141px;
-    span {
-      font-size: rem-calc(18);
-    }
-  }
-  .b-counter--content-wrapper  .b-counter__reviewCount {
-    font-size: rem-calc(35);
-    height: 130px;
-    padding-top: 33px;
-    top: 36px;
-    width: 126px;
-    span {
-      font-size: rem-calc(18);
-    }
-  }
-}
-/*
 @media #{$medium-up} {
-  .b-counter .head-title{
-    font-size: rem-calc(39);  
-  }
-  .b-counter .title { 
-    font-size: rem-calc(41);
-  }
-  .b-counter .subtitle {
-    font-size: rem-calc(20);
-  }
-  .b-counter--content-wrapper {
-    width: 283px;
-    min-height: 217px;
-  }
-  .b-counter--content-wrapper .b-counter__productCount {
-    font-size: rem-calc(41);
-    height: 172px;
-    @include padding-right(15px);
-    padding-top: 50px;
-    top: 16px;
-    width: 168px;
-    span {
-      font-size: rem-calc(18);
-    }
-  }
-  .b-counter--content-wrapper  .b-counter__reviewCount {
-    font-size: rem-calc(35);
-    height: 156px;
-    @include padding-right(4px);
-    padding-top: 42px;
-    top: 21px;
-    width: 149px;
-    span {
-      font-size: rem-calc(18);
-    }
-  }
-}
-*/
-
-@media #{$medium-up} {
-  .b-counter .head-title{
-    font-size: rem-calc(34);  
-  }
-  .b-counter .title { 
-    font-size: rem-calc(36);
-  }
-  .b-counter .subtitle {
-    font-size: rem-calc(18);
-  }
-  .b-counter--content-wrapper {
-    width: 254px;
-    min-height: 190px;
-  }
-  .b-counter--content-wrapper .b-counter__productCount {
-    font-size: rem-calc(41);
-    height: 157px;
-    padding-top: 37px;
-    top: 16px;
-    width: 153px;
-    padding-right: 3px;
-    span {
-      font-size: rem-calc(18);
-    }
-  }
-  .b-counter--content-wrapper  .b-counter__reviewCount {
-    font-size: rem-calc(35);
-    height: 141px;
-    padding-top: 34px;
-    top: 21px;
-    width: 134px;
-    span {
-      font-size: rem-calc(18);
-    }
+  .b-counter--content {
+    width: 268px;
   }
 }
