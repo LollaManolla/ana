@@ -18,6 +18,7 @@
 }
 
 .w-poll {
+    font-weight: lighter;
   clear:both;
   .w-poll__img--full {
     .w-poll__img {
@@ -30,6 +31,8 @@
   .w-poll__section-title {
     text-transform: uppercase;
     color: $black;
+     font-size: rem-calc(22);
+
   }
   .w-poll__title {
     color: $black;

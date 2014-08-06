@@ -3401,7 +3401,7 @@ p {
 }
 
 /* line 30, ../scss/utilities/_typo.scss */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #333333;
   font-weight: normal;
   margin: 0;
@@ -3430,7 +3430,7 @@ h1, h2, h3, h4 {
 
   /* line 50, ../scss/utilities/_typo.scss */
   h4 {
-    font-size: 1.4375rem;
+    font-size: 0.875rem;
   }
 }
 @media only screen and (min-width: 30.001em) {
@@ -3451,48 +3451,43 @@ h1, h2, h3, h4 {
 
   /* line 65, ../scss/utilities/_typo.scss */
   h3 {
-    font-size: 1.125rem;
-  }
-
-  /* line 68, ../scss/utilities/_typo.scss */
-  h4 {
-    font-size: 1.5rem;
+    font-size: 0.875rem;
   }
 }
 @media only screen and (min-width: 62.501em) {
-  /* line 74, ../scss/utilities/_typo.scss */
+  /* line 71, ../scss/utilities/_typo.scss */
   html {
     font-size: 16px;
   }
 
-  /* line 77, ../scss/utilities/_typo.scss */
+  /* line 74, ../scss/utilities/_typo.scss */
   h1 {
     font-size: 1.5rem;
   }
 
-  /* line 80, ../scss/utilities/_typo.scss */
+  /* line 77, ../scss/utilities/_typo.scss */
   h2 {
     font-size: 1.375rem;
   }
 
-  /* line 83, ../scss/utilities/_typo.scss */
+  /* line 80, ../scss/utilities/_typo.scss */
   h3 {
     font-size: 1rem;
   }
 
-  /* line 86, ../scss/utilities/_typo.scss */
+  /* line 83, ../scss/utilities/_typo.scss */
   h4 {
-    font-size: 1.5rem;
+    font-size: 0.875rem;
   }
 }
-/* line 94, ../scss/utilities/_typo.scss */
+/* line 91, ../scss/utilities/_typo.scss */
 .header__desk,
 .product-page,
 .b-editors {
   margin-top: 35px;
 }
 
-/* line 107, ../scss/utilities/_typo.scss */
+/* line 104, ../scss/utilities/_typo.scss */
 .l-content,
 .b-trigger,
 .mpu__top,
@@ -3507,7 +3502,7 @@ h1, h2, h3, h4 {
   margin-bottom: 35px !important;
 }
 
-/* line 112, ../scss/utilities/_typo.scss */
+/* line 109, ../scss/utilities/_typo.scss */
 .b-comment:last-child {
   margin-bottom: 0 !important;
 }
@@ -3876,8 +3871,16 @@ button:active,
   color: #999999;
 }
 
-@media only screen and (min-width: 30.001em) {
-  margin-bottom: 15px;
+@media only screen and (min-width: 62.501em) {
+  /* line 42, ../scss/layout/_l-footer.scss */
+  .l-footer {
+    margin-bottom: 15px;
+  }
+
+  /* line 45, ../scss/layout/_l-footer.scss */
+  .l-footer .category__list > li a {
+    font-size: 0.75rem;
+  }
 }
 @media only screen {
   /* line 2, ../scss/layout/_l-sidebar.scss */
@@ -6160,24 +6163,26 @@ ul.tags__list > li.tags__item > a:hover {
 .w-forum .forum__section-title {
   text-transform: uppercase;
   color: #333333;
+  font-size: 1.375rem;
+  margin: 0 !important;
 }
-/* line 29, ../scss/widgets/_w-forum.scss */
+/* line 31, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__content {
   border-bottom: dashed 1px #ededed;
 }
-/* line 31, ../scss/widgets/_w-forum.scss */
+/* line 33, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__content:nth-last-child(1) {
   border-bottom: none;
 }
-/* line 34, ../scss/widgets/_w-forum.scss */
+/* line 36, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__content .forum__title {
   font-size: 0.875rem;
 }
-/* line 38, ../scss/widgets/_w-forum.scss */
+/* line 40, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__data {
   font-size: 0.75rem;
 }
-/* line 40, ../scss/widgets/_w-forum.scss */
+/* line 42, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__data .data__comments {
   display: block;
   float: right;
@@ -6189,13 +6194,13 @@ ul.tags__list > li.tags__item > a:hover {
   text-align: center;
   color: white;
 }
-/* line 52, ../scss/widgets/_w-forum.scss */
+/* line 54, ../scss/widgets/_w-forum.scss */
 .w-forum .forum__data .data__post-day {
   display: block;
 }
 
 @media only screen and (min-width: 62.501em) {
-  /* line 61, ../scss/widgets/_w-forum.scss */
+  /* line 63, ../scss/widgets/_w-forum.scss */
   .w-forum .forum__data .data__comments {
     padding: 0 0 0 0;
     font-weight: normal;
@@ -6250,40 +6255,42 @@ ul.tags__list > li.tags__item > a:hover {
 
 /* line 20, ../scss/widgets/_w-poll.scss */
 .w-poll {
+  font-weight: lighter;
   clear: both;
 }
-/* line 23, ../scss/widgets/_w-poll.scss */
+/* line 24, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__img--full .w-poll__img {
   max-width: 100%;
   width: 100%;
   height: auto;
   margin: 15px 0;
 }
-/* line 30, ../scss/widgets/_w-poll.scss */
+/* line 31, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__section-title {
   text-transform: uppercase;
   color: #333333;
+  font-size: 1.375rem;
 }
-/* line 34, ../scss/widgets/_w-poll.scss */
+/* line 37, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__title {
   color: #333333;
 }
-/* line 37, ../scss/widgets/_w-poll.scss */
+/* line 40, ../scss/widgets/_w-poll.scss */
 .w-poll form {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-/* line 41, ../scss/widgets/_w-poll.scss */
+/* line 44, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__fieldset {
   border: none;
   padding: 0;
   margin: 0;
 }
-/* line 46, ../scss/widgets/_w-poll.scss */
+/* line 49, ../scss/widgets/_w-poll.scss */
 .w-poll .w-poll__label {
   color: #999999;
 }
-/* line 49, ../scss/widgets/_w-poll.scss */
+/* line 52, ../scss/widgets/_w-poll.scss */
 .w-poll .btn {
   border-style: solid;
   border-width: 0px;
@@ -6331,13 +6338,13 @@ ul.tags__list > li.tags__item > a:hover {
   color: white;
 }
 @media only screen and (max-width: 30em) {
-  /* line 49, ../scss/widgets/_w-poll.scss */
+  /* line 52, ../scss/widgets/_w-poll.scss */
   .w-poll .btn {
     font-size: 1.125rem;
   }
 }
 @media only screen and (min-width: 30.001em) {
-  /* line 49, ../scss/widgets/_w-poll.scss */
+  /* line 52, ../scss/widgets/_w-poll.scss */
   .w-poll .btn {
     font-size: 1rem;
   }

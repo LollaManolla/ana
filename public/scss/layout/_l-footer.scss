@@ -38,6 +38,11 @@
 }
 
 //set media 
-@media #{$medium-up} {
+@media #{$large-up} {
+  .l-footer {
   margin-bottom: 15px;
+}
+.l-footer .category__list > li a {
+  font-size: rem-calc(12);
+}
   }

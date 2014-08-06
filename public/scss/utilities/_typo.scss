@@ -27,7 +27,7 @@ p {
   color:$gray-dark;
   margin:0;
 }
-h1,h2, h3, h4 {
+h1,h2, h3, h4, h5 {
   color: $black;
   font-weight: normal;
   margin:0;
@@ -47,8 +47,8 @@ h1,h2, h3, h4 {
   h3 {
     font-size:rem-calc(16);
   }
-  h4 {
-    font-size: rem-calc(23);
+    h4 {
+    font-size: rem-calc(14);
   }
 }  
 
@@ -63,10 +63,7 @@ h1,h2, h3, h4 {
     font-size: rem-calc(22);
   }
   h3 {
-    font-size:rem-calc(18);
-  }
-  h4 {
-    font-size: rem-calc(24);
+    font-size:rem-calc(14);
   }
 }  
 
@@ -84,7 +81,7 @@ h1,h2, h3, h4 {
     font-size:rem-calc(16);
   }
   h4 {
-    font-size: rem-calc(24);
+    font-size: rem-calc(14);
   }
 }
 

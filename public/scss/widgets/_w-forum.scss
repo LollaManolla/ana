@@ -25,6 +25,8 @@
   .forum__section-title {
     text-transform: uppercase;
     color: $black;
+     font-size: rem-calc(22);
+     margin: 0 !important;
   }
   .forum__content {
     border-bottom: dashed 1px $gray-light;
